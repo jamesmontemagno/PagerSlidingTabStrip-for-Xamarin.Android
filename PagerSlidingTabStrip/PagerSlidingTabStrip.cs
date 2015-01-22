@@ -754,7 +754,7 @@ namespace com.refractored
 		protected override void OnRestoreInstanceState (IParcelable state)
 		{
 			var savedState = (SavedState)state;
-			base.OnRestoreInstanceState (state);
+			base.OnRestoreInstanceState (savedState.SuperState);
 			currentPosition = savedState.CurrentPosition;
 			if (currentPosition != 0 && tabsContainer.ChildCount > 0) {
 				NotSelected (tabsContainer.GetChildAt (0));
