@@ -44,7 +44,7 @@ namespace Sample
 
 			var pageMargin = (int)TypedValue.ApplyDimension (ComplexUnitType.Dip, 4, Resources.DisplayMetrics);
 			pager.PageMargin = pageMargin;
-
+			tabs.OnTabReselectedListener = this;
 
 			ChangeColor (Resources.GetColor (Resource.Color.green));
 		}
