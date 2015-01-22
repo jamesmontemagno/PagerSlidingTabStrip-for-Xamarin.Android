@@ -11,7 +11,7 @@ Ported from: https://github.com/jpardogo/PagerSlidingTabStrip
 
 *For a working implementation of this project see the `Sample/` folder.*
 
-  1. Download the NuGet Package:
+  1. Download the NuGet Package: https://www.nuget.org/packages/Refractored.PagerSlidingTabStrip/
 
   Or add the library as a project.
 
