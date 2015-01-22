@@ -14,8 +14,15 @@ namespace com.refractored
 {
 	public class PagerSlidingTabStrip : HorizontalScrollView, Android.Support.V4.View.ViewPager.IOnPageChangeListener, ViewTreeObserver.IOnGlobalLayoutListener
 	{
+
+    /// <summary>
+    /// Gets or sets the page change listener
+    /// </summary>
 		public Android.Support.V4.View.ViewPager.IOnPageChangeListener OnPageChangeListener { get; set;}
-		public IOnTabReselectedListener OnTabReselectedListener { get; set; }
+		/// <summary>
+		/// Gets or sets the tab reselected listener
+		/// </summary>
+    public IOnTabReselectedListener OnTabReselectedListener { get; set; }
 
 
 		private const float Opaque = 1.0f;
@@ -53,6 +60,9 @@ namespace com.refractored
 		private Paint dividerPaint;
 
 		private int indicatorColor;
+    /// <summary>
+    /// Gets or sets the indicator color
+    /// </summary>
 		public int IndicatorColor
 		{
 			get { return indicatorColor;}
@@ -63,6 +73,9 @@ namespace com.refractored
 		}
 
 		private int indicatorHeight = 2;
+    /// <summary>
+    /// Gets or sets the indicator height
+    /// </summary>
 		public int IndicatorHeight
 		{
 			get { return indicatorHeight;}
@@ -73,6 +86,9 @@ namespace com.refractored
 		}
 
 		private int underlineHeight = 0;
+    /// <summary>
+    /// Gets or sets the underline height
+    /// </summary>
 		public int UnderlineHeight
 		{
 			get { return underlineHeight;}
@@ -82,6 +98,9 @@ namespace com.refractored
 			}
 		}
 		private int underlineColor;
+    /// <summary>
+    /// Gets or sets the underline color
+    /// </summary>
 		public int UnderlineColor
 		{
 			get { return underlineColor;}
@@ -92,6 +111,9 @@ namespace com.refractored
 		}
 
 		private int dividerWidth = 0;
+    /// <summary>
+    /// gets or sets the divider width
+    /// </summary>
 		public int DividerWidth
 		{
 			get { return dividerWidth;}
@@ -102,6 +124,9 @@ namespace com.refractored
 		}
 
 		private int dividerPadding = 0;
+    /// <summary>
+    /// gets or sets the divider padding
+    /// </summary>
 		public int DividerPadding
 		{
 			get { return dividerPadding;}
@@ -111,6 +136,9 @@ namespace com.refractored
 			}
 		}
 		private int dividerColor;
+    /// <summary>
+    /// gets or sets the divider color
+    /// </summary>
 		public int DividerColor
 		{
 			get { return dividerColor;}
@@ -121,6 +149,9 @@ namespace com.refractored
 		}
 
 		private int tabPadding = 12;
+    /// <summary>
+    /// Gets or sets padding left
+    /// </summary>
 		public int TabPaddingLeftRight
 		{
 			get { return tabPadding;}
@@ -130,6 +161,9 @@ namespace com.refractored
 			}
 		}
 		private int tabTextSize = 14;
+    /// <summary>
+    /// Gets or sets text size
+    /// </summary>
 		public int TabTextSize
 		{
 			get { return tabTextSize;}
@@ -139,6 +173,9 @@ namespace com.refractored
 			}
 		}
 		private ColorStateList tabTextColor = null;
+    /// <summary>
+    /// Gets or sets tab text color
+    /// </summary>
 		public ColorStateList TabTextColor
 		{
 			get { return tabTextColor; }
@@ -176,6 +213,9 @@ namespace com.refractored
 		private int padding = 0;
 
 		private bool shouldExpand = false;
+    /// <summary>
+    /// Gets or sets if should expand
+    /// </summary>
 		public bool ShouldExpand
 		{
 			get { return shouldExpand;}
@@ -194,6 +234,9 @@ namespace com.refractored
 			}
 		}
 		private bool isPaddingMiddle = false;
+    /// <summary>
+    /// Gets or sets is padding middle
+    /// </summary>
 		public bool IsPaddingMiddle
 		{
 			get { return isPaddingMiddle;}
@@ -204,6 +247,11 @@ namespace com.refractored
 		}
 
 		private Typeface tabTypeface = null;
+    /// <summary>
+    /// Sets the typeface
+    /// </summary>
+    /// <param name="typeFace"></param>
+    /// <param name="style"></param>
 		public void SetTypeface(Typeface typeFace, TypefaceStyle style)
 		{
 			this.tabTypeface = typeFace;
@@ -215,6 +263,9 @@ namespace com.refractored
 		private TypefaceStyle tabTypefaceSelectedStyle = TypefaceStyle.Bold;
 
 		private int scrollOffset;
+    /// <summary>
+    /// Sets the scrolloffset
+    /// </summary>
 		public int ScrollOffset
 		{
 			get { return scrollOffset;}
@@ -226,6 +277,9 @@ namespace com.refractored
 		private int lastScrollX = 0;
 
 		private int tabBackgroundResId = Resource.Drawable.background_tab;
+    /// <summary>
+    /// Sets tab background
+    /// </summary>
 		public int TabBackground
 		{
 			get { return tabBackgroundResId;}

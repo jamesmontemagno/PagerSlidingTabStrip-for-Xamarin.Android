@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+   <metadata minClientVersion="2.8.1">
+       <id>Refractored.PagerSlidingTabStrip</id>
+       <version>1.0.0</version>
+       <title>Pager Sliding Tab Strip for Xamarin.Android</title>
+       <authors>James Montemagno</authors>
+       <owners>James Montemagno</owners>
+       <licenseUrl>https://github.com/jamesmontemagno/PagerSlidingTabStrip-for-Xamarin.Android/blob/master/LICENSE.md</licenseUrl>
+       <projectUrl>https://github.com/jamesmontemagno/PagerSlidingTabStrip-for-Xamarin.Android</projectUrl>
+     <!--Default Icon, a template can be found:  https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon.png-->
+     <iconUrl>http://www.refractored.com/images/material_slider.png</iconUrl>
+     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+       <description>
+         Interactive paging indicator widget, compatible with the ViewPager from the Android Support Library with Material Design. See Project Site for Sample.
+       </description>
+       <summary>Interactive paging indicator widget, compatible with the ViewPager from the Android Support Library with Material Design. See Project Site for Sample.</summary>
+       <tags>xamarin, xamarin.android, android, view pager, viewpager, view page indicator, sliding tab, pager sliding, tabs</tags>
+       <dependencies>
+         <dependency id="Xamarin.Android.Support.v7.AppCompat" version="21.0.3" />
+       </dependencies>
+   </metadata>
+   <files>
+
+     <!--Xamarin.Android-->
+     <file src="PagerSlidingTabStrip\bin\Release\Refractored.PagerSlidingTabStrip.dll" target="lib\MonoAndroid10\Refractored.PagerSlidingTabStrip.dll" />
+     <file src="PagerSlidingTabStrip\bin\Release\Refractored.PagerSlidingTabStrip.xml" target="lib\MonoAndroid10\Refractored.PagerSlidingTabStrip.xml" />
+     <file src="PagerSlidingTabStrip\bin\Release\Refractored.PagerSlidingTabStrip.pdb" target="lib\MonoAndroid10\Refractored.PagerSlidingTabStrip.pdb" />
+  
+
+   </files>
+</package>
