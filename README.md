@@ -1,4 +1,4 @@
-# Pager Sliding Tab Strip for Xamarin.Android (default Material Design)
+# Material Pager Sliding Tab Strip for Xamarin.Android
 
 Interactive paging indicator widget, compatible with the `ViewPager` from the
 Android Support Library.
