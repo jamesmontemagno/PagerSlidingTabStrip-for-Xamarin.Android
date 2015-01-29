@@ -1,0 +1,20 @@
+%YAML 1.2
+---
+summary: Interactive paging indicator widget based off Material Design and compatible with the ViewPager from the Android Support Library.
+getting-started: GettingStarted.md
+details: Details.md
+license: License.md
+icons: 
+  - PagerSlidingTabStrip_128x128.png
+  - PagerSlidingTabStrip_512x512.png
+publisher: James Montemagno
+name: Material Pager Sliding Tab Strip
+id: PagerSlidingTabStrip
+samples: 
+  Android Sample: ../samples/PagerSlidingTabStripSample/PagerSlidingTabStripSample.sln
+publisher-url: https://github.com/jamesmontemagno/PagerSlidingTabStrip-for-Xamarin.Android
+is_shell: true
+packages:
+  android: Refractored.PagerSlidingTabStrip, Version=1.0.1
+version: 1.0.1
+...
