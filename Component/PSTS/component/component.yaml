@@ -11,7 +11,7 @@ publisher: James Montemagno
 name: Material Pager Sliding Tab Strip
 id: PagerSlidingTabStrip
 samples: 
-  Android Sample: ../samples/PagerSlidingTabStripSample/PagerSlidingTabStripSample.sln
+  Android Sample: ../samples/PSTSSample/PSTSSample.sln
 publisher-url: https://github.com/jamesmontemagno/PagerSlidingTabStrip-for-Xamarin.Android
 is_shell: true
 packages:

@@ -1,4 +1,4 @@
-# License
+# Pager Sliding Tab Strip License
 
 The MIT License (MIT)
 
