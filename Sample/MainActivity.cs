@@ -16,7 +16,7 @@ using Android.Graphics;
 namespace Sample
 {
 	[Activity (Label = "Sample", MainLauncher = true, Icon = "@drawable/icon")]
-	public class MainActivity : BaseActivity, IOnTabReselectedListener
+  public class MainActivity : BaseActivity, IOnTabReselectedListener, Android.Support.V4.View.ViewPager.IOnPageChangeListener
 	{
 		int count = 1;
 
@@ -45,6 +45,10 @@ namespace Sample
 			var pageMargin = (int)TypedValue.ApplyDimension (ComplexUnitType.Dip, 4, Resources.DisplayMetrics);
 			pager.PageMargin = pageMargin;
 			tabs.OnTabReselectedListener = this;
+      tabs.OnPageChangeListener = this;
+
+      SupportActionBar.SetDisplayHomeAsUpEnabled(false);
+      SupportActionBar.SetHomeButtonEnabled(false);
 
 			ChangeColor (Resources.GetColor (Resource.Color.green));
 		}
@@ -94,7 +98,22 @@ namespace Sample
 			currentColor = savedInstanceState.GetInt ("currentColor");
 			ChangeColor (new Color (currentColor));
 		}
-	}
+
+    public void OnPageScrollStateChanged(int state)
+    {
+      Console.WriteLine("Page scroll state changed: " + state);
+    }
+
+    public void OnPageScrolled(int position, float positionOffset, int positionOffsetPixels)
+    {
+      Console.WriteLine("Page Scrolled");
+    }
+
+    public void OnPageSelected(int position)
+    {
+      Console.WriteLine("Page selected: " + position);
+    }
+  }
 
 	public class MyPagerAdapter : FragmentPagerAdapter{
 		private  string[] Titles = {"Categories", "Home", "Top Paid", "Top Free", "Top Grossing", "Top New Paid",
