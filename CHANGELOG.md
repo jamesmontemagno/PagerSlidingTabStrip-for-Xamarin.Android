@@ -10,6 +10,7 @@ Version 1.0.9
 * Resource.Id.tab_title changed to Resource.Id.psts_tab_title
 * Resource.Layout.tab changed to Resource.Layout.psts_tab
 * Resource.Drawable.background_tab changed to Resource.Drawable.psts_background_tab
+* Bug fixes
 
 
 Version 1.0.1
