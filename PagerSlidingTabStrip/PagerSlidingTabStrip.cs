@@ -31,6 +31,7 @@ namespace com.refractored
 			Android.Resource.Attribute.TextColorPrimary,
 			Android.Resource.Attribute.TextSize, 
 			Android.Resource.Attribute.TextColor,
+      Android.Resource.Attribute.Padding,
 			Android.Resource.Attribute.PaddingLeft,
 			Android.Resource.Attribute.PaddingRight
 		};
@@ -39,8 +40,9 @@ namespace com.refractored
 		private const int TextColorPrimaryIndex = 0;
 		private const int TextSizeIndex = 1;
 		private const int TextColorIndex = 2;
-		private const int PaddingLeftIndex = 3;
-		private const int PaddingRightIndex = 4;
+    private const int PaddingIndex = 3;
+		private const int PaddingLeftIndex = 4;
+		private const int PaddingRightIndex = 5;
 
 		private LinearLayout.LayoutParams defaultTabLayoutParams;
 		private LinearLayout.LayoutParams expandedTabLayoutParams;
@@ -220,7 +222,8 @@ namespace com.refractored
 			return new ColorStateList (new int[][]{ new int[]{ } }, new int[]{ textColor });
 		}
 
-		private int padding = 0;
+		private int paddingLeft = 0;
+    private int paddingRight = 0;
 
 		private bool shouldExpand = false;
     /// <summary>
@@ -349,11 +352,11 @@ namespace com.refractored
 			dividerColor = textPrimaryColor;
 			indicatorColor = textPrimaryColor;
 
-			var paddingLeft = a.GetDimensionPixelSize(PaddingLeftIndex, padding);
-			var paddingRight = a.GetDimensionPixelSize(PaddingRightIndex, padding);
+      int padding = a.GetDimensionPixelSize(PaddingIndex, 0);
+			paddingLeft = padding > 0 ? padding : a.GetDimensionPixelSize(PaddingLeftIndex, 0);
+			paddingRight = padding > 0 ? padding : a.GetDimensionPixelSize(PaddingRightIndex, 0);
 			
-			//In case we have the padding they must be equal so we take the biggest
-			padding = Math.Max(paddingLeft, paddingRight);
+
 
 			a = context.ObtainStyledAttributes(attrs, Resource.Styleable.PagerSlidingTabStrip);
 			indicatorColor = a.GetColor(Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorColor, indicatorColor);
@@ -574,7 +577,7 @@ namespace com.refractored
 
 		protected override void OnLayout (bool changed, int left, int top, int right, int bottom)
 		{
-			if (isPaddingMiddle || padding > 0) {
+			if (isPaddingMiddle || paddingLeft > 0 || paddingRight > 0) {
 				tabsContainer.SetMinimumWidth(Width);
 				SetClipToPadding (false);
 			}
@@ -597,12 +600,12 @@ namespace com.refractored
 
 			if (isPaddingMiddle) {
 				int halfWidthFirstTab = view.Width / 2;
-				padding = Width / 2 - halfWidthFirstTab;
+				paddingLeft = paddingRight = Width / 2 - halfWidthFirstTab;
 			}
 
-			SetPadding (padding, PaddingTop, padding, PaddingBottom);
+			SetPadding (paddingLeft, PaddingTop, paddingRight, PaddingBottom);
 			if (scrollOffset == 0)
-				scrollOffset = Width / 2 - padding;
+				scrollOffset = Width / 2 - paddingLeft;
 
 
       currentPosition = pager.CurrentItem;
@@ -624,11 +627,11 @@ namespace com.refractored
 			rectPaint.Color = new Color(indicatorColor);
 			float first, second = 0f;
 			GetIndicatorCoordinates(out first, out second);
-			canvas.DrawRect (first + padding, height - indicatorHeight, second + padding, height, rectPaint);
+			canvas.DrawRect (first + paddingLeft, height - indicatorHeight, second + paddingLeft, height, rectPaint);
 
 			//draw underline
 			rectPaint.Color = new Color(underlineColor);
-			canvas.DrawRect (padding, height - underlineHeight, tabsContainer.Width + padding, height, rectPaint);
+			canvas.DrawRect (paddingLeft, height - underlineHeight, tabsContainer.Width + paddingRight, height, rectPaint);
 
 					//draw divider
 			if (dividerWidth == 0)

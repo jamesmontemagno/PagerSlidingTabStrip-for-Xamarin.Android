@@ -1413,53 +1413,53 @@ namespace Sample
 			// aapt resource value: 0x7f010048
 			public const int prompt = 2130772040;
 			
+			// aapt resource value: 0x7f0100b6
+			public const int pstsDividerColor = 2130772150;
+			
+			// aapt resource value: 0x7f0100ba
+			public const int pstsDividerPadding = 2130772154;
+			
 			// aapt resource value: 0x7f0100b7
-			public const int pstsDividerColor = 2130772151;
-			
-			// aapt resource value: 0x7f0100bb
-			public const int pstsDividerPadding = 2130772155;
-			
-			// aapt resource value: 0x7f0100b8
-			public const int pstsDividerWidth = 2130772152;
+			public const int pstsDividerWidth = 2130772151;
 			
 			// aapt resource value: 0x7f0100b4
 			public const int pstsIndicatorColor = 2130772148;
 			
-			// aapt resource value: 0x7f0100b9
-			public const int pstsIndicatorHeight = 2130772153;
-			
-			// aapt resource value: 0x7f0100c1
-			public const int pstsPaddingMiddle = 2130772161;
-			
-			// aapt resource value: 0x7f0100bd
-			public const int pstsScrollOffset = 2130772157;
-			
-			// aapt resource value: 0x7f0100bf
-			public const int pstsShouldExpand = 2130772159;
-			
-			// aapt resource value: 0x7f0100be
-			public const int pstsTabBackground = 2130772158;
-			
-			// aapt resource value: 0x7f0100bc
-			public const int pstsTabPaddingLeftRight = 2130772156;
+			// aapt resource value: 0x7f0100b8
+			public const int pstsIndicatorHeight = 2130772152;
 			
 			// aapt resource value: 0x7f0100c0
-			public const int pstsTextAllCaps = 2130772160;
+			public const int pstsPaddingMiddle = 2130772160;
 			
-			// aapt resource value: 0x7f0100b6
-			public const int pstsTextColorInactive = 2130772150;
+			// aapt resource value: 0x7f0100bc
+			public const int pstsScrollOffset = 2130772156;
+			
+			// aapt resource value: 0x7f0100be
+			public const int pstsShouldExpand = 2130772158;
+			
+			// aapt resource value: 0x7f0100bd
+			public const int pstsTabBackground = 2130772157;
+			
+			// aapt resource value: 0x7f0100bb
+			public const int pstsTabPaddingLeftRight = 2130772155;
+			
+			// aapt resource value: 0x7f0100bf
+			public const int pstsTextAllCaps = 2130772159;
 			
 			// aapt resource value: 0x7f0100c3
-			public const int pstsTextSelectedStyle = 2130772163;
+			public const int pstsTextColorInactive = 2130772163;
 			
 			// aapt resource value: 0x7f0100c2
-			public const int pstsTextStyle = 2130772162;
+			public const int pstsTextSelectedStyle = 2130772162;
+			
+			// aapt resource value: 0x7f0100c1
+			public const int pstsTextStyle = 2130772161;
 			
 			// aapt resource value: 0x7f0100b5
 			public const int pstsUnderlineColor = 2130772149;
 			
-			// aapt resource value: 0x7f0100ba
-			public const int pstsUnderlineHeight = 2130772154;
+			// aapt resource value: 0x7f0100b9
+			public const int pstsUnderlineHeight = 2130772153;
 			
 			// aapt resource value: 0x7f010046
 			public const int queryBackground = 2130772038;
@@ -3888,53 +3888,53 @@ namespace Sample
 					2130772162,
 					2130772163};
 			
+			// aapt resource value: 2
+			public const int PagerSlidingTabStrip_pstsDividerColor = 2;
+			
+			// aapt resource value: 6
+			public const int PagerSlidingTabStrip_pstsDividerPadding = 6;
+			
 			// aapt resource value: 3
-			public const int PagerSlidingTabStrip_pstsDividerColor = 3;
-			
-			// aapt resource value: 7
-			public const int PagerSlidingTabStrip_pstsDividerPadding = 7;
-			
-			// aapt resource value: 4
-			public const int PagerSlidingTabStrip_pstsDividerWidth = 4;
+			public const int PagerSlidingTabStrip_pstsDividerWidth = 3;
 			
 			// aapt resource value: 0
 			public const int PagerSlidingTabStrip_pstsIndicatorColor = 0;
 			
-			// aapt resource value: 5
-			public const int PagerSlidingTabStrip_pstsIndicatorHeight = 5;
-			
-			// aapt resource value: 13
-			public const int PagerSlidingTabStrip_pstsPaddingMiddle = 13;
-			
-			// aapt resource value: 9
-			public const int PagerSlidingTabStrip_pstsScrollOffset = 9;
-			
-			// aapt resource value: 11
-			public const int PagerSlidingTabStrip_pstsShouldExpand = 11;
-			
-			// aapt resource value: 10
-			public const int PagerSlidingTabStrip_pstsTabBackground = 10;
-			
-			// aapt resource value: 8
-			public const int PagerSlidingTabStrip_pstsTabPaddingLeftRight = 8;
+			// aapt resource value: 4
+			public const int PagerSlidingTabStrip_pstsIndicatorHeight = 4;
 			
 			// aapt resource value: 12
-			public const int PagerSlidingTabStrip_pstsTextAllCaps = 12;
+			public const int PagerSlidingTabStrip_pstsPaddingMiddle = 12;
 			
-			// aapt resource value: 2
-			public const int PagerSlidingTabStrip_pstsTextColorInactive = 2;
+			// aapt resource value: 8
+			public const int PagerSlidingTabStrip_pstsScrollOffset = 8;
+			
+			// aapt resource value: 10
+			public const int PagerSlidingTabStrip_pstsShouldExpand = 10;
+			
+			// aapt resource value: 9
+			public const int PagerSlidingTabStrip_pstsTabBackground = 9;
+			
+			// aapt resource value: 7
+			public const int PagerSlidingTabStrip_pstsTabPaddingLeftRight = 7;
+			
+			// aapt resource value: 11
+			public const int PagerSlidingTabStrip_pstsTextAllCaps = 11;
 			
 			// aapt resource value: 15
-			public const int PagerSlidingTabStrip_pstsTextSelectedStyle = 15;
+			public const int PagerSlidingTabStrip_pstsTextColorInactive = 15;
 			
 			// aapt resource value: 14
-			public const int PagerSlidingTabStrip_pstsTextStyle = 14;
+			public const int PagerSlidingTabStrip_pstsTextSelectedStyle = 14;
+			
+			// aapt resource value: 13
+			public const int PagerSlidingTabStrip_pstsTextStyle = 13;
 			
 			// aapt resource value: 1
 			public const int PagerSlidingTabStrip_pstsUnderlineColor = 1;
 			
-			// aapt resource value: 6
-			public const int PagerSlidingTabStrip_pstsUnderlineHeight = 6;
+			// aapt resource value: 5
+			public const int PagerSlidingTabStrip_pstsUnderlineHeight = 5;
 			
 			public static int[] PopupWindow = new int[] {
 					16843126,

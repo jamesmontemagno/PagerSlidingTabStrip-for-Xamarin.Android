@@ -400,53 +400,53 @@ namespace com.refractored
 			// aapt resource value: 0x7f01003d
 			public static int prompt = 2130772029;
 			
+			// aapt resource value: 0x7f0100ab
+			public static int pstsDividerColor = 2130772139;
+			
+			// aapt resource value: 0x7f0100af
+			public static int pstsDividerPadding = 2130772143;
+			
 			// aapt resource value: 0x7f0100ac
-			public static int pstsDividerColor = 2130772140;
-			
-			// aapt resource value: 0x7f0100b0
-			public static int pstsDividerPadding = 2130772144;
-			
-			// aapt resource value: 0x7f0100ad
-			public static int pstsDividerWidth = 2130772141;
+			public static int pstsDividerWidth = 2130772140;
 			
 			// aapt resource value: 0x7f0100a9
 			public static int pstsIndicatorColor = 2130772137;
 			
-			// aapt resource value: 0x7f0100ae
-			public static int pstsIndicatorHeight = 2130772142;
-			
-			// aapt resource value: 0x7f0100b6
-			public static int pstsPaddingMiddle = 2130772150;
-			
-			// aapt resource value: 0x7f0100b2
-			public static int pstsScrollOffset = 2130772146;
-			
-			// aapt resource value: 0x7f0100b4
-			public static int pstsShouldExpand = 2130772148;
-			
-			// aapt resource value: 0x7f0100b3
-			public static int pstsTabBackground = 2130772147;
-			
-			// aapt resource value: 0x7f0100b1
-			public static int pstsTabPaddingLeftRight = 2130772145;
+			// aapt resource value: 0x7f0100ad
+			public static int pstsIndicatorHeight = 2130772141;
 			
 			// aapt resource value: 0x7f0100b5
-			public static int pstsTextAllCaps = 2130772149;
+			public static int pstsPaddingMiddle = 2130772149;
 			
-			// aapt resource value: 0x7f0100ab
-			public static int pstsTextColorInactive = 2130772139;
+			// aapt resource value: 0x7f0100b1
+			public static int pstsScrollOffset = 2130772145;
+			
+			// aapt resource value: 0x7f0100b3
+			public static int pstsShouldExpand = 2130772147;
+			
+			// aapt resource value: 0x7f0100b2
+			public static int pstsTabBackground = 2130772146;
+			
+			// aapt resource value: 0x7f0100b0
+			public static int pstsTabPaddingLeftRight = 2130772144;
+			
+			// aapt resource value: 0x7f0100b4
+			public static int pstsTextAllCaps = 2130772148;
 			
 			// aapt resource value: 0x7f0100b8
-			public static int pstsTextSelectedStyle = 2130772152;
+			public static int pstsTextColorInactive = 2130772152;
 			
 			// aapt resource value: 0x7f0100b7
-			public static int pstsTextStyle = 2130772151;
+			public static int pstsTextSelectedStyle = 2130772151;
+			
+			// aapt resource value: 0x7f0100b6
+			public static int pstsTextStyle = 2130772150;
 			
 			// aapt resource value: 0x7f0100aa
 			public static int pstsUnderlineColor = 2130772138;
 			
-			// aapt resource value: 0x7f0100af
-			public static int pstsUnderlineHeight = 2130772143;
+			// aapt resource value: 0x7f0100ae
+			public static int pstsUnderlineHeight = 2130772142;
 			
 			// aapt resource value: 0x7f01003b
 			public static int queryBackground = 2130772027;
@@ -2666,53 +2666,53 @@ namespace com.refractored
 					2130772151,
 					2130772152};
 			
+			// aapt resource value: 2
+			public static int PagerSlidingTabStrip_pstsDividerColor = 2;
+			
+			// aapt resource value: 6
+			public static int PagerSlidingTabStrip_pstsDividerPadding = 6;
+			
 			// aapt resource value: 3
-			public static int PagerSlidingTabStrip_pstsDividerColor = 3;
-			
-			// aapt resource value: 7
-			public static int PagerSlidingTabStrip_pstsDividerPadding = 7;
-			
-			// aapt resource value: 4
-			public static int PagerSlidingTabStrip_pstsDividerWidth = 4;
+			public static int PagerSlidingTabStrip_pstsDividerWidth = 3;
 			
 			// aapt resource value: 0
 			public static int PagerSlidingTabStrip_pstsIndicatorColor = 0;
 			
-			// aapt resource value: 5
-			public static int PagerSlidingTabStrip_pstsIndicatorHeight = 5;
-			
-			// aapt resource value: 13
-			public static int PagerSlidingTabStrip_pstsPaddingMiddle = 13;
-			
-			// aapt resource value: 9
-			public static int PagerSlidingTabStrip_pstsScrollOffset = 9;
-			
-			// aapt resource value: 11
-			public static int PagerSlidingTabStrip_pstsShouldExpand = 11;
-			
-			// aapt resource value: 10
-			public static int PagerSlidingTabStrip_pstsTabBackground = 10;
-			
-			// aapt resource value: 8
-			public static int PagerSlidingTabStrip_pstsTabPaddingLeftRight = 8;
+			// aapt resource value: 4
+			public static int PagerSlidingTabStrip_pstsIndicatorHeight = 4;
 			
 			// aapt resource value: 12
-			public static int PagerSlidingTabStrip_pstsTextAllCaps = 12;
+			public static int PagerSlidingTabStrip_pstsPaddingMiddle = 12;
 			
-			// aapt resource value: 2
-			public static int PagerSlidingTabStrip_pstsTextColorInactive = 2;
+			// aapt resource value: 8
+			public static int PagerSlidingTabStrip_pstsScrollOffset = 8;
+			
+			// aapt resource value: 10
+			public static int PagerSlidingTabStrip_pstsShouldExpand = 10;
+			
+			// aapt resource value: 9
+			public static int PagerSlidingTabStrip_pstsTabBackground = 9;
+			
+			// aapt resource value: 7
+			public static int PagerSlidingTabStrip_pstsTabPaddingLeftRight = 7;
+			
+			// aapt resource value: 11
+			public static int PagerSlidingTabStrip_pstsTextAllCaps = 11;
 			
 			// aapt resource value: 15
-			public static int PagerSlidingTabStrip_pstsTextSelectedStyle = 15;
+			public static int PagerSlidingTabStrip_pstsTextColorInactive = 15;
 			
 			// aapt resource value: 14
-			public static int PagerSlidingTabStrip_pstsTextStyle = 14;
+			public static int PagerSlidingTabStrip_pstsTextSelectedStyle = 14;
+			
+			// aapt resource value: 13
+			public static int PagerSlidingTabStrip_pstsTextStyle = 13;
 			
 			// aapt resource value: 1
 			public static int PagerSlidingTabStrip_pstsUnderlineColor = 1;
 			
-			// aapt resource value: 6
-			public static int PagerSlidingTabStrip_pstsUnderlineHeight = 6;
+			// aapt resource value: 5
+			public static int PagerSlidingTabStrip_pstsUnderlineHeight = 5;
 			
 			public static int[] PopupWindow = new int[] {
 					16843126,
