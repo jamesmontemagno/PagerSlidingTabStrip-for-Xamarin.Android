@@ -1,5 +1,7 @@
 # Getting Started with Pager Sliding Tab Strip
 
+**This library requires AppCompat v21+**
+
 *For a working implementation of this project see the `Sample/` folder.*
 
   1. Download Component
