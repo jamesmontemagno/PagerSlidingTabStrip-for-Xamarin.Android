@@ -10,6 +10,8 @@ using Android.Views;
 using Android.Runtime;
 using Android.OS;
 
+//version 1.0.9
+
 namespace com.refractored
 {
 	public class PagerSlidingTabStrip : HorizontalScrollView, Android.Support.V4.View.ViewPager.IOnPageChangeListener, ViewTreeObserver.IOnGlobalLayoutListener

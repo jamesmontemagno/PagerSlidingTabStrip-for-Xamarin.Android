@@ -1,7 +1,7 @@
 Change Log
 ==========
 
-Version 1.0.9
+Version 1.0.9 (26-02-2015)
 -------------
 * Align with Java version numbering
 * Add parsing of independent padding attributes
