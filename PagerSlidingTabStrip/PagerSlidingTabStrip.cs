@@ -303,7 +303,7 @@ namespace com.refractored
 		}
 		private int lastScrollX = 0;
 
-		private int tabBackgroundResId = Resource.Drawable.background_tab;
+		private int tabBackgroundResId = Resource.Drawable.psts_background_tab;
     /// <summary>
     /// Sets tab background
     /// </summary>
@@ -442,7 +442,7 @@ namespace com.refractored
 				if (pager.Adapter is ICustomTabProvider) {
 					tabView = ((ICustomTabProvider) pager.Adapter).GetCustomTabView(this, i);
 				} else {
-					tabView = LayoutInflater.From(Context).Inflate(Resource.Layout.tab, this, false);
+					tabView = LayoutInflater.From(Context).Inflate(Resource.Layout.psts_tab, this, false);
 				}
 
 				var title = pager.Adapter.GetPageTitle(i);
@@ -486,7 +486,7 @@ namespace com.refractored
 
 		private void AddTab(int position, string title, View tabView)
 		{
-			var textView = tabView.FindViewById<TextView> (Resource.Id.tab_title);
+			var textView = tabView.FindViewById<TextView> (Resource.Id.psts_tab_title);
 			if (textView != null) {
 				if (title != null) {
 					textView.Text = title;
@@ -523,7 +523,7 @@ namespace com.refractored
 					continue;
 				v.SetBackgroundResource(tabBackgroundResId);
 				v.SetPadding(tabPadding, v.PaddingTop, tabPadding, v.PaddingBottom);
-				var tab_title = v.FindViewById<TextView>(Resource.Id.tab_title);
+				var tab_title = v.FindViewById<TextView>(Resource.Id.psts_tab_title);
 
 				if (tab_title != null) {
 					tab_title.SetTextSize(ComplexUnitType.Px, tabTextSize);
@@ -737,7 +737,7 @@ namespace com.refractored
 			if (tab == null)
 				return;
 
-			var title = tab.FindViewById<TextView> (Resource.Id.tab_title);
+			var title = tab.FindViewById<TextView> (Resource.Id.psts_tab_title);
 			if (title == null)
 				return;
 
@@ -750,7 +750,7 @@ namespace com.refractored
 			if (tab == null)
 				return;
 
-			var title = tab.FindViewById<TextView> (Resource.Id.tab_title);
+			var title = tab.FindViewById<TextView> (Resource.Id.psts_tab_title);
 			if (title == null)
 				return;
 

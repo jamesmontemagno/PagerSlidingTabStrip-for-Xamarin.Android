@@ -59,8 +59,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\background_tab.xml" />
-    <AndroidResource Include="Resources\layout\tab.axml" />
+    <AndroidResource Include="Resources\drawable\psts_background_tab.xml" />
+    <AndroidResource Include="Resources\layout\psts_tab.axml" />
     <AndroidResource Include="Resources\values\attrs.xml" />
     <AndroidResource Include="Resources\values\colors.xml" />
   </ItemGroup>

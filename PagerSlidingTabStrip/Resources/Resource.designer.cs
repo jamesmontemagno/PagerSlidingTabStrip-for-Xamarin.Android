@@ -717,9 +717,6 @@ namespace com.refractored
 			// aapt resource value: 0x7f060009
 			public static int background_material_light = 2131099657;
 			
-			// aapt resource value: 0x7f060031
-			public static int background_tab_pressed = 2131099697;
-			
 			// aapt resource value: 0x7f06000a
 			public static int bright_foreground_disabled_material_dark = 2131099658;
 			
@@ -812,6 +809,9 @@ namespace com.refractored
 			
 			// aapt resource value: 0x7f060028
 			public static int primary_text_disabled_material_light = 2131099688;
+			
+			// aapt resource value: 0x7f060031
+			public static int psts_background_tab_pressed = 2131099697;
 			
 			// aapt resource value: 0x7f060029
 			public static int ripple_material_dark = 2131099689;
@@ -1146,7 +1146,7 @@ namespace com.refractored
 			public static int abc_textfield_search_material = 2130837554;
 			
 			// aapt resource value: 0x7f020033
-			public static int background_tab = 2130837555;
+			public static int psts_background_tab = 2130837555;
 			
 			static Drawable()
 			{
@@ -1287,6 +1287,9 @@ namespace com.refractored
 			// aapt resource value: 0x7f080006
 			public static int progress_horizontal = 2131230726;
 			
+			// aapt resource value: 0x7f080041
+			public static int psts_tab_title = 2131230785;
+			
 			// aapt resource value: 0x7f08002d
 			public static int radio = 2131230765;
 			
@@ -1340,9 +1343,6 @@ namespace com.refractored
 			
 			// aapt resource value: 0x7f08000b
 			public static int tabMode = 2131230731;
-			
-			// aapt resource value: 0x7f080041
-			public static int tab_title = 2131230785;
 			
 			// aapt resource value: 0x7f080029
 			public static int title = 2131230761;
@@ -1458,10 +1458,10 @@ namespace com.refractored
 			public static int abc_simple_dropdown_hint = 2130903062;
 			
 			// aapt resource value: 0x7f030017
-			public static int support_simple_spinner_dropdown_item = 2130903063;
+			public static int psts_tab = 2130903063;
 			
 			// aapt resource value: 0x7f030018
-			public static int tab = 2130903064;
+			public static int support_simple_spinner_dropdown_item = 2130903064;
 			
 			static Layout()
 			{
