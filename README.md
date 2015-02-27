@@ -36,10 +36,9 @@ Ported from: https://github.com/jpardogo/PagerSlidingTabStrip
          tabs.SetViewPager(pager);
 
   4. If your adapter implements the interface `CustomTabProvider` you can past you custom tab view/s.
-     In case the the view returned contains the id `Resource.Id.psts_tab_title`, this view should be a `TextView`  and
-     will be used to placed the title.
+     In case the the view returned contains the id `Resource.Id.psts_tab_title`, this view should be a `TextView`  and will be used to placed the title. If you don't want the library to manage your TextView title for the tab, use a different id than `Resource.Id.psts_tab_title` in your tab layout.
 
-     Otherwise the default tab will be use (That's a TextView with id `Resource.Id.psts_tab_title`)
+     If your adapter doesn't impelement the interface `CustomTabProvider` the default tab will be used (That's a TextView with id `Resource.Id.psts_tab_title`).
 
   5. *(Optional)* If you use implement `IOnPageChangeListener` with your view pager
      you should set it in the widget rather than on the pager directly.
