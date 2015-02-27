@@ -157,7 +157,7 @@ namespace Sample
 			global::com.refractored.Resource.Attribute.pstsTabBackground = global::Sample.Resource.Attribute.pstsTabBackground;
 			global::com.refractored.Resource.Attribute.pstsTabPaddingLeftRight = global::Sample.Resource.Attribute.pstsTabPaddingLeftRight;
 			global::com.refractored.Resource.Attribute.pstsTextAllCaps = global::Sample.Resource.Attribute.pstsTextAllCaps;
-			global::com.refractored.Resource.Attribute.pstsTextColorInactive = global::Sample.Resource.Attribute.pstsTextColorInactive;
+			global::com.refractored.Resource.Attribute.pstsTextColorSelected = global::Sample.Resource.Attribute.pstsTextColorSelected;
 			global::com.refractored.Resource.Attribute.pstsTextSelectedStyle = global::Sample.Resource.Attribute.pstsTextSelectedStyle;
 			global::com.refractored.Resource.Attribute.pstsTextStyle = global::Sample.Resource.Attribute.pstsTextStyle;
 			global::com.refractored.Resource.Attribute.pstsUnderlineColor = global::Sample.Resource.Attribute.pstsUnderlineColor;
@@ -838,7 +838,7 @@ namespace Sample
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTabBackground = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTabBackground;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTabPaddingLeftRight = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTabPaddingLeftRight;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextAllCaps = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTextAllCaps;
-			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextColorInactive = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTextColorInactive;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextColorSelected = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTextColorSelected;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedStyle = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedStyle;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineColor = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineColor;
@@ -1447,7 +1447,7 @@ namespace Sample
 			public const int pstsTextAllCaps = 2130772159;
 			
 			// aapt resource value: 0x7f0100c3
-			public const int pstsTextColorInactive = 2130772163;
+			public const int pstsTextColorSelected = 2130772163;
 			
 			// aapt resource value: 0x7f0100c2
 			public const int pstsTextSelectedStyle = 2130772162;
@@ -3922,7 +3922,7 @@ namespace Sample
 			public const int PagerSlidingTabStrip_pstsTextAllCaps = 11;
 			
 			// aapt resource value: 15
-			public const int PagerSlidingTabStrip_pstsTextColorInactive = 15;
+			public const int PagerSlidingTabStrip_pstsTextColorSelected = 15;
 			
 			// aapt resource value: 14
 			public const int PagerSlidingTabStrip_pstsTextSelectedStyle = 14;

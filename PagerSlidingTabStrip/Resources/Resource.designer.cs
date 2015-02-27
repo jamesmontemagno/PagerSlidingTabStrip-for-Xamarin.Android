@@ -434,7 +434,7 @@ namespace com.refractored
 			public static int pstsTextAllCaps = 2130772148;
 			
 			// aapt resource value: 0x7f0100b8
-			public static int pstsTextColorInactive = 2130772152;
+			public static int pstsTextColorSelected = 2130772152;
 			
 			// aapt resource value: 0x7f0100b7
 			public static int pstsTextSelectedStyle = 2130772151;
@@ -2700,7 +2700,7 @@ namespace com.refractored
 			public static int PagerSlidingTabStrip_pstsTextAllCaps = 11;
 			
 			// aapt resource value: 15
-			public static int PagerSlidingTabStrip_pstsTextColorInactive = 15;
+			public static int PagerSlidingTabStrip_pstsTextColorSelected = 15;
 			
 			// aapt resource value: 14
 			public static int PagerSlidingTabStrip_pstsTextSelectedStyle = 14;

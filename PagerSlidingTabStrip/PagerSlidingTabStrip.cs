@@ -174,16 +174,16 @@ namespace com.refractored
 			}
 		}
 
-    private Color tabTextColorInactive;
+    private ColorStateList tabTextColorSelected;
     /// <summary>
     /// Gets or sets the inactive text color
     /// </summary>
-    public Color TabTextColorInactive
+    public ColorStateList TabTextColorSelected
     {
-      get { return tabTextColorInactive; }
+      get { return tabTextColorSelected; }
       set
       {
-        tabTextColorInactive = value;
+        tabTextColorSelected = value;
         Invalidate();
       }
     }
@@ -347,8 +347,7 @@ namespace com.refractored
 			else
 				tabTextColor = GetColorStateList(textPrimaryColor);
 
-      tabTextColorInactive = new Color(textPrimaryColor.R, textPrimaryColor.G, textPrimaryColor.B, textPrimaryColor.A / 2);
-			underlineColor = textPrimaryColor;
+      underlineColor = textPrimaryColor;
 			dividerColor = textPrimaryColor;
 			indicatorColor = textPrimaryColor;
 
@@ -362,7 +361,6 @@ namespace com.refractored
 			indicatorColor = a.GetColor(Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorColor, indicatorColor);
 			underlineColor = a.GetColor(Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineColor, underlineColor);
       dividerColor = a.GetColor(Resource.Styleable.PagerSlidingTabStrip_pstsDividerColor, dividerColor);
-      tabTextColorInactive = a.GetColor(Resource.Styleable.PagerSlidingTabStrip_pstsTextColorInactive, tabTextColorInactive);
       dividerWidth = a.GetDimensionPixelSize(Resource.Styleable.PagerSlidingTabStrip_pstsDividerWidth, dividerWidth);
 			indicatorHeight = a.GetDimensionPixelSize(Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorHeight, indicatorHeight);
 			underlineHeight = a.GetDimensionPixelSize(Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineHeight, underlineHeight);
@@ -375,7 +373,12 @@ namespace com.refractored
 			isPaddingMiddle = a.GetBoolean(Resource.Styleable.PagerSlidingTabStrip_pstsPaddingMiddle, isPaddingMiddle);
 			tabTypefaceStyle = (TypefaceStyle)a.GetInt(Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle, (int)TypefaceStyle.Bold);
 			tabTypefaceSelectedStyle = (TypefaceStyle)a.GetInt(Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedStyle, (int)TypefaceStyle.Bold);
-			a.Recycle();
+      tabTextColorSelected = a.GetColorStateList(Resource.Styleable.PagerSlidingTabStrip_pstsTextColorSelected);
+      if (tabTextColorSelected == null)
+      {
+        tabTextColorSelected = tabTextColor;
+      }
+      a.Recycle();
 
 			SetMarginBottomTabContainer();
 
@@ -473,10 +476,8 @@ namespace com.refractored
 					textView.Text = title;
 				}
 
-        if (pager.CurrentItem == position)
-          textView.SetTextColor(tabTextColor);
-        else
-          textView.SetTextColor(tabTextColorInactive);
+        var color = pager.CurrentItem == position ? tabTextColorSelected : tabTextColor;
+        textView.SetTextColor(color);
 			}
 
 			tabView.Focusable = true;
@@ -725,7 +726,7 @@ namespace com.refractored
 				return;
 
 			title.SetTypeface(tabTypeface, tabTypefaceStyle);
-      title.SetTextColor(tabTextColorInactive);
+      title.SetTextColor(tabTextColor);
 		}
 
 		void Selected(View tab)
@@ -738,7 +739,7 @@ namespace com.refractored
 				return;
 
 			title.SetTypeface(tabTypeface, tabTypefaceSelectedStyle);
-      title.SetTextColor(tabTextColor);
+      title.SetTextColor(tabTextColorSelected);
 		}
 
 
