@@ -438,10 +438,6 @@ namespace com.refractored
 			{
 
 				strip.RemoveGlobals ();
-				strip.currentPosition = strip.pager.CurrentItem;
-				strip.currentPositionOffset = 0f;
-				strip.ScrollToChild (strip.currentPosition, 0);
-				strip.UpdateSelection (strip.currentPosition);
 			}
 			#endregion
 
@@ -595,6 +591,12 @@ namespace com.refractored
 			SetPadding (padding, PaddingTop, padding, PaddingBottom);
 			if (scrollOffset == 0)
 				scrollOffset = Width / 2 - padding;
+
+
+      currentPosition = pager.CurrentItem;
+      currentPositionOffset = 0f;
+      ScrollToChild(currentPosition, 0);
+      UpdateSelection(currentPosition);
 		}
 
 
