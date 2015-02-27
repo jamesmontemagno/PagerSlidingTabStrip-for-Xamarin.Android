@@ -243,7 +243,6 @@ namespace Sample
 			global::com.refractored.Resource.Color.background_floating_material_light = global::Sample.Resource.Color.background_floating_material_light;
 			global::com.refractored.Resource.Color.background_material_dark = global::Sample.Resource.Color.background_material_dark;
 			global::com.refractored.Resource.Color.background_material_light = global::Sample.Resource.Color.background_material_light;
-			global::com.refractored.Resource.Color.background_tab_pressed = global::Sample.Resource.Color.background_tab_pressed;
 			global::com.refractored.Resource.Color.bright_foreground_disabled_material_dark = global::Sample.Resource.Color.bright_foreground_disabled_material_dark;
 			global::com.refractored.Resource.Color.bright_foreground_disabled_material_light = global::Sample.Resource.Color.bright_foreground_disabled_material_light;
 			global::com.refractored.Resource.Color.bright_foreground_inverse_material_dark = global::Sample.Resource.Color.bright_foreground_inverse_material_dark;
@@ -275,6 +274,7 @@ namespace Sample
 			global::com.refractored.Resource.Color.primary_text_default_material_light = global::Sample.Resource.Color.primary_text_default_material_light;
 			global::com.refractored.Resource.Color.primary_text_disabled_material_dark = global::Sample.Resource.Color.primary_text_disabled_material_dark;
 			global::com.refractored.Resource.Color.primary_text_disabled_material_light = global::Sample.Resource.Color.primary_text_disabled_material_light;
+			global::com.refractored.Resource.Color.psts_background_tab_pressed = global::Sample.Resource.Color.psts_background_tab_pressed;
 			global::com.refractored.Resource.Color.ripple_material_dark = global::Sample.Resource.Color.ripple_material_dark;
 			global::com.refractored.Resource.Color.ripple_material_light = global::Sample.Resource.Color.ripple_material_light;
 			global::com.refractored.Resource.Color.secondary_text_default_material_dark = global::Sample.Resource.Color.secondary_text_default_material_dark;
@@ -377,7 +377,7 @@ namespace Sample
 			global::com.refractored.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Sample.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
 			global::com.refractored.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Sample.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
 			global::com.refractored.Resource.Drawable.abc_textfield_search_material = global::Sample.Resource.Drawable.abc_textfield_search_material;
-			global::com.refractored.Resource.Drawable.background_tab = global::Sample.Resource.Drawable.background_tab;
+			global::com.refractored.Resource.Drawable.psts_background_tab = global::Sample.Resource.Drawable.psts_background_tab;
 			global::com.refractored.Resource.Id.action_bar = global::Sample.Resource.Id.action_bar;
 			global::com.refractored.Resource.Id.action_bar_activity_content = global::Sample.Resource.Id.action_bar_activity_content;
 			global::com.refractored.Resource.Id.action_bar_container = global::Sample.Resource.Id.action_bar_container;
@@ -420,6 +420,7 @@ namespace Sample
 			global::com.refractored.Resource.Id.normal = global::Sample.Resource.Id.normal;
 			global::com.refractored.Resource.Id.progress_circular = global::Sample.Resource.Id.progress_circular;
 			global::com.refractored.Resource.Id.progress_horizontal = global::Sample.Resource.Id.progress_horizontal;
+			global::com.refractored.Resource.Id.psts_tab_title = global::Sample.Resource.Id.psts_tab_title;
 			global::com.refractored.Resource.Id.radio = global::Sample.Resource.Id.radio;
 			global::com.refractored.Resource.Id.search_badge = global::Sample.Resource.Id.search_badge;
 			global::com.refractored.Resource.Id.search_bar = global::Sample.Resource.Id.search_bar;
@@ -438,7 +439,6 @@ namespace Sample
 			global::com.refractored.Resource.Id.split_action_bar = global::Sample.Resource.Id.split_action_bar;
 			global::com.refractored.Resource.Id.submit_area = global::Sample.Resource.Id.submit_area;
 			global::com.refractored.Resource.Id.tabMode = global::Sample.Resource.Id.tabMode;
-			global::com.refractored.Resource.Id.tab_title = global::Sample.Resource.Id.tab_title;
 			global::com.refractored.Resource.Id.title = global::Sample.Resource.Id.title;
 			global::com.refractored.Resource.Id.up = global::Sample.Resource.Id.up;
 			global::com.refractored.Resource.Id.useLogo = global::Sample.Resource.Id.useLogo;
@@ -468,8 +468,8 @@ namespace Sample
 			global::com.refractored.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Sample.Resource.Layout.abc_search_dropdown_item_icons_2line;
 			global::com.refractored.Resource.Layout.abc_search_view = global::Sample.Resource.Layout.abc_search_view;
 			global::com.refractored.Resource.Layout.abc_simple_dropdown_hint = global::Sample.Resource.Layout.abc_simple_dropdown_hint;
+			global::com.refractored.Resource.Layout.psts_tab = global::Sample.Resource.Layout.psts_tab;
 			global::com.refractored.Resource.Layout.support_simple_spinner_dropdown_item = global::Sample.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::com.refractored.Resource.Layout.tab = global::Sample.Resource.Layout.tab;
 			global::com.refractored.Resource.String.abc_action_bar_home_description = global::Sample.Resource.String.abc_action_bar_home_description;
 			global::com.refractored.Resource.String.abc_action_bar_home_description_format = global::Sample.Resource.String.abc_action_bar_home_description_format;
 			global::com.refractored.Resource.String.abc_action_bar_home_subtitle_description_format = global::Sample.Resource.String.abc_action_bar_home_subtitle_description_format;
@@ -1732,9 +1732,6 @@ namespace Sample
 			// aapt resource value: 0x7f05000d
 			public const int background_material_light = 2131034125;
 			
-			// aapt resource value: 0x7f050035
-			public const int background_tab_pressed = 2131034165;
-			
 			// aapt resource value: 0x7f050036
 			public const int background_window = 2131034166;
 			
@@ -1851,6 +1848,9 @@ namespace Sample
 			
 			// aapt resource value: 0x7f05002c
 			public const int primary_text_disabled_material_light = 2131034156;
+			
+			// aapt resource value: 0x7f050035
+			public const int psts_background_tab_pressed = 2131034165;
 			
 			// aapt resource value: 0x7f05002d
 			public const int ripple_material_dark = 2131034157;
@@ -2206,40 +2206,40 @@ namespace Sample
 			public const int background_card = 2130837556;
 			
 			// aapt resource value: 0x7f020035
-			public const int background_tab = 2130837557;
+			public const int background_tabs = 2130837557;
 			
 			// aapt resource value: 0x7f020036
-			public const int background_tabs = 2130837558;
+			public const int background_tabs_diagonal = 2130837558;
 			
 			// aapt resource value: 0x7f020037
-			public const int background_tabs_diagonal = 2130837559;
+			public const int contact = 2130837559;
 			
 			// aapt resource value: 0x7f020038
-			public const int contact = 2130837560;
+			public const int ic_action_user = 2130837560;
 			
 			// aapt resource value: 0x7f020039
-			public const int ic_action_user = 2130837561;
+			public const int ic_launcher = 2130837561;
 			
 			// aapt resource value: 0x7f02003a
-			public const int ic_launcher = 2130837562;
+			public const int ic_launcher_actionbar = 2130837562;
 			
 			// aapt resource value: 0x7f02003b
-			public const int ic_launcher_actionbar = 2130837563;
+			public const int ic_launcher_chrome = 2130837563;
 			
 			// aapt resource value: 0x7f02003c
-			public const int ic_launcher_chrome = 2130837564;
+			public const int ic_launcher_gmail = 2130837564;
 			
 			// aapt resource value: 0x7f02003d
-			public const int ic_launcher_gmail = 2130837565;
+			public const int ic_launcher_gmaps = 2130837565;
 			
 			// aapt resource value: 0x7f02003e
-			public const int ic_launcher_gmaps = 2130837566;
+			public const int ic_launcher_gplus = 2130837566;
 			
 			// aapt resource value: 0x7f02003f
-			public const int ic_launcher_gplus = 2130837567;
+			public const int Icon = 2130837567;
 			
 			// aapt resource value: 0x7f020040
-			public const int Icon = 2130837568;
+			public const int psts_background_tab = 2130837568;
 			
 			// aapt resource value: 0x7f020041
 			public const int tabs_pattern = 2130837569;
@@ -2401,6 +2401,9 @@ namespace Sample
 			// aapt resource value: 0x7f090006
 			public const int progress_horizontal = 2131296262;
 			
+			// aapt resource value: 0x7f090047
+			public const int psts_tab_title = 2131296327;
+			
 			// aapt resource value: 0x7f09002d
 			public const int radio = 2131296301;
 			
@@ -2454,9 +2457,6 @@ namespace Sample
 			
 			// aapt resource value: 0x7f09000b
 			public const int tabMode = 2131296267;
-			
-			// aapt resource value: 0x7f090047
-			public const int tab_title = 2131296327;
 			
 			// aapt resource value: 0x7f090041
 			public const int tabs = 2131296321;
@@ -2593,10 +2593,10 @@ namespace Sample
 			public const int fragment_quickcontact = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int support_simple_spinner_dropdown_item = 2130903067;
+			public const int psts_tab = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int tab = 2130903068;
+			public const int support_simple_spinner_dropdown_item = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
 			public const int toolbar = 2130903069;

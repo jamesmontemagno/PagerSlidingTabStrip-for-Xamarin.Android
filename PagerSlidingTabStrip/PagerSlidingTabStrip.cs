@@ -491,9 +491,6 @@ namespace com.refractored
 				if (title != null) {
 					textView.Text = title;
 				}
-
-        var color = pager.CurrentItem == position ? tabTextColorSelected : tabTextColor;
-        textView.SetTextColor(color);
 			}
 
 			tabView.Focusable = true;
@@ -527,10 +524,7 @@ namespace com.refractored
 
 				if (tab_title != null) {
 					tab_title.SetTextSize(ComplexUnitType.Px, tabTextSize);
-					tab_title.SetTypeface(tabTypeface, pager.CurrentItem == i ? tabTypefaceSelectedStyle : tabTypefaceStyle);
-					if (tabTextColor != null) {
-						tab_title.SetTextColor(tabTextColor);
-					}
+					
 					// setAllCaps() is only available from API 14, so the upper case is made manually if we are on a
 					// pre-ICS-build
 					if (textAllCaps) {
