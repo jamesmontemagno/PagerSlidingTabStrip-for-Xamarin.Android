@@ -174,6 +174,20 @@ namespace com.refractored
 			}
 		}
 
+    private int textAlpha = 150;
+    /// <summary>
+    /// Gets or sets the text alpha
+    /// </summary>
+    public int TextAlpha
+    {
+      get { return textAlpha; }
+      set 
+      { 
+        textAlpha = value;
+        Invalidate();
+      }
+    }
+
     private ColorStateList tabTextColorSelected;
     /// <summary>
     /// Gets or sets the inactive text color
@@ -342,10 +356,7 @@ namespace com.refractored
 			tabTextSize = a.GetDimensionPixelSize(TextSizeIndex, tabTextSize);
 			var colorStateList = a.GetColorStateList(TextColorIndex);
 			var textPrimaryColor = a.GetColor(TextColorPrimaryIndex, Android.Resource.Color.White);
-			if(colorStateList != null)
-				tabTextColor = colorStateList;
-			else
-				tabTextColor = GetColorStateList(textPrimaryColor);
+
 
       underlineColor = textPrimaryColor;
 			dividerColor = textPrimaryColor;
@@ -374,11 +385,16 @@ namespace com.refractored
 			tabTypefaceStyle = (TypefaceStyle)a.GetInt(Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle, (int)TypefaceStyle.Bold);
 			tabTypefaceSelectedStyle = (TypefaceStyle)a.GetInt(Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedStyle, (int)TypefaceStyle.Bold);
       tabTextColorSelected = a.GetColorStateList(Resource.Styleable.PagerSlidingTabStrip_pstsTextColorSelected);
-      if (tabTextColorSelected == null)
-      {
-        tabTextColorSelected = tabTextColor;
-      }
+      textAlpha = a.GetInt(Resource.Styleable.PagerSlidingTabStrip_pstsTextAlpha, textAlpha);
       a.Recycle();
+
+      tabTextColor = colorStateList == null ? GetColorStateList(Color.Argb(textAlpha,
+        Color.GetRedComponent(textPrimaryColor),
+        Color.GetGreenComponent(textPrimaryColor),
+        Color.GetBlueComponent(textPrimaryColor))) : colorStateList;
+
+      tabTextColorSelected = tabTextColorSelected == null ? GetColorStateList(textPrimaryColor) : tabTextColorSelected;
+
 
 			SetMarginBottomTabContainer();
 
@@ -669,7 +685,7 @@ namespace com.refractored
 			if (state == ViewPager.ScrollStateIdle) {
 				ScrollToChild(pager.CurrentItem, 0);
 			}
-			//Full alpha for current item
+			//Full textAlpha for current item
 			var currentTab = tabsContainer.GetChildAt(pager.CurrentItem);
 			Selected(currentTab);
 			//Half transparent for prev item

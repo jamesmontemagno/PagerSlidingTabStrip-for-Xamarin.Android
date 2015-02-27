@@ -157,6 +157,7 @@ namespace Sample
 			global::com.refractored.Resource.Attribute.pstsTabBackground = global::Sample.Resource.Attribute.pstsTabBackground;
 			global::com.refractored.Resource.Attribute.pstsTabPaddingLeftRight = global::Sample.Resource.Attribute.pstsTabPaddingLeftRight;
 			global::com.refractored.Resource.Attribute.pstsTextAllCaps = global::Sample.Resource.Attribute.pstsTextAllCaps;
+			global::com.refractored.Resource.Attribute.pstsTextAlpha = global::Sample.Resource.Attribute.pstsTextAlpha;
 			global::com.refractored.Resource.Attribute.pstsTextColorSelected = global::Sample.Resource.Attribute.pstsTextColorSelected;
 			global::com.refractored.Resource.Attribute.pstsTextSelectedStyle = global::Sample.Resource.Attribute.pstsTextSelectedStyle;
 			global::com.refractored.Resource.Attribute.pstsTextStyle = global::Sample.Resource.Attribute.pstsTextStyle;
@@ -838,6 +839,7 @@ namespace Sample
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTabBackground = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTabBackground;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTabPaddingLeftRight = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTabPaddingLeftRight;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextAllCaps = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTextAllCaps;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextAlpha = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTextAlpha;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextColorSelected = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTextColorSelected;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedStyle = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedStyle;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle;
@@ -1446,14 +1448,17 @@ namespace Sample
 			// aapt resource value: 0x7f0100bf
 			public const int pstsTextAllCaps = 2130772159;
 			
-			// aapt resource value: 0x7f0100c3
-			public const int pstsTextColorSelected = 2130772163;
-			
 			// aapt resource value: 0x7f0100c2
-			public const int pstsTextSelectedStyle = 2130772162;
+			public const int pstsTextAlpha = 2130772162;
 			
 			// aapt resource value: 0x7f0100c1
-			public const int pstsTextStyle = 2130772161;
+			public const int pstsTextColorSelected = 2130772161;
+			
+			// aapt resource value: 0x7f0100c4
+			public const int pstsTextSelectedStyle = 2130772164;
+			
+			// aapt resource value: 0x7f0100c3
+			public const int pstsTextStyle = 2130772163;
 			
 			// aapt resource value: 0x7f0100b5
 			public const int pstsUnderlineColor = 2130772149;
@@ -3886,7 +3891,8 @@ namespace Sample
 					2130772160,
 					2130772161,
 					2130772162,
-					2130772163};
+					2130772163,
+					2130772164};
 			
 			// aapt resource value: 2
 			public const int PagerSlidingTabStrip_pstsDividerColor = 2;
@@ -3921,14 +3927,17 @@ namespace Sample
 			// aapt resource value: 11
 			public const int PagerSlidingTabStrip_pstsTextAllCaps = 11;
 			
-			// aapt resource value: 15
-			public const int PagerSlidingTabStrip_pstsTextColorSelected = 15;
-			
 			// aapt resource value: 14
-			public const int PagerSlidingTabStrip_pstsTextSelectedStyle = 14;
+			public const int PagerSlidingTabStrip_pstsTextAlpha = 14;
 			
 			// aapt resource value: 13
-			public const int PagerSlidingTabStrip_pstsTextStyle = 13;
+			public const int PagerSlidingTabStrip_pstsTextColorSelected = 13;
+			
+			// aapt resource value: 16
+			public const int PagerSlidingTabStrip_pstsTextSelectedStyle = 16;
+			
+			// aapt resource value: 15
+			public const int PagerSlidingTabStrip_pstsTextStyle = 15;
 			
 			// aapt resource value: 1
 			public const int PagerSlidingTabStrip_pstsUnderlineColor = 1;

@@ -433,14 +433,17 @@ namespace com.refractored
 			// aapt resource value: 0x7f0100b4
 			public static int pstsTextAllCaps = 2130772148;
 			
-			// aapt resource value: 0x7f0100b8
-			public static int pstsTextColorSelected = 2130772152;
-			
 			// aapt resource value: 0x7f0100b7
-			public static int pstsTextSelectedStyle = 2130772151;
+			public static int pstsTextAlpha = 2130772151;
 			
 			// aapt resource value: 0x7f0100b6
-			public static int pstsTextStyle = 2130772150;
+			public static int pstsTextColorSelected = 2130772150;
+			
+			// aapt resource value: 0x7f0100b9
+			public static int pstsTextSelectedStyle = 2130772153;
+			
+			// aapt resource value: 0x7f0100b8
+			public static int pstsTextStyle = 2130772152;
 			
 			// aapt resource value: 0x7f0100aa
 			public static int pstsUnderlineColor = 2130772138;
@@ -2664,7 +2667,8 @@ namespace com.refractored
 					2130772149,
 					2130772150,
 					2130772151,
-					2130772152};
+					2130772152,
+					2130772153};
 			
 			// aapt resource value: 2
 			public static int PagerSlidingTabStrip_pstsDividerColor = 2;
@@ -2699,14 +2703,17 @@ namespace com.refractored
 			// aapt resource value: 11
 			public static int PagerSlidingTabStrip_pstsTextAllCaps = 11;
 			
-			// aapt resource value: 15
-			public static int PagerSlidingTabStrip_pstsTextColorSelected = 15;
-			
 			// aapt resource value: 14
-			public static int PagerSlidingTabStrip_pstsTextSelectedStyle = 14;
+			public static int PagerSlidingTabStrip_pstsTextAlpha = 14;
 			
 			// aapt resource value: 13
-			public static int PagerSlidingTabStrip_pstsTextStyle = 13;
+			public static int PagerSlidingTabStrip_pstsTextColorSelected = 13;
+			
+			// aapt resource value: 16
+			public static int PagerSlidingTabStrip_pstsTextSelectedStyle = 16;
+			
+			// aapt resource value: 15
+			public static int PagerSlidingTabStrip_pstsTextStyle = 15;
 			
 			// aapt resource value: 1
 			public static int PagerSlidingTabStrip_pstsUnderlineColor = 1;
