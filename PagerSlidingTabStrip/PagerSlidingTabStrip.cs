@@ -25,8 +25,6 @@ namespace com.refractored
     public IOnTabReselectedListener OnTabReselectedListener { get; set; }
 
 
-		private const float Opaque = 1.0f;
-		private const float HalfTransparent = 0.5f;
 
 		private static int[] Attrs = new int[]
 		{
@@ -71,6 +69,7 @@ namespace com.refractored
 				Invalidate ();
 			}
 		}
+
 
 		private int indicatorHeight = 2;
     /// <summary>
@@ -172,6 +171,21 @@ namespace com.refractored
 				UpdateTabStyles ();
 			}
 		}
+
+    private Color tabTextColorInactive;
+    /// <summary>
+    /// Gets or sets the inactive text color
+    /// </summary>
+    public Color TabTextColorInactive
+    {
+      get { return tabTextColorInactive; }
+      set
+      {
+        tabTextColorInactive = value;
+        Invalidate();
+      }
+    }
+
 		private ColorStateList tabTextColor = null;
     /// <summary>
     /// Gets or sets tab text color
@@ -205,10 +219,6 @@ namespace com.refractored
 		{
 			return new ColorStateList (new int[][]{ new int[]{ } }, new int[]{ textColor });
 		}
-
-
-		private float tabTextAlpha = HalfTransparent;
-		private float tabTextSelectedAlpha = Opaque;
 
 		private int padding = 0;
 
@@ -334,6 +344,7 @@ namespace com.refractored
 			else
 				tabTextColor = GetColorStateList(textPrimaryColor);
 
+      tabTextColorInactive = new Color(textPrimaryColor.R, textPrimaryColor.G, textPrimaryColor.B, textPrimaryColor.A / 2);
 			underlineColor = textPrimaryColor;
 			dividerColor = textPrimaryColor;
 			indicatorColor = textPrimaryColor;
@@ -347,8 +358,9 @@ namespace com.refractored
 			a = context.ObtainStyledAttributes(attrs, Resource.Styleable.PagerSlidingTabStrip);
 			indicatorColor = a.GetColor(Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorColor, indicatorColor);
 			underlineColor = a.GetColor(Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineColor, underlineColor);
-			dividerColor = a.GetColor(Resource.Styleable.PagerSlidingTabStrip_pstsDividerColor, dividerColor);
-			dividerWidth = a.GetDimensionPixelSize(Resource.Styleable.PagerSlidingTabStrip_pstsDividerWidth, dividerWidth);
+      dividerColor = a.GetColor(Resource.Styleable.PagerSlidingTabStrip_pstsDividerColor, dividerColor);
+      tabTextColorInactive = a.GetColor(Resource.Styleable.PagerSlidingTabStrip_pstsTextColorInactive, tabTextColorInactive);
+      dividerWidth = a.GetDimensionPixelSize(Resource.Styleable.PagerSlidingTabStrip_pstsDividerWidth, dividerWidth);
 			indicatorHeight = a.GetDimensionPixelSize(Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorHeight, indicatorHeight);
 			underlineHeight = a.GetDimensionPixelSize(Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineHeight, underlineHeight);
 			dividerPadding = a.GetDimensionPixelSize(Resource.Styleable.PagerSlidingTabStrip_pstsDividerPadding, dividerPadding);
@@ -360,8 +372,6 @@ namespace com.refractored
 			isPaddingMiddle = a.GetBoolean(Resource.Styleable.PagerSlidingTabStrip_pstsPaddingMiddle, isPaddingMiddle);
 			tabTypefaceStyle = (TypefaceStyle)a.GetInt(Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle, (int)TypefaceStyle.Bold);
 			tabTypefaceSelectedStyle = (TypefaceStyle)a.GetInt(Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedStyle, (int)TypefaceStyle.Bold);
-			tabTextAlpha = a.GetFloat(Resource.Styleable.PagerSlidingTabStrip_pstsTextAlpha, HalfTransparent);
-			tabTextSelectedAlpha = a.GetFloat(Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedAlpha, Opaque);
 			a.Recycle();
 
 			SetMarginBottomTabContainer();
@@ -460,8 +470,10 @@ namespace com.refractored
 					textView.Text = title;
 				}
 
-				var alpha = pager.CurrentItem == position ? tabTextSelectedAlpha : tabTextAlpha;
-				ViewCompat.SetAlpha (textView, alpha);
+        if (pager.CurrentItem == position)
+          textView.SetTextColor(tabTextColor);
+        else
+          textView.SetTextColor(tabTextColorInactive);
 			}
 
 			tabView.Focusable = true;
@@ -710,7 +722,7 @@ namespace com.refractored
 				return;
 
 			title.SetTypeface(tabTypeface, tabTypefaceStyle);
-			ViewCompat.SetAlpha (title, tabTextAlpha);
+      title.SetTextColor(tabTextColorInactive);
 		}
 
 		void Selected(View tab)
@@ -723,7 +735,7 @@ namespace com.refractored
 				return;
 
 			title.SetTypeface(tabTypeface, tabTypefaceSelectedStyle);
-			ViewCompat.SetAlpha (title, tabTextSelectedAlpha);
+      title.SetTextColor(tabTextColor);
 		}
 
 
