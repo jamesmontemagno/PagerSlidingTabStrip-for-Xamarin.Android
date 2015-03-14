@@ -28,6 +28,8 @@ namespace Sample
 		{
 			global::com.refractored.Resource.Animation.abc_fade_in = global::Sample.Resource.Animation.abc_fade_in;
 			global::com.refractored.Resource.Animation.abc_fade_out = global::Sample.Resource.Animation.abc_fade_out;
+			global::com.refractored.Resource.Animation.abc_grow_fade_in_from_bottom = global::Sample.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::com.refractored.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Sample.Resource.Animation.abc_shrink_fade_out_from_bottom;
 			global::com.refractored.Resource.Animation.abc_slide_in_bottom = global::Sample.Resource.Animation.abc_slide_in_bottom;
 			global::com.refractored.Resource.Animation.abc_slide_in_top = global::Sample.Resource.Animation.abc_slide_in_top;
 			global::com.refractored.Resource.Animation.abc_slide_out_bottom = global::Sample.Resource.Animation.abc_slide_out_bottom;
@@ -158,7 +160,7 @@ namespace Sample
 			global::com.refractored.Resource.Attribute.pstsTabPaddingLeftRight = global::Sample.Resource.Attribute.pstsTabPaddingLeftRight;
 			global::com.refractored.Resource.Attribute.pstsTextAllCaps = global::Sample.Resource.Attribute.pstsTextAllCaps;
 			global::com.refractored.Resource.Attribute.pstsTextAlpha = global::Sample.Resource.Attribute.pstsTextAlpha;
-			global::com.refractored.Resource.Attribute.pstsTextSelectedAlpha = global::Sample.Resource.Attribute.pstsTextSelectedAlpha;
+			global::com.refractored.Resource.Attribute.pstsTextColorSelected = global::Sample.Resource.Attribute.pstsTextColorSelected;
 			global::com.refractored.Resource.Attribute.pstsTextSelectedStyle = global::Sample.Resource.Attribute.pstsTextSelectedStyle;
 			global::com.refractored.Resource.Attribute.pstsTextStyle = global::Sample.Resource.Attribute.pstsTextStyle;
 			global::com.refractored.Resource.Attribute.pstsUnderlineColor = global::Sample.Resource.Attribute.pstsUnderlineColor;
@@ -243,7 +245,6 @@ namespace Sample
 			global::com.refractored.Resource.Color.background_floating_material_light = global::Sample.Resource.Color.background_floating_material_light;
 			global::com.refractored.Resource.Color.background_material_dark = global::Sample.Resource.Color.background_material_dark;
 			global::com.refractored.Resource.Color.background_material_light = global::Sample.Resource.Color.background_material_light;
-			global::com.refractored.Resource.Color.background_tab_pressed = global::Sample.Resource.Color.background_tab_pressed;
 			global::com.refractored.Resource.Color.bright_foreground_disabled_material_dark = global::Sample.Resource.Color.bright_foreground_disabled_material_dark;
 			global::com.refractored.Resource.Color.bright_foreground_disabled_material_light = global::Sample.Resource.Color.bright_foreground_disabled_material_light;
 			global::com.refractored.Resource.Color.bright_foreground_inverse_material_dark = global::Sample.Resource.Color.bright_foreground_inverse_material_dark;
@@ -275,6 +276,7 @@ namespace Sample
 			global::com.refractored.Resource.Color.primary_text_default_material_light = global::Sample.Resource.Color.primary_text_default_material_light;
 			global::com.refractored.Resource.Color.primary_text_disabled_material_dark = global::Sample.Resource.Color.primary_text_disabled_material_dark;
 			global::com.refractored.Resource.Color.primary_text_disabled_material_light = global::Sample.Resource.Color.primary_text_disabled_material_light;
+			global::com.refractored.Resource.Color.psts_background_tab_pressed = global::Sample.Resource.Color.psts_background_tab_pressed;
 			global::com.refractored.Resource.Color.ripple_material_dark = global::Sample.Resource.Color.ripple_material_dark;
 			global::com.refractored.Resource.Color.ripple_material_light = global::Sample.Resource.Color.ripple_material_light;
 			global::com.refractored.Resource.Color.secondary_text_default_material_dark = global::Sample.Resource.Color.secondary_text_default_material_dark;
@@ -294,7 +296,12 @@ namespace Sample
 			global::com.refractored.Resource.Dimension.abc_action_button_min_height_material = global::Sample.Resource.Dimension.abc_action_button_min_height_material;
 			global::com.refractored.Resource.Dimension.abc_action_button_min_width_material = global::Sample.Resource.Dimension.abc_action_button_min_width_material;
 			global::com.refractored.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Sample.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::com.refractored.Resource.Dimension.abc_button_inset_horizontal_material = global::Sample.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::com.refractored.Resource.Dimension.abc_button_inset_vertical_material = global::Sample.Resource.Dimension.abc_button_inset_vertical_material;
+			global::com.refractored.Resource.Dimension.abc_button_padding_horizontal_material = global::Sample.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::com.refractored.Resource.Dimension.abc_button_padding_vertical_material = global::Sample.Resource.Dimension.abc_button_padding_vertical_material;
 			global::com.refractored.Resource.Dimension.abc_config_prefDialogWidth = global::Sample.Resource.Dimension.abc_config_prefDialogWidth;
+			global::com.refractored.Resource.Dimension.abc_control_corner_material = global::Sample.Resource.Dimension.abc_control_corner_material;
 			global::com.refractored.Resource.Dimension.abc_control_inset_material = global::Sample.Resource.Dimension.abc_control_inset_material;
 			global::com.refractored.Resource.Dimension.abc_control_padding_material = global::Sample.Resource.Dimension.abc_control_padding_material;
 			global::com.refractored.Resource.Dimension.abc_dropdownitem_icon_width = global::Sample.Resource.Dimension.abc_dropdownitem_icon_width;
@@ -326,14 +333,16 @@ namespace Sample
 			global::com.refractored.Resource.Dimension.dialog_fixed_width_minor = global::Sample.Resource.Dimension.dialog_fixed_width_minor;
 			global::com.refractored.Resource.Dimension.disabled_alpha_material_dark = global::Sample.Resource.Dimension.disabled_alpha_material_dark;
 			global::com.refractored.Resource.Dimension.disabled_alpha_material_light = global::Sample.Resource.Dimension.disabled_alpha_material_light;
-			global::com.refractored.Resource.Drawable.abc_ab_share_pack_holo_dark = global::Sample.Resource.Drawable.abc_ab_share_pack_holo_dark;
-			global::com.refractored.Resource.Drawable.abc_ab_share_pack_holo_light = global::Sample.Resource.Drawable.abc_ab_share_pack_holo_light;
+			global::com.refractored.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Sample.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
 			global::com.refractored.Resource.Drawable.abc_btn_check_material = global::Sample.Resource.Drawable.abc_btn_check_material;
 			global::com.refractored.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Sample.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
 			global::com.refractored.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Sample.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::com.refractored.Resource.Drawable.abc_btn_default_mtrl_shape = global::Sample.Resource.Drawable.abc_btn_default_mtrl_shape;
 			global::com.refractored.Resource.Drawable.abc_btn_radio_material = global::Sample.Resource.Drawable.abc_btn_radio_material;
 			global::com.refractored.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Sample.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
 			global::com.refractored.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Sample.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::com.refractored.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::Sample.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::Sample.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
 			global::com.refractored.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Sample.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
 			global::com.refractored.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Sample.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
 			global::com.refractored.Resource.Drawable.abc_cab_background_internal_bg = global::Sample.Resource.Drawable.abc_cab_background_internal_bg;
@@ -367,7 +376,9 @@ namespace Sample
 			global::com.refractored.Resource.Drawable.abc_list_selector_holo_light = global::Sample.Resource.Drawable.abc_list_selector_holo_light;
 			global::com.refractored.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Sample.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
 			global::com.refractored.Resource.Drawable.abc_popup_background_mtrl_mult = global::Sample.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::com.refractored.Resource.Drawable.abc_ratingbar_full_material = global::Sample.Resource.Drawable.abc_ratingbar_full_material;
 			global::com.refractored.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Sample.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::com.refractored.Resource.Drawable.abc_spinner_textfield_background_material = global::Sample.Resource.Drawable.abc_spinner_textfield_background_material;
 			global::com.refractored.Resource.Drawable.abc_switch_thumb_material = global::Sample.Resource.Drawable.abc_switch_thumb_material;
 			global::com.refractored.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Sample.Resource.Drawable.abc_switch_track_mtrl_alpha;
 			global::com.refractored.Resource.Drawable.abc_tab_indicator_material = global::Sample.Resource.Drawable.abc_tab_indicator_material;
@@ -377,7 +388,7 @@ namespace Sample
 			global::com.refractored.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Sample.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
 			global::com.refractored.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Sample.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
 			global::com.refractored.Resource.Drawable.abc_textfield_search_material = global::Sample.Resource.Drawable.abc_textfield_search_material;
-			global::com.refractored.Resource.Drawable.background_tab = global::Sample.Resource.Drawable.background_tab;
+			global::com.refractored.Resource.Drawable.psts_background_tab = global::Sample.Resource.Drawable.psts_background_tab;
 			global::com.refractored.Resource.Id.action_bar = global::Sample.Resource.Id.action_bar;
 			global::com.refractored.Resource.Id.action_bar_activity_content = global::Sample.Resource.Id.action_bar_activity_content;
 			global::com.refractored.Resource.Id.action_bar_container = global::Sample.Resource.Id.action_bar_container;
@@ -420,6 +431,7 @@ namespace Sample
 			global::com.refractored.Resource.Id.normal = global::Sample.Resource.Id.normal;
 			global::com.refractored.Resource.Id.progress_circular = global::Sample.Resource.Id.progress_circular;
 			global::com.refractored.Resource.Id.progress_horizontal = global::Sample.Resource.Id.progress_horizontal;
+			global::com.refractored.Resource.Id.psts_tab_title = global::Sample.Resource.Id.psts_tab_title;
 			global::com.refractored.Resource.Id.radio = global::Sample.Resource.Id.radio;
 			global::com.refractored.Resource.Id.search_badge = global::Sample.Resource.Id.search_badge;
 			global::com.refractored.Resource.Id.search_bar = global::Sample.Resource.Id.search_bar;
@@ -438,12 +450,13 @@ namespace Sample
 			global::com.refractored.Resource.Id.split_action_bar = global::Sample.Resource.Id.split_action_bar;
 			global::com.refractored.Resource.Id.submit_area = global::Sample.Resource.Id.submit_area;
 			global::com.refractored.Resource.Id.tabMode = global::Sample.Resource.Id.tabMode;
-			global::com.refractored.Resource.Id.tab_title = global::Sample.Resource.Id.tab_title;
 			global::com.refractored.Resource.Id.title = global::Sample.Resource.Id.title;
 			global::com.refractored.Resource.Id.up = global::Sample.Resource.Id.up;
 			global::com.refractored.Resource.Id.useLogo = global::Sample.Resource.Id.useLogo;
 			global::com.refractored.Resource.Id.withText = global::Sample.Resource.Id.withText;
 			global::com.refractored.Resource.Id.wrap_content = global::Sample.Resource.Id.wrap_content;
+			global::com.refractored.Resource.Integer.abc_config_activityDefaultDur = global::Sample.Resource.Integer.abc_config_activityDefaultDur;
+			global::com.refractored.Resource.Integer.abc_config_activityShortDur = global::Sample.Resource.Integer.abc_config_activityShortDur;
 			global::com.refractored.Resource.Integer.abc_max_action_buttons = global::Sample.Resource.Integer.abc_max_action_buttons;
 			global::com.refractored.Resource.Layout.abc_action_bar_title_item = global::Sample.Resource.Layout.abc_action_bar_title_item;
 			global::com.refractored.Resource.Layout.abc_action_bar_up_container = global::Sample.Resource.Layout.abc_action_bar_up_container;
@@ -453,7 +466,6 @@ namespace Sample
 			global::com.refractored.Resource.Layout.abc_action_mode_bar = global::Sample.Resource.Layout.abc_action_mode_bar;
 			global::com.refractored.Resource.Layout.abc_action_mode_close_item_material = global::Sample.Resource.Layout.abc_action_mode_close_item_material;
 			global::com.refractored.Resource.Layout.abc_activity_chooser_view = global::Sample.Resource.Layout.abc_activity_chooser_view;
-			global::com.refractored.Resource.Layout.abc_activity_chooser_view_include = global::Sample.Resource.Layout.abc_activity_chooser_view_include;
 			global::com.refractored.Resource.Layout.abc_activity_chooser_view_list_item = global::Sample.Resource.Layout.abc_activity_chooser_view_list_item;
 			global::com.refractored.Resource.Layout.abc_expanded_menu_layout = global::Sample.Resource.Layout.abc_expanded_menu_layout;
 			global::com.refractored.Resource.Layout.abc_list_menu_item_checkbox = global::Sample.Resource.Layout.abc_list_menu_item_checkbox;
@@ -468,8 +480,8 @@ namespace Sample
 			global::com.refractored.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Sample.Resource.Layout.abc_search_dropdown_item_icons_2line;
 			global::com.refractored.Resource.Layout.abc_search_view = global::Sample.Resource.Layout.abc_search_view;
 			global::com.refractored.Resource.Layout.abc_simple_dropdown_hint = global::Sample.Resource.Layout.abc_simple_dropdown_hint;
+			global::com.refractored.Resource.Layout.psts_tab = global::Sample.Resource.Layout.psts_tab;
 			global::com.refractored.Resource.Layout.support_simple_spinner_dropdown_item = global::Sample.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::com.refractored.Resource.Layout.tab = global::Sample.Resource.Layout.tab;
 			global::com.refractored.Resource.String.abc_action_bar_home_description = global::Sample.Resource.String.abc_action_bar_home_description;
 			global::com.refractored.Resource.String.abc_action_bar_home_description_format = global::Sample.Resource.String.abc_action_bar_home_description_format;
 			global::com.refractored.Resource.String.abc_action_bar_home_subtitle_description_format = global::Sample.Resource.String.abc_action_bar_home_subtitle_description_format;
@@ -486,6 +498,8 @@ namespace Sample
 			global::com.refractored.Resource.String.abc_shareactionprovider_share_with = global::Sample.Resource.String.abc_shareactionprovider_share_with;
 			global::com.refractored.Resource.String.abc_shareactionprovider_share_with_application = global::Sample.Resource.String.abc_shareactionprovider_share_with_application;
 			global::com.refractored.Resource.String.abc_toolbar_collapse_description = global::Sample.Resource.String.abc_toolbar_collapse_description;
+			global::com.refractored.Resource.Style.Animation_AppCompat_DropDownUp = global::Sample.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::com.refractored.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Sample.Resource.Style.Base_Animation_AppCompat_DropDownUp;
 			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat = global::Sample.Resource.Style.Base_TextAppearance_AppCompat;
 			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Body1;
 			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Body2;
@@ -524,6 +538,7 @@ namespace Sample
 			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
 			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
 			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
 			global::com.refractored.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Sample.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::com.refractored.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Sample.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::com.refractored.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Sample.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
@@ -568,8 +583,11 @@ namespace Sample
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionMode;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Sample.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Sample.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button = global::Sample.Resource.Style.Base_Widget_AppCompat_Button;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Sample.Resource.Style.Base_Widget_AppCompat_Button_Small;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Sample.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Sample.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Sample.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Sample.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_EditText = global::Sample.Resource.Style.Base_Widget_AppCompat_EditText;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
@@ -578,8 +596,6 @@ namespace Sample
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActivityChooserView = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_ActivityChooserView;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_AutoCompleteTextView = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_AutoCompleteTextView;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Sample.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
@@ -590,9 +606,12 @@ namespace Sample
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Sample.Resource.Style.Base_Widget_AppCompat_PopupWindow;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Sample.Resource.Style.Base_Widget_AppCompat_ProgressBar;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Sample.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Sample.Resource.Style.Base_Widget_AppCompat_RatingBar;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_SearchView = global::Sample.Resource.Style.Base_Widget_AppCompat_SearchView;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Spinner = global::Sample.Resource.Style.Base_Widget_AppCompat_Spinner;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Spinner_DropDown_ActionBar = global::Sample.Resource.Style.Base_Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Sample.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Sample.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Sample.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Sample.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
 			global::com.refractored.Resource.Style.Platform_AppCompat = global::Sample.Resource.Style.Platform_AppCompat;
@@ -652,6 +671,7 @@ namespace Sample
 			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
 			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
 			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
 			global::com.refractored.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Sample.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::com.refractored.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Sample.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::com.refractored.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Sample.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
@@ -681,6 +701,8 @@ namespace Sample
 			global::com.refractored.Resource.Style.Widget_AppCompat_ActionMode = global::Sample.Resource.Style.Widget_AppCompat_ActionMode;
 			global::com.refractored.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Sample.Resource.Style.Widget_AppCompat_ActivityChooserView;
 			global::com.refractored.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Sample.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button = global::Sample.Resource.Style.Widget_AppCompat_Button;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Button_Small = global::Sample.Resource.Style.Widget_AppCompat_Button_Small;
 			global::com.refractored.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Sample.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
 			global::com.refractored.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Sample.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
 			global::com.refractored.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Sample.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
@@ -715,10 +737,13 @@ namespace Sample
 			global::com.refractored.Resource.Style.Widget_AppCompat_PopupWindow = global::Sample.Resource.Style.Widget_AppCompat_PopupWindow;
 			global::com.refractored.Resource.Style.Widget_AppCompat_ProgressBar = global::Sample.Resource.Style.Widget_AppCompat_ProgressBar;
 			global::com.refractored.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Sample.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::com.refractored.Resource.Style.Widget_AppCompat_RatingBar = global::Sample.Resource.Style.Widget_AppCompat_RatingBar;
 			global::com.refractored.Resource.Style.Widget_AppCompat_SearchView = global::Sample.Resource.Style.Widget_AppCompat_SearchView;
 			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner = global::Sample.Resource.Style.Widget_AppCompat_Spinner;
 			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Sample.Resource.Style.Widget_AppCompat_Spinner_DropDown;
 			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Sample.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Sample.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::com.refractored.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Sample.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
 			global::com.refractored.Resource.Style.Widget_AppCompat_Toolbar = global::Sample.Resource.Style.Widget_AppCompat_Toolbar;
 			global::com.refractored.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Sample.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
 			global::com.refractored.Resource.Styleable.ActionBar = global::Sample.Resource.Styleable.ActionBar;
@@ -840,7 +865,7 @@ namespace Sample
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTabPaddingLeftRight = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTabPaddingLeftRight;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextAllCaps = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTextAllCaps;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextAlpha = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTextAlpha;
-			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedAlpha = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedAlpha;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextColorSelected = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTextColorSelected;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedStyle = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedStyle;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineColor = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineColor;
@@ -889,6 +914,10 @@ namespace Sample
 			global::com.refractored.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Sample.Resource.Styleable.SwitchCompat_switchTextAppearance;
 			global::com.refractored.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Sample.Resource.Styleable.SwitchCompat_thumbTextPadding;
 			global::com.refractored.Resource.Styleable.SwitchCompat_track = global::Sample.Resource.Styleable.SwitchCompat_track;
+			global::com.refractored.Resource.Styleable.SwitchCompatTextAppearance = global::Sample.Resource.Styleable.SwitchCompatTextAppearance;
+			global::com.refractored.Resource.Styleable.SwitchCompatTextAppearance_android_textColor = global::Sample.Resource.Styleable.SwitchCompatTextAppearance_android_textColor;
+			global::com.refractored.Resource.Styleable.SwitchCompatTextAppearance_android_textSize = global::Sample.Resource.Styleable.SwitchCompatTextAppearance_android_textSize;
+			global::com.refractored.Resource.Styleable.SwitchCompatTextAppearance_textAllCaps = global::Sample.Resource.Styleable.SwitchCompatTextAppearance_textAllCaps;
 			global::com.refractored.Resource.Styleable.Theme = global::Sample.Resource.Styleable.Theme;
 			global::com.refractored.Resource.Styleable.Theme_actionBarDivider = global::Sample.Resource.Styleable.Theme_actionBarDivider;
 			global::com.refractored.Resource.Styleable.Theme_actionBarItemBackground = global::Sample.Resource.Styleable.Theme_actionBarItemBackground;
@@ -921,6 +950,7 @@ namespace Sample
 			global::com.refractored.Resource.Styleable.Theme_actionOverflowButtonStyle = global::Sample.Resource.Styleable.Theme_actionOverflowButtonStyle;
 			global::com.refractored.Resource.Styleable.Theme_actionOverflowMenuStyle = global::Sample.Resource.Styleable.Theme_actionOverflowMenuStyle;
 			global::com.refractored.Resource.Styleable.Theme_activityChooserViewStyle = global::Sample.Resource.Styleable.Theme_activityChooserViewStyle;
+			global::com.refractored.Resource.Styleable.Theme_android_windowAnimationStyle = global::Sample.Resource.Styleable.Theme_android_windowAnimationStyle;
 			global::com.refractored.Resource.Styleable.Theme_android_windowIsFloating = global::Sample.Resource.Styleable.Theme_android_windowIsFloating;
 			global::com.refractored.Resource.Styleable.Theme_buttonBarButtonStyle = global::Sample.Resource.Styleable.Theme_buttonBarButtonStyle;
 			global::com.refractored.Resource.Styleable.Theme_buttonBarStyle = global::Sample.Resource.Styleable.Theme_buttonBarStyle;
@@ -1454,17 +1484,17 @@ namespace Sample
 			// aapt resource value: 0x7f0100bf
 			public const int pstsTextAllCaps = 2130772159;
 			
-			// aapt resource value: 0x7f0100c3
-			public const int pstsTextAlpha = 2130772163;
-			
-			// aapt resource value: 0x7f0100c4
-			public const int pstsTextSelectedAlpha = 2130772164;
-			
 			// aapt resource value: 0x7f0100c2
-			public const int pstsTextSelectedStyle = 2130772162;
+			public const int pstsTextAlpha = 2130772162;
 			
 			// aapt resource value: 0x7f0100c1
-			public const int pstsTextStyle = 2130772161;
+			public const int pstsTextColorSelected = 2130772161;
+			
+			// aapt resource value: 0x7f0100c4
+			public const int pstsTextSelectedStyle = 2130772164;
+			
+			// aapt resource value: 0x7f0100c3
+			public const int pstsTextStyle = 2130772163;
 			
 			// aapt resource value: 0x7f0100b5
 			public const int pstsUnderlineColor = 2130772149;
@@ -1738,9 +1768,6 @@ namespace Sample
 			// aapt resource value: 0x7f05000d
 			public const int background_material_light = 2131034125;
 			
-			// aapt resource value: 0x7f050035
-			public const int background_tab_pressed = 2131034165;
-			
 			// aapt resource value: 0x7f050036
 			public const int background_window = 2131034166;
 			
@@ -1857,6 +1884,9 @@ namespace Sample
 			
 			// aapt resource value: 0x7f05002c
 			public const int primary_text_disabled_material_light = 2131034156;
+			
+			// aapt resource value: 0x7f050035
+			public const int psts_background_tab_pressed = 2131034165;
 			
 			// aapt resource value: 0x7f05002d
 			public const int ripple_material_dark = 2131034157;
@@ -2239,40 +2269,40 @@ namespace Sample
 			public const int background_card = 2130837560;
 			
 			// aapt resource value: 0x7f020039
-			public const int background_tab = 2130837561;
+			public const int background_tabs = 2130837561;
 			
 			// aapt resource value: 0x7f02003a
-			public const int background_tabs = 2130837562;
+			public const int background_tabs_diagonal = 2130837562;
 			
 			// aapt resource value: 0x7f02003b
-			public const int background_tabs_diagonal = 2130837563;
+			public const int contact = 2130837563;
 			
 			// aapt resource value: 0x7f02003c
-			public const int contact = 2130837564;
+			public const int ic_action_user = 2130837564;
 			
 			// aapt resource value: 0x7f02003d
-			public const int ic_action_user = 2130837565;
+			public const int ic_launcher = 2130837565;
 			
 			// aapt resource value: 0x7f02003e
-			public const int ic_launcher = 2130837566;
+			public const int ic_launcher_actionbar = 2130837566;
 			
 			// aapt resource value: 0x7f02003f
-			public const int ic_launcher_actionbar = 2130837567;
+			public const int ic_launcher_chrome = 2130837567;
 			
 			// aapt resource value: 0x7f020040
-			public const int ic_launcher_chrome = 2130837568;
+			public const int ic_launcher_gmail = 2130837568;
 			
 			// aapt resource value: 0x7f020041
-			public const int ic_launcher_gmail = 2130837569;
+			public const int ic_launcher_gmaps = 2130837569;
 			
 			// aapt resource value: 0x7f020042
-			public const int ic_launcher_gmaps = 2130837570;
+			public const int ic_launcher_gplus = 2130837570;
 			
 			// aapt resource value: 0x7f020043
-			public const int ic_launcher_gplus = 2130837571;
+			public const int Icon = 2130837571;
 			
 			// aapt resource value: 0x7f020044
-			public const int Icon = 2130837572;
+			public const int psts_background_tab = 2130837572;
 			
 			// aapt resource value: 0x7f020045
 			public const int tabs_pattern = 2130837573;
@@ -2434,6 +2464,9 @@ namespace Sample
 			// aapt resource value: 0x7f090006
 			public const int progress_horizontal = 2131296262;
 			
+			// aapt resource value: 0x7f090047
+			public const int psts_tab_title = 2131296327;
+			
 			// aapt resource value: 0x7f09002d
 			public const int radio = 2131296301;
 			
@@ -2487,9 +2520,6 @@ namespace Sample
 			
 			// aapt resource value: 0x7f09000b
 			public const int tabMode = 2131296267;
-			
-			// aapt resource value: 0x7f090047
-			public const int tab_title = 2131296327;
 			
 			// aapt resource value: 0x7f090041
 			public const int tabs = 2131296321;
@@ -2629,10 +2659,10 @@ namespace Sample
 			public const int fragment_quickcontact = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int support_simple_spinner_dropdown_item = 2130903066;
+			public const int psts_tab = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int tab = 2130903067;
+			public const int support_simple_spinner_dropdown_item = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
 			public const int toolbar = 2130903068;
@@ -4002,17 +4032,17 @@ namespace Sample
 			// aapt resource value: 11
 			public const int PagerSlidingTabStrip_pstsTextAllCaps = 11;
 			
-			// aapt resource value: 15
-			public const int PagerSlidingTabStrip_pstsTextAlpha = 15;
-			
-			// aapt resource value: 16
-			public const int PagerSlidingTabStrip_pstsTextSelectedAlpha = 16;
-			
 			// aapt resource value: 14
-			public const int PagerSlidingTabStrip_pstsTextSelectedStyle = 14;
+			public const int PagerSlidingTabStrip_pstsTextAlpha = 14;
 			
 			// aapt resource value: 13
-			public const int PagerSlidingTabStrip_pstsTextStyle = 13;
+			public const int PagerSlidingTabStrip_pstsTextColorSelected = 13;
+			
+			// aapt resource value: 16
+			public const int PagerSlidingTabStrip_pstsTextSelectedStyle = 16;
+			
+			// aapt resource value: 15
+			public const int PagerSlidingTabStrip_pstsTextStyle = 15;
 			
 			// aapt resource value: 1
 			public const int PagerSlidingTabStrip_pstsUnderlineColor = 1;
