@@ -646,16 +646,23 @@ namespace com.refractored
 			rectPaint.Color = new Color(underlineColor);
 			canvas.DrawRect (paddingLeft, height - underlineHeight, tabsContainer.Width + paddingRight, height, rectPaint);
 
-					//draw divider
-			if (dividerWidth == 0)
+			//draw divider
+			if (dividerWidth <= 0)
 				return;
 
 			dividerPaint.StrokeWidth = dividerWidth;
 			dividerPaint.Color = new Color(dividerColor);
+
+      var offset = IsPaddingMiddle ? paddingLeft : 0F;
+
 			for (int i = 0; i < tabCount - 1; i++) {
-				View tab = tabsContainer.GetChildAt(i);
-				//canvas.DrawLine(tab.Right, dividerPadding, tab.Right, height - dividerPadding, dividerPaint);
-			}
+				var tab = tabsContainer.GetChildAt(i);
+        if (tab != null)
+        {
+          canvas.DrawLine(offset + tab.Right, dividerPadding, offset + tab.Right, height - dividerPadding, dividerPaint);
+
+        }
+      }
 
 		}
 

@@ -13,7 +13,10 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        app:pstsPaddingMiddle="true" />
+        app:pstsPaddingMiddle="true"
+        app:pstsDividerWidth="1dp"
+        app:pstsDividerPadding="12dp"
+        app:pstsDividerColor="#50FFFFFF" />
 <!--Change this to true if you want to center items-->
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"

@@ -26,128 +26,6 @@ namespace Sample
 		
 		public static void UpdateIdValues()
 		{
-			global::com.refractored.Resource.Animation.abc_fade_in = global::Sample.Resource.Animation.abc_fade_in;
-			global::com.refractored.Resource.Animation.abc_fade_out = global::Sample.Resource.Animation.abc_fade_out;
-			global::com.refractored.Resource.Animation.abc_grow_fade_in_from_bottom = global::Sample.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::com.refractored.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Sample.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::com.refractored.Resource.Animation.abc_slide_in_bottom = global::Sample.Resource.Animation.abc_slide_in_bottom;
-			global::com.refractored.Resource.Animation.abc_slide_in_top = global::Sample.Resource.Animation.abc_slide_in_top;
-			global::com.refractored.Resource.Animation.abc_slide_out_bottom = global::Sample.Resource.Animation.abc_slide_out_bottom;
-			global::com.refractored.Resource.Animation.abc_slide_out_top = global::Sample.Resource.Animation.abc_slide_out_top;
-			global::com.refractored.Resource.Attribute.actionBarDivider = global::Sample.Resource.Attribute.actionBarDivider;
-			global::com.refractored.Resource.Attribute.actionBarItemBackground = global::Sample.Resource.Attribute.actionBarItemBackground;
-			global::com.refractored.Resource.Attribute.actionBarPopupTheme = global::Sample.Resource.Attribute.actionBarPopupTheme;
-			global::com.refractored.Resource.Attribute.actionBarSize = global::Sample.Resource.Attribute.actionBarSize;
-			global::com.refractored.Resource.Attribute.actionBarSplitStyle = global::Sample.Resource.Attribute.actionBarSplitStyle;
-			global::com.refractored.Resource.Attribute.actionBarStyle = global::Sample.Resource.Attribute.actionBarStyle;
-			global::com.refractored.Resource.Attribute.actionBarTabBarStyle = global::Sample.Resource.Attribute.actionBarTabBarStyle;
-			global::com.refractored.Resource.Attribute.actionBarTabStyle = global::Sample.Resource.Attribute.actionBarTabStyle;
-			global::com.refractored.Resource.Attribute.actionBarTabTextStyle = global::Sample.Resource.Attribute.actionBarTabTextStyle;
-			global::com.refractored.Resource.Attribute.actionBarTheme = global::Sample.Resource.Attribute.actionBarTheme;
-			global::com.refractored.Resource.Attribute.actionBarWidgetTheme = global::Sample.Resource.Attribute.actionBarWidgetTheme;
-			global::com.refractored.Resource.Attribute.actionButtonStyle = global::Sample.Resource.Attribute.actionButtonStyle;
-			global::com.refractored.Resource.Attribute.actionDropDownStyle = global::Sample.Resource.Attribute.actionDropDownStyle;
-			global::com.refractored.Resource.Attribute.actionLayout = global::Sample.Resource.Attribute.actionLayout;
-			global::com.refractored.Resource.Attribute.actionMenuTextAppearance = global::Sample.Resource.Attribute.actionMenuTextAppearance;
-			global::com.refractored.Resource.Attribute.actionMenuTextColor = global::Sample.Resource.Attribute.actionMenuTextColor;
-			global::com.refractored.Resource.Attribute.actionModeBackground = global::Sample.Resource.Attribute.actionModeBackground;
-			global::com.refractored.Resource.Attribute.actionModeCloseButtonStyle = global::Sample.Resource.Attribute.actionModeCloseButtonStyle;
-			global::com.refractored.Resource.Attribute.actionModeCloseDrawable = global::Sample.Resource.Attribute.actionModeCloseDrawable;
-			global::com.refractored.Resource.Attribute.actionModeCopyDrawable = global::Sample.Resource.Attribute.actionModeCopyDrawable;
-			global::com.refractored.Resource.Attribute.actionModeCutDrawable = global::Sample.Resource.Attribute.actionModeCutDrawable;
-			global::com.refractored.Resource.Attribute.actionModeFindDrawable = global::Sample.Resource.Attribute.actionModeFindDrawable;
-			global::com.refractored.Resource.Attribute.actionModePasteDrawable = global::Sample.Resource.Attribute.actionModePasteDrawable;
-			global::com.refractored.Resource.Attribute.actionModePopupWindowStyle = global::Sample.Resource.Attribute.actionModePopupWindowStyle;
-			global::com.refractored.Resource.Attribute.actionModeSelectAllDrawable = global::Sample.Resource.Attribute.actionModeSelectAllDrawable;
-			global::com.refractored.Resource.Attribute.actionModeShareDrawable = global::Sample.Resource.Attribute.actionModeShareDrawable;
-			global::com.refractored.Resource.Attribute.actionModeSplitBackground = global::Sample.Resource.Attribute.actionModeSplitBackground;
-			global::com.refractored.Resource.Attribute.actionModeStyle = global::Sample.Resource.Attribute.actionModeStyle;
-			global::com.refractored.Resource.Attribute.actionModeWebSearchDrawable = global::Sample.Resource.Attribute.actionModeWebSearchDrawable;
-			global::com.refractored.Resource.Attribute.actionOverflowButtonStyle = global::Sample.Resource.Attribute.actionOverflowButtonStyle;
-			global::com.refractored.Resource.Attribute.actionOverflowMenuStyle = global::Sample.Resource.Attribute.actionOverflowMenuStyle;
-			global::com.refractored.Resource.Attribute.actionProviderClass = global::Sample.Resource.Attribute.actionProviderClass;
-			global::com.refractored.Resource.Attribute.actionViewClass = global::Sample.Resource.Attribute.actionViewClass;
-			global::com.refractored.Resource.Attribute.activityChooserViewStyle = global::Sample.Resource.Attribute.activityChooserViewStyle;
-			global::com.refractored.Resource.Attribute.background = global::Sample.Resource.Attribute.background;
-			global::com.refractored.Resource.Attribute.backgroundSplit = global::Sample.Resource.Attribute.backgroundSplit;
-			global::com.refractored.Resource.Attribute.backgroundStacked = global::Sample.Resource.Attribute.backgroundStacked;
-			global::com.refractored.Resource.Attribute.barSize = global::Sample.Resource.Attribute.barSize;
-			global::com.refractored.Resource.Attribute.buttonBarButtonStyle = global::Sample.Resource.Attribute.buttonBarButtonStyle;
-			global::com.refractored.Resource.Attribute.buttonBarStyle = global::Sample.Resource.Attribute.buttonBarStyle;
-			global::com.refractored.Resource.Attribute.closeIcon = global::Sample.Resource.Attribute.closeIcon;
-			global::com.refractored.Resource.Attribute.closeItemLayout = global::Sample.Resource.Attribute.closeItemLayout;
-			global::com.refractored.Resource.Attribute.collapseContentDescription = global::Sample.Resource.Attribute.collapseContentDescription;
-			global::com.refractored.Resource.Attribute.collapseIcon = global::Sample.Resource.Attribute.collapseIcon;
-			global::com.refractored.Resource.Attribute.color = global::Sample.Resource.Attribute.color;
-			global::com.refractored.Resource.Attribute.colorAccent = global::Sample.Resource.Attribute.colorAccent;
-			global::com.refractored.Resource.Attribute.colorButtonNormal = global::Sample.Resource.Attribute.colorButtonNormal;
-			global::com.refractored.Resource.Attribute.colorControlActivated = global::Sample.Resource.Attribute.colorControlActivated;
-			global::com.refractored.Resource.Attribute.colorControlHighlight = global::Sample.Resource.Attribute.colorControlHighlight;
-			global::com.refractored.Resource.Attribute.colorControlNormal = global::Sample.Resource.Attribute.colorControlNormal;
-			global::com.refractored.Resource.Attribute.colorPrimary = global::Sample.Resource.Attribute.colorPrimary;
-			global::com.refractored.Resource.Attribute.colorPrimaryDark = global::Sample.Resource.Attribute.colorPrimaryDark;
-			global::com.refractored.Resource.Attribute.colorSwitchThumbNormal = global::Sample.Resource.Attribute.colorSwitchThumbNormal;
-			global::com.refractored.Resource.Attribute.commitIcon = global::Sample.Resource.Attribute.commitIcon;
-			global::com.refractored.Resource.Attribute.contentInsetEnd = global::Sample.Resource.Attribute.contentInsetEnd;
-			global::com.refractored.Resource.Attribute.contentInsetLeft = global::Sample.Resource.Attribute.contentInsetLeft;
-			global::com.refractored.Resource.Attribute.contentInsetRight = global::Sample.Resource.Attribute.contentInsetRight;
-			global::com.refractored.Resource.Attribute.contentInsetStart = global::Sample.Resource.Attribute.contentInsetStart;
-			global::com.refractored.Resource.Attribute.customNavigationLayout = global::Sample.Resource.Attribute.customNavigationLayout;
-			global::com.refractored.Resource.Attribute.disableChildrenWhenDisabled = global::Sample.Resource.Attribute.disableChildrenWhenDisabled;
-			global::com.refractored.Resource.Attribute.displayOptions = global::Sample.Resource.Attribute.displayOptions;
-			global::com.refractored.Resource.Attribute.divider = global::Sample.Resource.Attribute.divider;
-			global::com.refractored.Resource.Attribute.dividerHorizontal = global::Sample.Resource.Attribute.dividerHorizontal;
-			global::com.refractored.Resource.Attribute.dividerPadding = global::Sample.Resource.Attribute.dividerPadding;
-			global::com.refractored.Resource.Attribute.dividerVertical = global::Sample.Resource.Attribute.dividerVertical;
-			global::com.refractored.Resource.Attribute.drawableSize = global::Sample.Resource.Attribute.drawableSize;
-			global::com.refractored.Resource.Attribute.drawerArrowStyle = global::Sample.Resource.Attribute.drawerArrowStyle;
-			global::com.refractored.Resource.Attribute.dropDownListViewStyle = global::Sample.Resource.Attribute.dropDownListViewStyle;
-			global::com.refractored.Resource.Attribute.dropdownListPreferredItemHeight = global::Sample.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::com.refractored.Resource.Attribute.editTextBackground = global::Sample.Resource.Attribute.editTextBackground;
-			global::com.refractored.Resource.Attribute.editTextColor = global::Sample.Resource.Attribute.editTextColor;
-			global::com.refractored.Resource.Attribute.elevation = global::Sample.Resource.Attribute.elevation;
-			global::com.refractored.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Sample.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::com.refractored.Resource.Attribute.gapBetweenBars = global::Sample.Resource.Attribute.gapBetweenBars;
-			global::com.refractored.Resource.Attribute.goIcon = global::Sample.Resource.Attribute.goIcon;
-			global::com.refractored.Resource.Attribute.height = global::Sample.Resource.Attribute.height;
-			global::com.refractored.Resource.Attribute.hideOnContentScroll = global::Sample.Resource.Attribute.hideOnContentScroll;
-			global::com.refractored.Resource.Attribute.homeAsUpIndicator = global::Sample.Resource.Attribute.homeAsUpIndicator;
-			global::com.refractored.Resource.Attribute.homeLayout = global::Sample.Resource.Attribute.homeLayout;
-			global::com.refractored.Resource.Attribute.icon = global::Sample.Resource.Attribute.icon;
-			global::com.refractored.Resource.Attribute.iconifiedByDefault = global::Sample.Resource.Attribute.iconifiedByDefault;
-			global::com.refractored.Resource.Attribute.indeterminateProgressStyle = global::Sample.Resource.Attribute.indeterminateProgressStyle;
-			global::com.refractored.Resource.Attribute.initialActivityCount = global::Sample.Resource.Attribute.initialActivityCount;
-			global::com.refractored.Resource.Attribute.isLightTheme = global::Sample.Resource.Attribute.isLightTheme;
-			global::com.refractored.Resource.Attribute.itemPadding = global::Sample.Resource.Attribute.itemPadding;
-			global::com.refractored.Resource.Attribute.layout = global::Sample.Resource.Attribute.layout;
-			global::com.refractored.Resource.Attribute.listChoiceBackgroundIndicator = global::Sample.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::com.refractored.Resource.Attribute.listPopupWindowStyle = global::Sample.Resource.Attribute.listPopupWindowStyle;
-			global::com.refractored.Resource.Attribute.listPreferredItemHeight = global::Sample.Resource.Attribute.listPreferredItemHeight;
-			global::com.refractored.Resource.Attribute.listPreferredItemHeightLarge = global::Sample.Resource.Attribute.listPreferredItemHeightLarge;
-			global::com.refractored.Resource.Attribute.listPreferredItemHeightSmall = global::Sample.Resource.Attribute.listPreferredItemHeightSmall;
-			global::com.refractored.Resource.Attribute.listPreferredItemPaddingLeft = global::Sample.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::com.refractored.Resource.Attribute.listPreferredItemPaddingRight = global::Sample.Resource.Attribute.listPreferredItemPaddingRight;
-			global::com.refractored.Resource.Attribute.logo = global::Sample.Resource.Attribute.logo;
-			global::com.refractored.Resource.Attribute.maxButtonHeight = global::Sample.Resource.Attribute.maxButtonHeight;
-			global::com.refractored.Resource.Attribute.measureWithLargestChild = global::Sample.Resource.Attribute.measureWithLargestChild;
-			global::com.refractored.Resource.Attribute.middleBarArrowSize = global::Sample.Resource.Attribute.middleBarArrowSize;
-			global::com.refractored.Resource.Attribute.navigationContentDescription = global::Sample.Resource.Attribute.navigationContentDescription;
-			global::com.refractored.Resource.Attribute.navigationIcon = global::Sample.Resource.Attribute.navigationIcon;
-			global::com.refractored.Resource.Attribute.navigationMode = global::Sample.Resource.Attribute.navigationMode;
-			global::com.refractored.Resource.Attribute.overlapAnchor = global::Sample.Resource.Attribute.overlapAnchor;
-			global::com.refractored.Resource.Attribute.paddingEnd = global::Sample.Resource.Attribute.paddingEnd;
-			global::com.refractored.Resource.Attribute.paddingStart = global::Sample.Resource.Attribute.paddingStart;
-			global::com.refractored.Resource.Attribute.panelBackground = global::Sample.Resource.Attribute.panelBackground;
-			global::com.refractored.Resource.Attribute.panelMenuListTheme = global::Sample.Resource.Attribute.panelMenuListTheme;
-			global::com.refractored.Resource.Attribute.panelMenuListWidth = global::Sample.Resource.Attribute.panelMenuListWidth;
-			global::com.refractored.Resource.Attribute.popupMenuStyle = global::Sample.Resource.Attribute.popupMenuStyle;
-			global::com.refractored.Resource.Attribute.popupPromptView = global::Sample.Resource.Attribute.popupPromptView;
-			global::com.refractored.Resource.Attribute.popupTheme = global::Sample.Resource.Attribute.popupTheme;
-			global::com.refractored.Resource.Attribute.popupWindowStyle = global::Sample.Resource.Attribute.popupWindowStyle;
-			global::com.refractored.Resource.Attribute.preserveIconSpacing = global::Sample.Resource.Attribute.preserveIconSpacing;
-			global::com.refractored.Resource.Attribute.progressBarPadding = global::Sample.Resource.Attribute.progressBarPadding;
-			global::com.refractored.Resource.Attribute.progressBarStyle = global::Sample.Resource.Attribute.progressBarStyle;
-			global::com.refractored.Resource.Attribute.prompt = global::Sample.Resource.Attribute.prompt;
 			global::com.refractored.Resource.Attribute.pstsDividerColor = global::Sample.Resource.Attribute.pstsDividerColor;
 			global::com.refractored.Resource.Attribute.pstsDividerPadding = global::Sample.Resource.Attribute.pstsDividerPadding;
 			global::com.refractored.Resource.Attribute.pstsDividerWidth = global::Sample.Resource.Attribute.pstsDividerWidth;
@@ -165,693 +43,13 @@ namespace Sample
 			global::com.refractored.Resource.Attribute.pstsTextStyle = global::Sample.Resource.Attribute.pstsTextStyle;
 			global::com.refractored.Resource.Attribute.pstsUnderlineColor = global::Sample.Resource.Attribute.pstsUnderlineColor;
 			global::com.refractored.Resource.Attribute.pstsUnderlineHeight = global::Sample.Resource.Attribute.pstsUnderlineHeight;
-			global::com.refractored.Resource.Attribute.queryBackground = global::Sample.Resource.Attribute.queryBackground;
-			global::com.refractored.Resource.Attribute.queryHint = global::Sample.Resource.Attribute.queryHint;
-			global::com.refractored.Resource.Attribute.searchIcon = global::Sample.Resource.Attribute.searchIcon;
-			global::com.refractored.Resource.Attribute.searchViewStyle = global::Sample.Resource.Attribute.searchViewStyle;
-			global::com.refractored.Resource.Attribute.selectableItemBackground = global::Sample.Resource.Attribute.selectableItemBackground;
-			global::com.refractored.Resource.Attribute.selectableItemBackgroundBorderless = global::Sample.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::com.refractored.Resource.Attribute.showAsAction = global::Sample.Resource.Attribute.showAsAction;
-			global::com.refractored.Resource.Attribute.showDividers = global::Sample.Resource.Attribute.showDividers;
-			global::com.refractored.Resource.Attribute.showText = global::Sample.Resource.Attribute.showText;
-			global::com.refractored.Resource.Attribute.spinBars = global::Sample.Resource.Attribute.spinBars;
-			global::com.refractored.Resource.Attribute.spinnerDropDownItemStyle = global::Sample.Resource.Attribute.spinnerDropDownItemStyle;
-			global::com.refractored.Resource.Attribute.spinnerMode = global::Sample.Resource.Attribute.spinnerMode;
-			global::com.refractored.Resource.Attribute.spinnerStyle = global::Sample.Resource.Attribute.spinnerStyle;
-			global::com.refractored.Resource.Attribute.splitTrack = global::Sample.Resource.Attribute.splitTrack;
-			global::com.refractored.Resource.Attribute.state_above_anchor = global::Sample.Resource.Attribute.state_above_anchor;
-			global::com.refractored.Resource.Attribute.submitBackground = global::Sample.Resource.Attribute.submitBackground;
-			global::com.refractored.Resource.Attribute.subtitle = global::Sample.Resource.Attribute.subtitle;
-			global::com.refractored.Resource.Attribute.subtitleTextAppearance = global::Sample.Resource.Attribute.subtitleTextAppearance;
-			global::com.refractored.Resource.Attribute.subtitleTextStyle = global::Sample.Resource.Attribute.subtitleTextStyle;
-			global::com.refractored.Resource.Attribute.suggestionRowLayout = global::Sample.Resource.Attribute.suggestionRowLayout;
-			global::com.refractored.Resource.Attribute.switchMinWidth = global::Sample.Resource.Attribute.switchMinWidth;
-			global::com.refractored.Resource.Attribute.switchPadding = global::Sample.Resource.Attribute.switchPadding;
-			global::com.refractored.Resource.Attribute.switchStyle = global::Sample.Resource.Attribute.switchStyle;
-			global::com.refractored.Resource.Attribute.switchTextAppearance = global::Sample.Resource.Attribute.switchTextAppearance;
-			global::com.refractored.Resource.Attribute.textAllCaps = global::Sample.Resource.Attribute.textAllCaps;
-			global::com.refractored.Resource.Attribute.textAppearanceLargePopupMenu = global::Sample.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::com.refractored.Resource.Attribute.textAppearanceListItem = global::Sample.Resource.Attribute.textAppearanceListItem;
-			global::com.refractored.Resource.Attribute.textAppearanceListItemSmall = global::Sample.Resource.Attribute.textAppearanceListItemSmall;
-			global::com.refractored.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Sample.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::com.refractored.Resource.Attribute.textAppearanceSearchResultTitle = global::Sample.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::com.refractored.Resource.Attribute.textAppearanceSmallPopupMenu = global::Sample.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::com.refractored.Resource.Attribute.textColorSearchUrl = global::Sample.Resource.Attribute.textColorSearchUrl;
-			global::com.refractored.Resource.Attribute.theme = global::Sample.Resource.Attribute.theme;
-			global::com.refractored.Resource.Attribute.thickness = global::Sample.Resource.Attribute.thickness;
-			global::com.refractored.Resource.Attribute.thumbTextPadding = global::Sample.Resource.Attribute.thumbTextPadding;
-			global::com.refractored.Resource.Attribute.title = global::Sample.Resource.Attribute.title;
-			global::com.refractored.Resource.Attribute.titleMarginBottom = global::Sample.Resource.Attribute.titleMarginBottom;
-			global::com.refractored.Resource.Attribute.titleMarginEnd = global::Sample.Resource.Attribute.titleMarginEnd;
-			global::com.refractored.Resource.Attribute.titleMarginStart = global::Sample.Resource.Attribute.titleMarginStart;
-			global::com.refractored.Resource.Attribute.titleMarginTop = global::Sample.Resource.Attribute.titleMarginTop;
-			global::com.refractored.Resource.Attribute.titleMargins = global::Sample.Resource.Attribute.titleMargins;
-			global::com.refractored.Resource.Attribute.titleTextAppearance = global::Sample.Resource.Attribute.titleTextAppearance;
-			global::com.refractored.Resource.Attribute.titleTextStyle = global::Sample.Resource.Attribute.titleTextStyle;
-			global::com.refractored.Resource.Attribute.toolbarNavigationButtonStyle = global::Sample.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::com.refractored.Resource.Attribute.toolbarStyle = global::Sample.Resource.Attribute.toolbarStyle;
-			global::com.refractored.Resource.Attribute.topBottomBarArrowSize = global::Sample.Resource.Attribute.topBottomBarArrowSize;
-			global::com.refractored.Resource.Attribute.track = global::Sample.Resource.Attribute.track;
-			global::com.refractored.Resource.Attribute.voiceIcon = global::Sample.Resource.Attribute.voiceIcon;
-			global::com.refractored.Resource.Attribute.windowActionBar = global::Sample.Resource.Attribute.windowActionBar;
-			global::com.refractored.Resource.Attribute.windowActionBarOverlay = global::Sample.Resource.Attribute.windowActionBarOverlay;
-			global::com.refractored.Resource.Attribute.windowActionModeOverlay = global::Sample.Resource.Attribute.windowActionModeOverlay;
-			global::com.refractored.Resource.Attribute.windowFixedHeightMajor = global::Sample.Resource.Attribute.windowFixedHeightMajor;
-			global::com.refractored.Resource.Attribute.windowFixedHeightMinor = global::Sample.Resource.Attribute.windowFixedHeightMinor;
-			global::com.refractored.Resource.Attribute.windowFixedWidthMajor = global::Sample.Resource.Attribute.windowFixedWidthMajor;
-			global::com.refractored.Resource.Attribute.windowFixedWidthMinor = global::Sample.Resource.Attribute.windowFixedWidthMinor;
-			global::com.refractored.Resource.Boolean.abc_action_bar_embed_tabs = global::Sample.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::com.refractored.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::Sample.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
-			global::com.refractored.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::Sample.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
-			global::com.refractored.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Sample.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::com.refractored.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::Sample.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
-			global::com.refractored.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::Sample.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::com.refractored.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Sample.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::com.refractored.Resource.Color.abc_background_cache_hint_selector_material_light = global::Sample.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::com.refractored.Resource.Color.abc_input_method_navigation_guard = global::Sample.Resource.Color.abc_input_method_navigation_guard;
-			global::com.refractored.Resource.Color.abc_primary_text_disable_only_material_dark = global::Sample.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::com.refractored.Resource.Color.abc_primary_text_disable_only_material_light = global::Sample.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::com.refractored.Resource.Color.abc_primary_text_material_dark = global::Sample.Resource.Color.abc_primary_text_material_dark;
-			global::com.refractored.Resource.Color.abc_primary_text_material_light = global::Sample.Resource.Color.abc_primary_text_material_light;
-			global::com.refractored.Resource.Color.abc_search_url_text = global::Sample.Resource.Color.abc_search_url_text;
-			global::com.refractored.Resource.Color.abc_search_url_text_normal = global::Sample.Resource.Color.abc_search_url_text_normal;
-			global::com.refractored.Resource.Color.abc_search_url_text_pressed = global::Sample.Resource.Color.abc_search_url_text_pressed;
-			global::com.refractored.Resource.Color.abc_search_url_text_selected = global::Sample.Resource.Color.abc_search_url_text_selected;
-			global::com.refractored.Resource.Color.abc_secondary_text_material_dark = global::Sample.Resource.Color.abc_secondary_text_material_dark;
-			global::com.refractored.Resource.Color.abc_secondary_text_material_light = global::Sample.Resource.Color.abc_secondary_text_material_light;
-			global::com.refractored.Resource.Color.accent_material_dark = global::Sample.Resource.Color.accent_material_dark;
-			global::com.refractored.Resource.Color.accent_material_light = global::Sample.Resource.Color.accent_material_light;
-			global::com.refractored.Resource.Color.background_floating_material_dark = global::Sample.Resource.Color.background_floating_material_dark;
-			global::com.refractored.Resource.Color.background_floating_material_light = global::Sample.Resource.Color.background_floating_material_light;
-			global::com.refractored.Resource.Color.background_material_dark = global::Sample.Resource.Color.background_material_dark;
-			global::com.refractored.Resource.Color.background_material_light = global::Sample.Resource.Color.background_material_light;
-			global::com.refractored.Resource.Color.bright_foreground_disabled_material_dark = global::Sample.Resource.Color.bright_foreground_disabled_material_dark;
-			global::com.refractored.Resource.Color.bright_foreground_disabled_material_light = global::Sample.Resource.Color.bright_foreground_disabled_material_light;
-			global::com.refractored.Resource.Color.bright_foreground_inverse_material_dark = global::Sample.Resource.Color.bright_foreground_inverse_material_dark;
-			global::com.refractored.Resource.Color.bright_foreground_inverse_material_light = global::Sample.Resource.Color.bright_foreground_inverse_material_light;
-			global::com.refractored.Resource.Color.bright_foreground_material_dark = global::Sample.Resource.Color.bright_foreground_material_dark;
-			global::com.refractored.Resource.Color.bright_foreground_material_light = global::Sample.Resource.Color.bright_foreground_material_light;
-			global::com.refractored.Resource.Color.button_material_dark = global::Sample.Resource.Color.button_material_dark;
-			global::com.refractored.Resource.Color.button_material_light = global::Sample.Resource.Color.button_material_light;
-			global::com.refractored.Resource.Color.dim_foreground_disabled_material_dark = global::Sample.Resource.Color.dim_foreground_disabled_material_dark;
-			global::com.refractored.Resource.Color.dim_foreground_disabled_material_light = global::Sample.Resource.Color.dim_foreground_disabled_material_light;
-			global::com.refractored.Resource.Color.dim_foreground_material_dark = global::Sample.Resource.Color.dim_foreground_material_dark;
-			global::com.refractored.Resource.Color.dim_foreground_material_light = global::Sample.Resource.Color.dim_foreground_material_light;
-			global::com.refractored.Resource.Color.highlighted_text_material_dark = global::Sample.Resource.Color.highlighted_text_material_dark;
-			global::com.refractored.Resource.Color.highlighted_text_material_light = global::Sample.Resource.Color.highlighted_text_material_light;
-			global::com.refractored.Resource.Color.hint_foreground_material_dark = global::Sample.Resource.Color.hint_foreground_material_dark;
-			global::com.refractored.Resource.Color.hint_foreground_material_light = global::Sample.Resource.Color.hint_foreground_material_light;
-			global::com.refractored.Resource.Color.link_text_material_dark = global::Sample.Resource.Color.link_text_material_dark;
-			global::com.refractored.Resource.Color.link_text_material_light = global::Sample.Resource.Color.link_text_material_light;
-			global::com.refractored.Resource.Color.material_blue_grey_800 = global::Sample.Resource.Color.material_blue_grey_800;
-			global::com.refractored.Resource.Color.material_blue_grey_900 = global::Sample.Resource.Color.material_blue_grey_900;
-			global::com.refractored.Resource.Color.material_blue_grey_950 = global::Sample.Resource.Color.material_blue_grey_950;
-			global::com.refractored.Resource.Color.material_deep_teal_200 = global::Sample.Resource.Color.material_deep_teal_200;
-			global::com.refractored.Resource.Color.material_deep_teal_500 = global::Sample.Resource.Color.material_deep_teal_500;
-			global::com.refractored.Resource.Color.primary_dark_material_dark = global::Sample.Resource.Color.primary_dark_material_dark;
-			global::com.refractored.Resource.Color.primary_dark_material_light = global::Sample.Resource.Color.primary_dark_material_light;
-			global::com.refractored.Resource.Color.primary_material_dark = global::Sample.Resource.Color.primary_material_dark;
-			global::com.refractored.Resource.Color.primary_material_light = global::Sample.Resource.Color.primary_material_light;
-			global::com.refractored.Resource.Color.primary_text_default_material_dark = global::Sample.Resource.Color.primary_text_default_material_dark;
-			global::com.refractored.Resource.Color.primary_text_default_material_light = global::Sample.Resource.Color.primary_text_default_material_light;
-			global::com.refractored.Resource.Color.primary_text_disabled_material_dark = global::Sample.Resource.Color.primary_text_disabled_material_dark;
-			global::com.refractored.Resource.Color.primary_text_disabled_material_light = global::Sample.Resource.Color.primary_text_disabled_material_light;
 			global::com.refractored.Resource.Color.psts_background_tab_pressed = global::Sample.Resource.Color.psts_background_tab_pressed;
-			global::com.refractored.Resource.Color.ripple_material_dark = global::Sample.Resource.Color.ripple_material_dark;
-			global::com.refractored.Resource.Color.ripple_material_light = global::Sample.Resource.Color.ripple_material_light;
-			global::com.refractored.Resource.Color.secondary_text_default_material_dark = global::Sample.Resource.Color.secondary_text_default_material_dark;
-			global::com.refractored.Resource.Color.secondary_text_default_material_light = global::Sample.Resource.Color.secondary_text_default_material_light;
-			global::com.refractored.Resource.Color.secondary_text_disabled_material_dark = global::Sample.Resource.Color.secondary_text_disabled_material_dark;
-			global::com.refractored.Resource.Color.secondary_text_disabled_material_light = global::Sample.Resource.Color.secondary_text_disabled_material_light;
-			global::com.refractored.Resource.Color.switch_thumb_normal_material_dark = global::Sample.Resource.Color.switch_thumb_normal_material_dark;
-			global::com.refractored.Resource.Color.switch_thumb_normal_material_light = global::Sample.Resource.Color.switch_thumb_normal_material_light;
-			global::com.refractored.Resource.Dimension.abc_action_bar_default_height_material = global::Sample.Resource.Dimension.abc_action_bar_default_height_material;
-			global::com.refractored.Resource.Dimension.abc_action_bar_default_padding_material = global::Sample.Resource.Dimension.abc_action_bar_default_padding_material;
-			global::com.refractored.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Sample.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::com.refractored.Resource.Dimension.abc_action_bar_progress_bar_size = global::Sample.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::com.refractored.Resource.Dimension.abc_action_bar_stacked_max_height = global::Sample.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::com.refractored.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Sample.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::com.refractored.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Sample.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::com.refractored.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Sample.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::com.refractored.Resource.Dimension.abc_action_button_min_height_material = global::Sample.Resource.Dimension.abc_action_button_min_height_material;
-			global::com.refractored.Resource.Dimension.abc_action_button_min_width_material = global::Sample.Resource.Dimension.abc_action_button_min_width_material;
-			global::com.refractored.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Sample.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::com.refractored.Resource.Dimension.abc_button_inset_horizontal_material = global::Sample.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::com.refractored.Resource.Dimension.abc_button_inset_vertical_material = global::Sample.Resource.Dimension.abc_button_inset_vertical_material;
-			global::com.refractored.Resource.Dimension.abc_button_padding_horizontal_material = global::Sample.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::com.refractored.Resource.Dimension.abc_button_padding_vertical_material = global::Sample.Resource.Dimension.abc_button_padding_vertical_material;
-			global::com.refractored.Resource.Dimension.abc_config_prefDialogWidth = global::Sample.Resource.Dimension.abc_config_prefDialogWidth;
-			global::com.refractored.Resource.Dimension.abc_control_corner_material = global::Sample.Resource.Dimension.abc_control_corner_material;
-			global::com.refractored.Resource.Dimension.abc_control_inset_material = global::Sample.Resource.Dimension.abc_control_inset_material;
-			global::com.refractored.Resource.Dimension.abc_control_padding_material = global::Sample.Resource.Dimension.abc_control_padding_material;
-			global::com.refractored.Resource.Dimension.abc_dropdownitem_icon_width = global::Sample.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::com.refractored.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Sample.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::com.refractored.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Sample.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::com.refractored.Resource.Dimension.abc_panel_menu_list_width = global::Sample.Resource.Dimension.abc_panel_menu_list_width;
-			global::com.refractored.Resource.Dimension.abc_search_view_preferred_width = global::Sample.Resource.Dimension.abc_search_view_preferred_width;
-			global::com.refractored.Resource.Dimension.abc_search_view_text_min_width = global::Sample.Resource.Dimension.abc_search_view_text_min_width;
-			global::com.refractored.Resource.Dimension.abc_text_size_body_1_material = global::Sample.Resource.Dimension.abc_text_size_body_1_material;
-			global::com.refractored.Resource.Dimension.abc_text_size_body_2_material = global::Sample.Resource.Dimension.abc_text_size_body_2_material;
-			global::com.refractored.Resource.Dimension.abc_text_size_button_material = global::Sample.Resource.Dimension.abc_text_size_button_material;
-			global::com.refractored.Resource.Dimension.abc_text_size_caption_material = global::Sample.Resource.Dimension.abc_text_size_caption_material;
-			global::com.refractored.Resource.Dimension.abc_text_size_display_1_material = global::Sample.Resource.Dimension.abc_text_size_display_1_material;
-			global::com.refractored.Resource.Dimension.abc_text_size_display_2_material = global::Sample.Resource.Dimension.abc_text_size_display_2_material;
-			global::com.refractored.Resource.Dimension.abc_text_size_display_3_material = global::Sample.Resource.Dimension.abc_text_size_display_3_material;
-			global::com.refractored.Resource.Dimension.abc_text_size_display_4_material = global::Sample.Resource.Dimension.abc_text_size_display_4_material;
-			global::com.refractored.Resource.Dimension.abc_text_size_headline_material = global::Sample.Resource.Dimension.abc_text_size_headline_material;
-			global::com.refractored.Resource.Dimension.abc_text_size_large_material = global::Sample.Resource.Dimension.abc_text_size_large_material;
-			global::com.refractored.Resource.Dimension.abc_text_size_medium_material = global::Sample.Resource.Dimension.abc_text_size_medium_material;
-			global::com.refractored.Resource.Dimension.abc_text_size_menu_material = global::Sample.Resource.Dimension.abc_text_size_menu_material;
-			global::com.refractored.Resource.Dimension.abc_text_size_small_material = global::Sample.Resource.Dimension.abc_text_size_small_material;
-			global::com.refractored.Resource.Dimension.abc_text_size_subhead_material = global::Sample.Resource.Dimension.abc_text_size_subhead_material;
-			global::com.refractored.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Sample.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::com.refractored.Resource.Dimension.abc_text_size_title_material = global::Sample.Resource.Dimension.abc_text_size_title_material;
-			global::com.refractored.Resource.Dimension.abc_text_size_title_material_toolbar = global::Sample.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::com.refractored.Resource.Dimension.dialog_fixed_height_major = global::Sample.Resource.Dimension.dialog_fixed_height_major;
-			global::com.refractored.Resource.Dimension.dialog_fixed_height_minor = global::Sample.Resource.Dimension.dialog_fixed_height_minor;
-			global::com.refractored.Resource.Dimension.dialog_fixed_width_major = global::Sample.Resource.Dimension.dialog_fixed_width_major;
-			global::com.refractored.Resource.Dimension.dialog_fixed_width_minor = global::Sample.Resource.Dimension.dialog_fixed_width_minor;
-			global::com.refractored.Resource.Dimension.disabled_alpha_material_dark = global::Sample.Resource.Dimension.disabled_alpha_material_dark;
-			global::com.refractored.Resource.Dimension.disabled_alpha_material_light = global::Sample.Resource.Dimension.disabled_alpha_material_light;
-			global::com.refractored.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Sample.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_btn_check_material = global::Sample.Resource.Drawable.abc_btn_check_material;
-			global::com.refractored.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Sample.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::com.refractored.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Sample.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::com.refractored.Resource.Drawable.abc_btn_default_mtrl_shape = global::Sample.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::com.refractored.Resource.Drawable.abc_btn_radio_material = global::Sample.Resource.Drawable.abc_btn_radio_material;
-			global::com.refractored.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Sample.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::com.refractored.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Sample.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::com.refractored.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::Sample.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::Sample.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Sample.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::com.refractored.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Sample.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::com.refractored.Resource.Drawable.abc_cab_background_internal_bg = global::Sample.Resource.Drawable.abc_cab_background_internal_bg;
-			global::com.refractored.Resource.Drawable.abc_cab_background_top_material = global::Sample.Resource.Drawable.abc_cab_background_top_material;
-			global::com.refractored.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Sample.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_edit_text_material = global::Sample.Resource.Drawable.abc_edit_text_material;
-			global::com.refractored.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::Sample.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
-			global::com.refractored.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::Sample.Resource.Drawable.abc_ic_clear_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Sample.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::Sample.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Sample.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::com.refractored.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Sample.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::Sample.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Sample.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::com.refractored.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Sample.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Sample.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::Sample.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::Sample.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_item_background_holo_dark = global::Sample.Resource.Drawable.abc_item_background_holo_dark;
-			global::com.refractored.Resource.Drawable.abc_item_background_holo_light = global::Sample.Resource.Drawable.abc_item_background_holo_light;
-			global::com.refractored.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Sample.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_list_focused_holo = global::Sample.Resource.Drawable.abc_list_focused_holo;
-			global::com.refractored.Resource.Drawable.abc_list_longpressed_holo = global::Sample.Resource.Drawable.abc_list_longpressed_holo;
-			global::com.refractored.Resource.Drawable.abc_list_pressed_holo_dark = global::Sample.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::com.refractored.Resource.Drawable.abc_list_pressed_holo_light = global::Sample.Resource.Drawable.abc_list_pressed_holo_light;
-			global::com.refractored.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Sample.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::com.refractored.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Sample.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::com.refractored.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Sample.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::com.refractored.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Sample.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::com.refractored.Resource.Drawable.abc_list_selector_holo_dark = global::Sample.Resource.Drawable.abc_list_selector_holo_dark;
-			global::com.refractored.Resource.Drawable.abc_list_selector_holo_light = global::Sample.Resource.Drawable.abc_list_selector_holo_light;
-			global::com.refractored.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Sample.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::com.refractored.Resource.Drawable.abc_popup_background_mtrl_mult = global::Sample.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::com.refractored.Resource.Drawable.abc_ratingbar_full_material = global::Sample.Resource.Drawable.abc_ratingbar_full_material;
-			global::com.refractored.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Sample.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::com.refractored.Resource.Drawable.abc_spinner_textfield_background_material = global::Sample.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::com.refractored.Resource.Drawable.abc_switch_thumb_material = global::Sample.Resource.Drawable.abc_switch_thumb_material;
-			global::com.refractored.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Sample.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_tab_indicator_material = global::Sample.Resource.Drawable.abc_tab_indicator_material;
-			global::com.refractored.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Sample.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Sample.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Sample.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Sample.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Sample.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::com.refractored.Resource.Drawable.abc_textfield_search_material = global::Sample.Resource.Drawable.abc_textfield_search_material;
 			global::com.refractored.Resource.Drawable.psts_background_tab = global::Sample.Resource.Drawable.psts_background_tab;
-			global::com.refractored.Resource.Id.action_bar = global::Sample.Resource.Id.action_bar;
-			global::com.refractored.Resource.Id.action_bar_activity_content = global::Sample.Resource.Id.action_bar_activity_content;
-			global::com.refractored.Resource.Id.action_bar_container = global::Sample.Resource.Id.action_bar_container;
-			global::com.refractored.Resource.Id.action_bar_root = global::Sample.Resource.Id.action_bar_root;
-			global::com.refractored.Resource.Id.action_bar_spinner = global::Sample.Resource.Id.action_bar_spinner;
-			global::com.refractored.Resource.Id.action_bar_subtitle = global::Sample.Resource.Id.action_bar_subtitle;
-			global::com.refractored.Resource.Id.action_bar_title = global::Sample.Resource.Id.action_bar_title;
-			global::com.refractored.Resource.Id.action_context_bar = global::Sample.Resource.Id.action_context_bar;
-			global::com.refractored.Resource.Id.action_menu_divider = global::Sample.Resource.Id.action_menu_divider;
-			global::com.refractored.Resource.Id.action_menu_presenter = global::Sample.Resource.Id.action_menu_presenter;
-			global::com.refractored.Resource.Id.action_mode_bar = global::Sample.Resource.Id.action_mode_bar;
-			global::com.refractored.Resource.Id.action_mode_bar_stub = global::Sample.Resource.Id.action_mode_bar_stub;
-			global::com.refractored.Resource.Id.action_mode_close_button = global::Sample.Resource.Id.action_mode_close_button;
-			global::com.refractored.Resource.Id.activity_chooser_view_content = global::Sample.Resource.Id.activity_chooser_view_content;
-			global::com.refractored.Resource.Id.always = global::Sample.Resource.Id.always;
-			global::com.refractored.Resource.Id.beginning = global::Sample.Resource.Id.beginning;
 			global::com.refractored.Resource.Id.bold = global::Sample.Resource.Id.bold;
-			global::com.refractored.Resource.Id.checkbox = global::Sample.Resource.Id.checkbox;
-			global::com.refractored.Resource.Id.collapseActionView = global::Sample.Resource.Id.collapseActionView;
-			global::com.refractored.Resource.Id.decor_content_parent = global::Sample.Resource.Id.decor_content_parent;
-			global::com.refractored.Resource.Id.default_activity_button = global::Sample.Resource.Id.default_activity_button;
-			global::com.refractored.Resource.Id.dialog = global::Sample.Resource.Id.dialog;
-			global::com.refractored.Resource.Id.disableHome = global::Sample.Resource.Id.disableHome;
-			global::com.refractored.Resource.Id.dropdown = global::Sample.Resource.Id.dropdown;
-			global::com.refractored.Resource.Id.edit_query = global::Sample.Resource.Id.edit_query;
-			global::com.refractored.Resource.Id.end = global::Sample.Resource.Id.end;
-			global::com.refractored.Resource.Id.expand_activities_button = global::Sample.Resource.Id.expand_activities_button;
-			global::com.refractored.Resource.Id.expanded_menu = global::Sample.Resource.Id.expanded_menu;
-			global::com.refractored.Resource.Id.home = global::Sample.Resource.Id.home;
-			global::com.refractored.Resource.Id.homeAsUp = global::Sample.Resource.Id.homeAsUp;
-			global::com.refractored.Resource.Id.icon = global::Sample.Resource.Id.icon;
-			global::com.refractored.Resource.Id.ifRoom = global::Sample.Resource.Id.ifRoom;
-			global::com.refractored.Resource.Id.image = global::Sample.Resource.Id.image;
 			global::com.refractored.Resource.Id.italic = global::Sample.Resource.Id.italic;
-			global::com.refractored.Resource.Id.listMode = global::Sample.Resource.Id.listMode;
-			global::com.refractored.Resource.Id.list_item = global::Sample.Resource.Id.list_item;
-			global::com.refractored.Resource.Id.middle = global::Sample.Resource.Id.middle;
-			global::com.refractored.Resource.Id.never = global::Sample.Resource.Id.never;
-			global::com.refractored.Resource.Id.none = global::Sample.Resource.Id.none;
 			global::com.refractored.Resource.Id.normal = global::Sample.Resource.Id.normal;
-			global::com.refractored.Resource.Id.progress_circular = global::Sample.Resource.Id.progress_circular;
-			global::com.refractored.Resource.Id.progress_horizontal = global::Sample.Resource.Id.progress_horizontal;
 			global::com.refractored.Resource.Id.psts_tab_title = global::Sample.Resource.Id.psts_tab_title;
-			global::com.refractored.Resource.Id.radio = global::Sample.Resource.Id.radio;
-			global::com.refractored.Resource.Id.search_badge = global::Sample.Resource.Id.search_badge;
-			global::com.refractored.Resource.Id.search_bar = global::Sample.Resource.Id.search_bar;
-			global::com.refractored.Resource.Id.search_button = global::Sample.Resource.Id.search_button;
-			global::com.refractored.Resource.Id.search_close_btn = global::Sample.Resource.Id.search_close_btn;
-			global::com.refractored.Resource.Id.search_edit_frame = global::Sample.Resource.Id.search_edit_frame;
-			global::com.refractored.Resource.Id.search_go_btn = global::Sample.Resource.Id.search_go_btn;
-			global::com.refractored.Resource.Id.search_mag_icon = global::Sample.Resource.Id.search_mag_icon;
-			global::com.refractored.Resource.Id.search_plate = global::Sample.Resource.Id.search_plate;
-			global::com.refractored.Resource.Id.search_src_text = global::Sample.Resource.Id.search_src_text;
-			global::com.refractored.Resource.Id.search_voice_btn = global::Sample.Resource.Id.search_voice_btn;
-			global::com.refractored.Resource.Id.shortcut = global::Sample.Resource.Id.shortcut;
-			global::com.refractored.Resource.Id.showCustom = global::Sample.Resource.Id.showCustom;
-			global::com.refractored.Resource.Id.showHome = global::Sample.Resource.Id.showHome;
-			global::com.refractored.Resource.Id.showTitle = global::Sample.Resource.Id.showTitle;
-			global::com.refractored.Resource.Id.split_action_bar = global::Sample.Resource.Id.split_action_bar;
-			global::com.refractored.Resource.Id.submit_area = global::Sample.Resource.Id.submit_area;
-			global::com.refractored.Resource.Id.tabMode = global::Sample.Resource.Id.tabMode;
-			global::com.refractored.Resource.Id.title = global::Sample.Resource.Id.title;
-			global::com.refractored.Resource.Id.up = global::Sample.Resource.Id.up;
-			global::com.refractored.Resource.Id.useLogo = global::Sample.Resource.Id.useLogo;
-			global::com.refractored.Resource.Id.withText = global::Sample.Resource.Id.withText;
-			global::com.refractored.Resource.Id.wrap_content = global::Sample.Resource.Id.wrap_content;
-			global::com.refractored.Resource.Integer.abc_config_activityDefaultDur = global::Sample.Resource.Integer.abc_config_activityDefaultDur;
-			global::com.refractored.Resource.Integer.abc_config_activityShortDur = global::Sample.Resource.Integer.abc_config_activityShortDur;
-			global::com.refractored.Resource.Integer.abc_max_action_buttons = global::Sample.Resource.Integer.abc_max_action_buttons;
-			global::com.refractored.Resource.Layout.abc_action_bar_title_item = global::Sample.Resource.Layout.abc_action_bar_title_item;
-			global::com.refractored.Resource.Layout.abc_action_bar_up_container = global::Sample.Resource.Layout.abc_action_bar_up_container;
-			global::com.refractored.Resource.Layout.abc_action_bar_view_list_nav_layout = global::Sample.Resource.Layout.abc_action_bar_view_list_nav_layout;
-			global::com.refractored.Resource.Layout.abc_action_menu_item_layout = global::Sample.Resource.Layout.abc_action_menu_item_layout;
-			global::com.refractored.Resource.Layout.abc_action_menu_layout = global::Sample.Resource.Layout.abc_action_menu_layout;
-			global::com.refractored.Resource.Layout.abc_action_mode_bar = global::Sample.Resource.Layout.abc_action_mode_bar;
-			global::com.refractored.Resource.Layout.abc_action_mode_close_item_material = global::Sample.Resource.Layout.abc_action_mode_close_item_material;
-			global::com.refractored.Resource.Layout.abc_activity_chooser_view = global::Sample.Resource.Layout.abc_activity_chooser_view;
-			global::com.refractored.Resource.Layout.abc_activity_chooser_view_list_item = global::Sample.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::com.refractored.Resource.Layout.abc_expanded_menu_layout = global::Sample.Resource.Layout.abc_expanded_menu_layout;
-			global::com.refractored.Resource.Layout.abc_list_menu_item_checkbox = global::Sample.Resource.Layout.abc_list_menu_item_checkbox;
-			global::com.refractored.Resource.Layout.abc_list_menu_item_icon = global::Sample.Resource.Layout.abc_list_menu_item_icon;
-			global::com.refractored.Resource.Layout.abc_list_menu_item_layout = global::Sample.Resource.Layout.abc_list_menu_item_layout;
-			global::com.refractored.Resource.Layout.abc_list_menu_item_radio = global::Sample.Resource.Layout.abc_list_menu_item_radio;
-			global::com.refractored.Resource.Layout.abc_popup_menu_item_layout = global::Sample.Resource.Layout.abc_popup_menu_item_layout;
-			global::com.refractored.Resource.Layout.abc_screen_content_include = global::Sample.Resource.Layout.abc_screen_content_include;
-			global::com.refractored.Resource.Layout.abc_screen_simple = global::Sample.Resource.Layout.abc_screen_simple;
-			global::com.refractored.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Sample.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::com.refractored.Resource.Layout.abc_screen_toolbar = global::Sample.Resource.Layout.abc_screen_toolbar;
-			global::com.refractored.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Sample.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::com.refractored.Resource.Layout.abc_search_view = global::Sample.Resource.Layout.abc_search_view;
-			global::com.refractored.Resource.Layout.abc_simple_dropdown_hint = global::Sample.Resource.Layout.abc_simple_dropdown_hint;
 			global::com.refractored.Resource.Layout.psts_tab = global::Sample.Resource.Layout.psts_tab;
-			global::com.refractored.Resource.Layout.support_simple_spinner_dropdown_item = global::Sample.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::com.refractored.Resource.String.abc_action_bar_home_description = global::Sample.Resource.String.abc_action_bar_home_description;
-			global::com.refractored.Resource.String.abc_action_bar_home_description_format = global::Sample.Resource.String.abc_action_bar_home_description_format;
-			global::com.refractored.Resource.String.abc_action_bar_home_subtitle_description_format = global::Sample.Resource.String.abc_action_bar_home_subtitle_description_format;
-			global::com.refractored.Resource.String.abc_action_bar_up_description = global::Sample.Resource.String.abc_action_bar_up_description;
-			global::com.refractored.Resource.String.abc_action_menu_overflow_description = global::Sample.Resource.String.abc_action_menu_overflow_description;
-			global::com.refractored.Resource.String.abc_action_mode_done = global::Sample.Resource.String.abc_action_mode_done;
-			global::com.refractored.Resource.String.abc_activity_chooser_view_see_all = global::Sample.Resource.String.abc_activity_chooser_view_see_all;
-			global::com.refractored.Resource.String.abc_activitychooserview_choose_application = global::Sample.Resource.String.abc_activitychooserview_choose_application;
-			global::com.refractored.Resource.String.abc_searchview_description_clear = global::Sample.Resource.String.abc_searchview_description_clear;
-			global::com.refractored.Resource.String.abc_searchview_description_query = global::Sample.Resource.String.abc_searchview_description_query;
-			global::com.refractored.Resource.String.abc_searchview_description_search = global::Sample.Resource.String.abc_searchview_description_search;
-			global::com.refractored.Resource.String.abc_searchview_description_submit = global::Sample.Resource.String.abc_searchview_description_submit;
-			global::com.refractored.Resource.String.abc_searchview_description_voice = global::Sample.Resource.String.abc_searchview_description_voice;
-			global::com.refractored.Resource.String.abc_shareactionprovider_share_with = global::Sample.Resource.String.abc_shareactionprovider_share_with;
-			global::com.refractored.Resource.String.abc_shareactionprovider_share_with_application = global::Sample.Resource.String.abc_shareactionprovider_share_with_application;
-			global::com.refractored.Resource.String.abc_toolbar_collapse_description = global::Sample.Resource.String.abc_toolbar_collapse_description;
-			global::com.refractored.Resource.Style.Animation_AppCompat_DropDownUp = global::Sample.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::com.refractored.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Sample.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat = global::Sample.Resource.Style.Base_TextAppearance_AppCompat;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Sample.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::com.refractored.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Sample.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::com.refractored.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Sample.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::com.refractored.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Sample.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::com.refractored.Resource.Style.Base_Theme_AppCompat = global::Sample.Resource.Style.Base_Theme_AppCompat;
-			global::com.refractored.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Sample.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Dialog = global::Sample.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Sample.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::com.refractored.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Sample.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light = global::Sample.Resource.Style.Base_Theme_AppCompat_Light;
-			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Sample.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Sample.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Sample.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Sample.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat = global::Sample.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Sample.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Sample.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Sample.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Sample.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::com.refractored.Resource.Style.Base_V11_Theme_AppCompat = global::Sample.Resource.Style.Base_V11_Theme_AppCompat;
-			global::com.refractored.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::Sample.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::com.refractored.Resource.Style.Base_V11_Theme_AppCompat_Light = global::Sample.Resource.Style.Base_V11_Theme_AppCompat_Light;
-			global::com.refractored.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::Sample.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::com.refractored.Resource.Style.Base_V14_Theme_AppCompat = global::Sample.Resource.Style.Base_V14_Theme_AppCompat;
-			global::com.refractored.Resource.Style.Base_V14_Theme_AppCompat_Dialog = global::Sample.Resource.Style.Base_V14_Theme_AppCompat_Dialog;
-			global::com.refractored.Resource.Style.Base_V14_Theme_AppCompat_Light = global::Sample.Resource.Style.Base_V14_Theme_AppCompat_Light;
-			global::com.refractored.Resource.Style.Base_V14_Theme_AppCompat_Light_Dialog = global::Sample.Resource.Style.Base_V14_Theme_AppCompat_Light_Dialog;
-			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat = global::Sample.Resource.Style.Base_V21_Theme_AppCompat;
-			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Sample.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Sample.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Sample.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::com.refractored.Resource.Style.Base_V7_Theme_AppCompat = global::Sample.Resource.Style.Base_V7_Theme_AppCompat;
-			global::com.refractored.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Sample.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::com.refractored.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Sample.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Sample.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Sample.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Sample.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button = global::Sample.Resource.Style.Base_Widget_AppCompat_Button;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Sample.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Sample.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Sample.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Sample.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Sample.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_EditText = global::Sample.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Sample.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Sample.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Sample.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Sample.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Sample.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Sample.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Sample.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Sample.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Sample.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Sample.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_SearchView = global::Sample.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Spinner = global::Sample.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Spinner_DropDown_ActionBar = global::Sample.Resource.Style.Base_Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Sample.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Sample.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Sample.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Sample.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::com.refractored.Resource.Style.Platform_AppCompat = global::Sample.Resource.Style.Platform_AppCompat;
-			global::com.refractored.Resource.Style.Platform_AppCompat_Dialog = global::Sample.Resource.Style.Platform_AppCompat_Dialog;
-			global::com.refractored.Resource.Style.Platform_AppCompat_Light = global::Sample.Resource.Style.Platform_AppCompat_Light;
-			global::com.refractored.Resource.Style.Platform_AppCompat_Light_Dialog = global::Sample.Resource.Style.Platform_AppCompat_Light_Dialog;
-			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_CloseMode = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_CloseMode;
-			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow;
-			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Sample.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat = global::Sample.Resource.Style.TextAppearance_AppCompat;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Body1 = global::Sample.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Body2 = global::Sample.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Button = global::Sample.Resource.Style.TextAppearance_AppCompat_Button;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Caption = global::Sample.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display1 = global::Sample.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display2 = global::Sample.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display3 = global::Sample.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display4 = global::Sample.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Headline = global::Sample.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Large = global::Sample.Resource.Style.TextAppearance_AppCompat_Large;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Sample.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Sample.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Sample.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Sample.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Medium = global::Sample.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Menu = global::Sample.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Sample.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Sample.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Small = global::Sample.Resource.Style.TextAppearance_AppCompat_Small;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Subhead = global::Sample.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Title = global::Sample.Resource.Style.TextAppearance_AppCompat_Title;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Sample.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::com.refractored.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Sample.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::com.refractored.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Sample.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::com.refractored.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Sample.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::com.refractored.Resource.Style.Theme_AppCompat = global::Sample.Resource.Style.Theme_AppCompat;
-			global::com.refractored.Resource.Style.Theme_AppCompat_CompactMenu = global::Sample.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::com.refractored.Resource.Style.Theme_AppCompat_Dialog = global::Sample.Resource.Style.Theme_AppCompat_Dialog;
-			global::com.refractored.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Sample.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::com.refractored.Resource.Style.Theme_AppCompat_Light = global::Sample.Resource.Style.Theme_AppCompat_Light;
-			global::com.refractored.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Sample.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::com.refractored.Resource.Style.Theme_AppCompat_Light_Dialog = global::Sample.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::com.refractored.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Sample.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::com.refractored.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Sample.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::com.refractored.Resource.Style.Theme_AppCompat_NoActionBar = global::Sample.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat = global::Sample.Resource.Style.ThemeOverlay_AppCompat;
-			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Sample.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Sample.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Sample.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_Light = global::Sample.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar = global::Sample.Resource.Style.Widget_AppCompat_ActionBar;
-			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Sample.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Sample.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Sample.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Sample.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::com.refractored.Resource.Style.Widget_AppCompat_ActionButton = global::Sample.Resource.Style.Widget_AppCompat_ActionButton;
-			global::com.refractored.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Sample.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::com.refractored.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Sample.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::com.refractored.Resource.Style.Widget_AppCompat_ActionMode = global::Sample.Resource.Style.Widget_AppCompat_ActionMode;
-			global::com.refractored.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Sample.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::com.refractored.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Sample.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Button = global::Sample.Resource.Style.Widget_AppCompat_Button;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Button_Small = global::Sample.Resource.Style.Widget_AppCompat_Button_Small;
-			global::com.refractored.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Sample.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::com.refractored.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Sample.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::com.refractored.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Sample.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::com.refractored.Resource.Style.Widget_AppCompat_EditText = global::Sample.Resource.Style.Widget_AppCompat_EditText;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Sample.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Sample.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Sample.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Sample.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Sample.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Sample.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Sample.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Sample.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_SearchView = global::Sample.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Sample.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::com.refractored.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Sample.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::com.refractored.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Sample.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::com.refractored.Resource.Style.Widget_AppCompat_ListView_Menu = global::Sample.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::com.refractored.Resource.Style.Widget_AppCompat_PopupMenu = global::Sample.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::com.refractored.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Sample.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::com.refractored.Resource.Style.Widget_AppCompat_PopupWindow = global::Sample.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::com.refractored.Resource.Style.Widget_AppCompat_ProgressBar = global::Sample.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::com.refractored.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Sample.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::com.refractored.Resource.Style.Widget_AppCompat_RatingBar = global::Sample.Resource.Style.Widget_AppCompat_RatingBar;
-			global::com.refractored.Resource.Style.Widget_AppCompat_SearchView = global::Sample.Resource.Style.Widget_AppCompat_SearchView;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner = global::Sample.Resource.Style.Widget_AppCompat_Spinner;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Sample.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Sample.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Sample.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::com.refractored.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Sample.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Toolbar = global::Sample.Resource.Style.Widget_AppCompat_Toolbar;
-			global::com.refractored.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Sample.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::com.refractored.Resource.Styleable.ActionBar = global::Sample.Resource.Styleable.ActionBar;
-			global::com.refractored.Resource.Styleable.ActionBar_background = global::Sample.Resource.Styleable.ActionBar_background;
-			global::com.refractored.Resource.Styleable.ActionBar_backgroundSplit = global::Sample.Resource.Styleable.ActionBar_backgroundSplit;
-			global::com.refractored.Resource.Styleable.ActionBar_backgroundStacked = global::Sample.Resource.Styleable.ActionBar_backgroundStacked;
-			global::com.refractored.Resource.Styleable.ActionBar_contentInsetEnd = global::Sample.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::com.refractored.Resource.Styleable.ActionBar_contentInsetLeft = global::Sample.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::com.refractored.Resource.Styleable.ActionBar_contentInsetRight = global::Sample.Resource.Styleable.ActionBar_contentInsetRight;
-			global::com.refractored.Resource.Styleable.ActionBar_contentInsetStart = global::Sample.Resource.Styleable.ActionBar_contentInsetStart;
-			global::com.refractored.Resource.Styleable.ActionBar_customNavigationLayout = global::Sample.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::com.refractored.Resource.Styleable.ActionBar_displayOptions = global::Sample.Resource.Styleable.ActionBar_displayOptions;
-			global::com.refractored.Resource.Styleable.ActionBar_divider = global::Sample.Resource.Styleable.ActionBar_divider;
-			global::com.refractored.Resource.Styleable.ActionBar_elevation = global::Sample.Resource.Styleable.ActionBar_elevation;
-			global::com.refractored.Resource.Styleable.ActionBar_height = global::Sample.Resource.Styleable.ActionBar_height;
-			global::com.refractored.Resource.Styleable.ActionBar_hideOnContentScroll = global::Sample.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::com.refractored.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Sample.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::com.refractored.Resource.Styleable.ActionBar_homeLayout = global::Sample.Resource.Styleable.ActionBar_homeLayout;
-			global::com.refractored.Resource.Styleable.ActionBar_icon = global::Sample.Resource.Styleable.ActionBar_icon;
-			global::com.refractored.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Sample.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::com.refractored.Resource.Styleable.ActionBar_itemPadding = global::Sample.Resource.Styleable.ActionBar_itemPadding;
-			global::com.refractored.Resource.Styleable.ActionBar_logo = global::Sample.Resource.Styleable.ActionBar_logo;
-			global::com.refractored.Resource.Styleable.ActionBar_navigationMode = global::Sample.Resource.Styleable.ActionBar_navigationMode;
-			global::com.refractored.Resource.Styleable.ActionBar_popupTheme = global::Sample.Resource.Styleable.ActionBar_popupTheme;
-			global::com.refractored.Resource.Styleable.ActionBar_progressBarPadding = global::Sample.Resource.Styleable.ActionBar_progressBarPadding;
-			global::com.refractored.Resource.Styleable.ActionBar_progressBarStyle = global::Sample.Resource.Styleable.ActionBar_progressBarStyle;
-			global::com.refractored.Resource.Styleable.ActionBar_subtitle = global::Sample.Resource.Styleable.ActionBar_subtitle;
-			global::com.refractored.Resource.Styleable.ActionBar_subtitleTextStyle = global::Sample.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::com.refractored.Resource.Styleable.ActionBar_title = global::Sample.Resource.Styleable.ActionBar_title;
-			global::com.refractored.Resource.Styleable.ActionBar_titleTextStyle = global::Sample.Resource.Styleable.ActionBar_titleTextStyle;
-			global::com.refractored.Resource.Styleable.ActionBarLayout = global::Sample.Resource.Styleable.ActionBarLayout;
-			global::com.refractored.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Sample.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::com.refractored.Resource.Styleable.ActionMenuItemView = global::Sample.Resource.Styleable.ActionMenuItemView;
-			global::com.refractored.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Sample.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::com.refractored.Resource.Styleable.ActionMenuView = global::Sample.Resource.Styleable.ActionMenuView;
-			global::com.refractored.Resource.Styleable.ActionMode = global::Sample.Resource.Styleable.ActionMode;
-			global::com.refractored.Resource.Styleable.ActionMode_background = global::Sample.Resource.Styleable.ActionMode_background;
-			global::com.refractored.Resource.Styleable.ActionMode_backgroundSplit = global::Sample.Resource.Styleable.ActionMode_backgroundSplit;
-			global::com.refractored.Resource.Styleable.ActionMode_closeItemLayout = global::Sample.Resource.Styleable.ActionMode_closeItemLayout;
-			global::com.refractored.Resource.Styleable.ActionMode_height = global::Sample.Resource.Styleable.ActionMode_height;
-			global::com.refractored.Resource.Styleable.ActionMode_subtitleTextStyle = global::Sample.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::com.refractored.Resource.Styleable.ActionMode_titleTextStyle = global::Sample.Resource.Styleable.ActionMode_titleTextStyle;
-			global::com.refractored.Resource.Styleable.ActivityChooserView = global::Sample.Resource.Styleable.ActivityChooserView;
-			global::com.refractored.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Sample.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::com.refractored.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Sample.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::com.refractored.Resource.Styleable.CompatTextView = global::Sample.Resource.Styleable.CompatTextView;
-			global::com.refractored.Resource.Styleable.CompatTextView_textAllCaps = global::Sample.Resource.Styleable.CompatTextView_textAllCaps;
-			global::com.refractored.Resource.Styleable.DrawerArrowToggle = global::Sample.Resource.Styleable.DrawerArrowToggle;
-			global::com.refractored.Resource.Styleable.DrawerArrowToggle_barSize = global::Sample.Resource.Styleable.DrawerArrowToggle_barSize;
-			global::com.refractored.Resource.Styleable.DrawerArrowToggle_color = global::Sample.Resource.Styleable.DrawerArrowToggle_color;
-			global::com.refractored.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Sample.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::com.refractored.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Sample.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::com.refractored.Resource.Styleable.DrawerArrowToggle_middleBarArrowSize = global::Sample.Resource.Styleable.DrawerArrowToggle_middleBarArrowSize;
-			global::com.refractored.Resource.Styleable.DrawerArrowToggle_spinBars = global::Sample.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::com.refractored.Resource.Styleable.DrawerArrowToggle_thickness = global::Sample.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::com.refractored.Resource.Styleable.DrawerArrowToggle_topBottomBarArrowSize = global::Sample.Resource.Styleable.DrawerArrowToggle_topBottomBarArrowSize;
-			global::com.refractored.Resource.Styleable.LinearLayoutCompat = global::Sample.Resource.Styleable.LinearLayoutCompat;
-			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Sample.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Sample.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Sample.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Sample.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Sample.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::com.refractored.Resource.Styleable.LinearLayoutCompat_divider = global::Sample.Resource.Styleable.LinearLayoutCompat_divider;
-			global::com.refractored.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Sample.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::com.refractored.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Sample.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::com.refractored.Resource.Styleable.LinearLayoutCompat_showDividers = global::Sample.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout = global::Sample.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Sample.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Sample.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Sample.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Sample.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::com.refractored.Resource.Styleable.ListPopupWindow = global::Sample.Resource.Styleable.ListPopupWindow;
-			global::com.refractored.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Sample.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::com.refractored.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Sample.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::com.refractored.Resource.Styleable.MenuGroup = global::Sample.Resource.Styleable.MenuGroup;
-			global::com.refractored.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Sample.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::com.refractored.Resource.Styleable.MenuGroup_android_enabled = global::Sample.Resource.Styleable.MenuGroup_android_enabled;
-			global::com.refractored.Resource.Styleable.MenuGroup_android_id = global::Sample.Resource.Styleable.MenuGroup_android_id;
-			global::com.refractored.Resource.Styleable.MenuGroup_android_menuCategory = global::Sample.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::com.refractored.Resource.Styleable.MenuGroup_android_orderInCategory = global::Sample.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::com.refractored.Resource.Styleable.MenuGroup_android_visible = global::Sample.Resource.Styleable.MenuGroup_android_visible;
-			global::com.refractored.Resource.Styleable.MenuItem = global::Sample.Resource.Styleable.MenuItem;
-			global::com.refractored.Resource.Styleable.MenuItem_actionLayout = global::Sample.Resource.Styleable.MenuItem_actionLayout;
-			global::com.refractored.Resource.Styleable.MenuItem_actionProviderClass = global::Sample.Resource.Styleable.MenuItem_actionProviderClass;
-			global::com.refractored.Resource.Styleable.MenuItem_actionViewClass = global::Sample.Resource.Styleable.MenuItem_actionViewClass;
-			global::com.refractored.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Sample.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::com.refractored.Resource.Styleable.MenuItem_android_checkable = global::Sample.Resource.Styleable.MenuItem_android_checkable;
-			global::com.refractored.Resource.Styleable.MenuItem_android_checked = global::Sample.Resource.Styleable.MenuItem_android_checked;
-			global::com.refractored.Resource.Styleable.MenuItem_android_enabled = global::Sample.Resource.Styleable.MenuItem_android_enabled;
-			global::com.refractored.Resource.Styleable.MenuItem_android_icon = global::Sample.Resource.Styleable.MenuItem_android_icon;
-			global::com.refractored.Resource.Styleable.MenuItem_android_id = global::Sample.Resource.Styleable.MenuItem_android_id;
-			global::com.refractored.Resource.Styleable.MenuItem_android_menuCategory = global::Sample.Resource.Styleable.MenuItem_android_menuCategory;
-			global::com.refractored.Resource.Styleable.MenuItem_android_numericShortcut = global::Sample.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::com.refractored.Resource.Styleable.MenuItem_android_onClick = global::Sample.Resource.Styleable.MenuItem_android_onClick;
-			global::com.refractored.Resource.Styleable.MenuItem_android_orderInCategory = global::Sample.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::com.refractored.Resource.Styleable.MenuItem_android_title = global::Sample.Resource.Styleable.MenuItem_android_title;
-			global::com.refractored.Resource.Styleable.MenuItem_android_titleCondensed = global::Sample.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::com.refractored.Resource.Styleable.MenuItem_android_visible = global::Sample.Resource.Styleable.MenuItem_android_visible;
-			global::com.refractored.Resource.Styleable.MenuItem_showAsAction = global::Sample.Resource.Styleable.MenuItem_showAsAction;
-			global::com.refractored.Resource.Styleable.MenuView = global::Sample.Resource.Styleable.MenuView;
-			global::com.refractored.Resource.Styleable.MenuView_android_headerBackground = global::Sample.Resource.Styleable.MenuView_android_headerBackground;
-			global::com.refractored.Resource.Styleable.MenuView_android_horizontalDivider = global::Sample.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::com.refractored.Resource.Styleable.MenuView_android_itemBackground = global::Sample.Resource.Styleable.MenuView_android_itemBackground;
-			global::com.refractored.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Sample.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::com.refractored.Resource.Styleable.MenuView_android_itemTextAppearance = global::Sample.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::com.refractored.Resource.Styleable.MenuView_android_verticalDivider = global::Sample.Resource.Styleable.MenuView_android_verticalDivider;
-			global::com.refractored.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Sample.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::com.refractored.Resource.Styleable.MenuView_preserveIconSpacing = global::Sample.Resource.Styleable.MenuView_preserveIconSpacing;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip = global::Sample.Resource.Styleable.PagerSlidingTabStrip;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsDividerColor = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsDividerColor;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsDividerPadding = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsDividerPadding;
@@ -870,170 +68,6 @@ namespace Sample
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineColor = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineColor;
 			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineHeight = global::Sample.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineHeight;
-			global::com.refractored.Resource.Styleable.PopupWindow = global::Sample.Resource.Styleable.PopupWindow;
-			global::com.refractored.Resource.Styleable.PopupWindow_android_popupBackground = global::Sample.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::com.refractored.Resource.Styleable.PopupWindow_overlapAnchor = global::Sample.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::com.refractored.Resource.Styleable.PopupWindowBackgroundState = global::Sample.Resource.Styleable.PopupWindowBackgroundState;
-			global::com.refractored.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Sample.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::com.refractored.Resource.Styleable.SearchView = global::Sample.Resource.Styleable.SearchView;
-			global::com.refractored.Resource.Styleable.SearchView_android_focusable = global::Sample.Resource.Styleable.SearchView_android_focusable;
-			global::com.refractored.Resource.Styleable.SearchView_android_imeOptions = global::Sample.Resource.Styleable.SearchView_android_imeOptions;
-			global::com.refractored.Resource.Styleable.SearchView_android_inputType = global::Sample.Resource.Styleable.SearchView_android_inputType;
-			global::com.refractored.Resource.Styleable.SearchView_android_maxWidth = global::Sample.Resource.Styleable.SearchView_android_maxWidth;
-			global::com.refractored.Resource.Styleable.SearchView_closeIcon = global::Sample.Resource.Styleable.SearchView_closeIcon;
-			global::com.refractored.Resource.Styleable.SearchView_commitIcon = global::Sample.Resource.Styleable.SearchView_commitIcon;
-			global::com.refractored.Resource.Styleable.SearchView_goIcon = global::Sample.Resource.Styleable.SearchView_goIcon;
-			global::com.refractored.Resource.Styleable.SearchView_iconifiedByDefault = global::Sample.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::com.refractored.Resource.Styleable.SearchView_layout = global::Sample.Resource.Styleable.SearchView_layout;
-			global::com.refractored.Resource.Styleable.SearchView_queryBackground = global::Sample.Resource.Styleable.SearchView_queryBackground;
-			global::com.refractored.Resource.Styleable.SearchView_queryHint = global::Sample.Resource.Styleable.SearchView_queryHint;
-			global::com.refractored.Resource.Styleable.SearchView_searchIcon = global::Sample.Resource.Styleable.SearchView_searchIcon;
-			global::com.refractored.Resource.Styleable.SearchView_submitBackground = global::Sample.Resource.Styleable.SearchView_submitBackground;
-			global::com.refractored.Resource.Styleable.SearchView_suggestionRowLayout = global::Sample.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::com.refractored.Resource.Styleable.SearchView_voiceIcon = global::Sample.Resource.Styleable.SearchView_voiceIcon;
-			global::com.refractored.Resource.Styleable.Spinner = global::Sample.Resource.Styleable.Spinner;
-			global::com.refractored.Resource.Styleable.Spinner_android_background = global::Sample.Resource.Styleable.Spinner_android_background;
-			global::com.refractored.Resource.Styleable.Spinner_android_dropDownHorizontalOffset = global::Sample.Resource.Styleable.Spinner_android_dropDownHorizontalOffset;
-			global::com.refractored.Resource.Styleable.Spinner_android_dropDownSelector = global::Sample.Resource.Styleable.Spinner_android_dropDownSelector;
-			global::com.refractored.Resource.Styleable.Spinner_android_dropDownVerticalOffset = global::Sample.Resource.Styleable.Spinner_android_dropDownVerticalOffset;
-			global::com.refractored.Resource.Styleable.Spinner_android_dropDownWidth = global::Sample.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::com.refractored.Resource.Styleable.Spinner_android_gravity = global::Sample.Resource.Styleable.Spinner_android_gravity;
-			global::com.refractored.Resource.Styleable.Spinner_android_popupBackground = global::Sample.Resource.Styleable.Spinner_android_popupBackground;
-			global::com.refractored.Resource.Styleable.Spinner_disableChildrenWhenDisabled = global::Sample.Resource.Styleable.Spinner_disableChildrenWhenDisabled;
-			global::com.refractored.Resource.Styleable.Spinner_popupPromptView = global::Sample.Resource.Styleable.Spinner_popupPromptView;
-			global::com.refractored.Resource.Styleable.Spinner_prompt = global::Sample.Resource.Styleable.Spinner_prompt;
-			global::com.refractored.Resource.Styleable.Spinner_spinnerMode = global::Sample.Resource.Styleable.Spinner_spinnerMode;
-			global::com.refractored.Resource.Styleable.SwitchCompat = global::Sample.Resource.Styleable.SwitchCompat;
-			global::com.refractored.Resource.Styleable.SwitchCompat_android_textOff = global::Sample.Resource.Styleable.SwitchCompat_android_textOff;
-			global::com.refractored.Resource.Styleable.SwitchCompat_android_textOn = global::Sample.Resource.Styleable.SwitchCompat_android_textOn;
-			global::com.refractored.Resource.Styleable.SwitchCompat_android_thumb = global::Sample.Resource.Styleable.SwitchCompat_android_thumb;
-			global::com.refractored.Resource.Styleable.SwitchCompat_showText = global::Sample.Resource.Styleable.SwitchCompat_showText;
-			global::com.refractored.Resource.Styleable.SwitchCompat_splitTrack = global::Sample.Resource.Styleable.SwitchCompat_splitTrack;
-			global::com.refractored.Resource.Styleable.SwitchCompat_switchMinWidth = global::Sample.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::com.refractored.Resource.Styleable.SwitchCompat_switchPadding = global::Sample.Resource.Styleable.SwitchCompat_switchPadding;
-			global::com.refractored.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Sample.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::com.refractored.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Sample.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::com.refractored.Resource.Styleable.SwitchCompat_track = global::Sample.Resource.Styleable.SwitchCompat_track;
-			global::com.refractored.Resource.Styleable.SwitchCompatTextAppearance = global::Sample.Resource.Styleable.SwitchCompatTextAppearance;
-			global::com.refractored.Resource.Styleable.SwitchCompatTextAppearance_android_textColor = global::Sample.Resource.Styleable.SwitchCompatTextAppearance_android_textColor;
-			global::com.refractored.Resource.Styleable.SwitchCompatTextAppearance_android_textSize = global::Sample.Resource.Styleable.SwitchCompatTextAppearance_android_textSize;
-			global::com.refractored.Resource.Styleable.SwitchCompatTextAppearance_textAllCaps = global::Sample.Resource.Styleable.SwitchCompatTextAppearance_textAllCaps;
-			global::com.refractored.Resource.Styleable.Theme = global::Sample.Resource.Styleable.Theme;
-			global::com.refractored.Resource.Styleable.Theme_actionBarDivider = global::Sample.Resource.Styleable.Theme_actionBarDivider;
-			global::com.refractored.Resource.Styleable.Theme_actionBarItemBackground = global::Sample.Resource.Styleable.Theme_actionBarItemBackground;
-			global::com.refractored.Resource.Styleable.Theme_actionBarPopupTheme = global::Sample.Resource.Styleable.Theme_actionBarPopupTheme;
-			global::com.refractored.Resource.Styleable.Theme_actionBarSize = global::Sample.Resource.Styleable.Theme_actionBarSize;
-			global::com.refractored.Resource.Styleable.Theme_actionBarSplitStyle = global::Sample.Resource.Styleable.Theme_actionBarSplitStyle;
-			global::com.refractored.Resource.Styleable.Theme_actionBarStyle = global::Sample.Resource.Styleable.Theme_actionBarStyle;
-			global::com.refractored.Resource.Styleable.Theme_actionBarTabBarStyle = global::Sample.Resource.Styleable.Theme_actionBarTabBarStyle;
-			global::com.refractored.Resource.Styleable.Theme_actionBarTabStyle = global::Sample.Resource.Styleable.Theme_actionBarTabStyle;
-			global::com.refractored.Resource.Styleable.Theme_actionBarTabTextStyle = global::Sample.Resource.Styleable.Theme_actionBarTabTextStyle;
-			global::com.refractored.Resource.Styleable.Theme_actionBarTheme = global::Sample.Resource.Styleable.Theme_actionBarTheme;
-			global::com.refractored.Resource.Styleable.Theme_actionBarWidgetTheme = global::Sample.Resource.Styleable.Theme_actionBarWidgetTheme;
-			global::com.refractored.Resource.Styleable.Theme_actionButtonStyle = global::Sample.Resource.Styleable.Theme_actionButtonStyle;
-			global::com.refractored.Resource.Styleable.Theme_actionDropDownStyle = global::Sample.Resource.Styleable.Theme_actionDropDownStyle;
-			global::com.refractored.Resource.Styleable.Theme_actionMenuTextAppearance = global::Sample.Resource.Styleable.Theme_actionMenuTextAppearance;
-			global::com.refractored.Resource.Styleable.Theme_actionMenuTextColor = global::Sample.Resource.Styleable.Theme_actionMenuTextColor;
-			global::com.refractored.Resource.Styleable.Theme_actionModeBackground = global::Sample.Resource.Styleable.Theme_actionModeBackground;
-			global::com.refractored.Resource.Styleable.Theme_actionModeCloseButtonStyle = global::Sample.Resource.Styleable.Theme_actionModeCloseButtonStyle;
-			global::com.refractored.Resource.Styleable.Theme_actionModeCloseDrawable = global::Sample.Resource.Styleable.Theme_actionModeCloseDrawable;
-			global::com.refractored.Resource.Styleable.Theme_actionModeCopyDrawable = global::Sample.Resource.Styleable.Theme_actionModeCopyDrawable;
-			global::com.refractored.Resource.Styleable.Theme_actionModeCutDrawable = global::Sample.Resource.Styleable.Theme_actionModeCutDrawable;
-			global::com.refractored.Resource.Styleable.Theme_actionModeFindDrawable = global::Sample.Resource.Styleable.Theme_actionModeFindDrawable;
-			global::com.refractored.Resource.Styleable.Theme_actionModePasteDrawable = global::Sample.Resource.Styleable.Theme_actionModePasteDrawable;
-			global::com.refractored.Resource.Styleable.Theme_actionModePopupWindowStyle = global::Sample.Resource.Styleable.Theme_actionModePopupWindowStyle;
-			global::com.refractored.Resource.Styleable.Theme_actionModeSelectAllDrawable = global::Sample.Resource.Styleable.Theme_actionModeSelectAllDrawable;
-			global::com.refractored.Resource.Styleable.Theme_actionModeShareDrawable = global::Sample.Resource.Styleable.Theme_actionModeShareDrawable;
-			global::com.refractored.Resource.Styleable.Theme_actionModeSplitBackground = global::Sample.Resource.Styleable.Theme_actionModeSplitBackground;
-			global::com.refractored.Resource.Styleable.Theme_actionModeStyle = global::Sample.Resource.Styleable.Theme_actionModeStyle;
-			global::com.refractored.Resource.Styleable.Theme_actionModeWebSearchDrawable = global::Sample.Resource.Styleable.Theme_actionModeWebSearchDrawable;
-			global::com.refractored.Resource.Styleable.Theme_actionOverflowButtonStyle = global::Sample.Resource.Styleable.Theme_actionOverflowButtonStyle;
-			global::com.refractored.Resource.Styleable.Theme_actionOverflowMenuStyle = global::Sample.Resource.Styleable.Theme_actionOverflowMenuStyle;
-			global::com.refractored.Resource.Styleable.Theme_activityChooserViewStyle = global::Sample.Resource.Styleable.Theme_activityChooserViewStyle;
-			global::com.refractored.Resource.Styleable.Theme_android_windowAnimationStyle = global::Sample.Resource.Styleable.Theme_android_windowAnimationStyle;
-			global::com.refractored.Resource.Styleable.Theme_android_windowIsFloating = global::Sample.Resource.Styleable.Theme_android_windowIsFloating;
-			global::com.refractored.Resource.Styleable.Theme_buttonBarButtonStyle = global::Sample.Resource.Styleable.Theme_buttonBarButtonStyle;
-			global::com.refractored.Resource.Styleable.Theme_buttonBarStyle = global::Sample.Resource.Styleable.Theme_buttonBarStyle;
-			global::com.refractored.Resource.Styleable.Theme_colorAccent = global::Sample.Resource.Styleable.Theme_colorAccent;
-			global::com.refractored.Resource.Styleable.Theme_colorButtonNormal = global::Sample.Resource.Styleable.Theme_colorButtonNormal;
-			global::com.refractored.Resource.Styleable.Theme_colorControlActivated = global::Sample.Resource.Styleable.Theme_colorControlActivated;
-			global::com.refractored.Resource.Styleable.Theme_colorControlHighlight = global::Sample.Resource.Styleable.Theme_colorControlHighlight;
-			global::com.refractored.Resource.Styleable.Theme_colorControlNormal = global::Sample.Resource.Styleable.Theme_colorControlNormal;
-			global::com.refractored.Resource.Styleable.Theme_colorPrimary = global::Sample.Resource.Styleable.Theme_colorPrimary;
-			global::com.refractored.Resource.Styleable.Theme_colorPrimaryDark = global::Sample.Resource.Styleable.Theme_colorPrimaryDark;
-			global::com.refractored.Resource.Styleable.Theme_colorSwitchThumbNormal = global::Sample.Resource.Styleable.Theme_colorSwitchThumbNormal;
-			global::com.refractored.Resource.Styleable.Theme_dividerHorizontal = global::Sample.Resource.Styleable.Theme_dividerHorizontal;
-			global::com.refractored.Resource.Styleable.Theme_dividerVertical = global::Sample.Resource.Styleable.Theme_dividerVertical;
-			global::com.refractored.Resource.Styleable.Theme_dropDownListViewStyle = global::Sample.Resource.Styleable.Theme_dropDownListViewStyle;
-			global::com.refractored.Resource.Styleable.Theme_dropdownListPreferredItemHeight = global::Sample.Resource.Styleable.Theme_dropdownListPreferredItemHeight;
-			global::com.refractored.Resource.Styleable.Theme_editTextBackground = global::Sample.Resource.Styleable.Theme_editTextBackground;
-			global::com.refractored.Resource.Styleable.Theme_editTextColor = global::Sample.Resource.Styleable.Theme_editTextColor;
-			global::com.refractored.Resource.Styleable.Theme_homeAsUpIndicator = global::Sample.Resource.Styleable.Theme_homeAsUpIndicator;
-			global::com.refractored.Resource.Styleable.Theme_listChoiceBackgroundIndicator = global::Sample.Resource.Styleable.Theme_listChoiceBackgroundIndicator;
-			global::com.refractored.Resource.Styleable.Theme_listPopupWindowStyle = global::Sample.Resource.Styleable.Theme_listPopupWindowStyle;
-			global::com.refractored.Resource.Styleable.Theme_listPreferredItemHeight = global::Sample.Resource.Styleable.Theme_listPreferredItemHeight;
-			global::com.refractored.Resource.Styleable.Theme_listPreferredItemHeightLarge = global::Sample.Resource.Styleable.Theme_listPreferredItemHeightLarge;
-			global::com.refractored.Resource.Styleable.Theme_listPreferredItemHeightSmall = global::Sample.Resource.Styleable.Theme_listPreferredItemHeightSmall;
-			global::com.refractored.Resource.Styleable.Theme_listPreferredItemPaddingLeft = global::Sample.Resource.Styleable.Theme_listPreferredItemPaddingLeft;
-			global::com.refractored.Resource.Styleable.Theme_listPreferredItemPaddingRight = global::Sample.Resource.Styleable.Theme_listPreferredItemPaddingRight;
-			global::com.refractored.Resource.Styleable.Theme_panelBackground = global::Sample.Resource.Styleable.Theme_panelBackground;
-			global::com.refractored.Resource.Styleable.Theme_panelMenuListTheme = global::Sample.Resource.Styleable.Theme_panelMenuListTheme;
-			global::com.refractored.Resource.Styleable.Theme_panelMenuListWidth = global::Sample.Resource.Styleable.Theme_panelMenuListWidth;
-			global::com.refractored.Resource.Styleable.Theme_popupMenuStyle = global::Sample.Resource.Styleable.Theme_popupMenuStyle;
-			global::com.refractored.Resource.Styleable.Theme_popupWindowStyle = global::Sample.Resource.Styleable.Theme_popupWindowStyle;
-			global::com.refractored.Resource.Styleable.Theme_searchViewStyle = global::Sample.Resource.Styleable.Theme_searchViewStyle;
-			global::com.refractored.Resource.Styleable.Theme_selectableItemBackground = global::Sample.Resource.Styleable.Theme_selectableItemBackground;
-			global::com.refractored.Resource.Styleable.Theme_selectableItemBackgroundBorderless = global::Sample.Resource.Styleable.Theme_selectableItemBackgroundBorderless;
-			global::com.refractored.Resource.Styleable.Theme_spinnerDropDownItemStyle = global::Sample.Resource.Styleable.Theme_spinnerDropDownItemStyle;
-			global::com.refractored.Resource.Styleable.Theme_spinnerStyle = global::Sample.Resource.Styleable.Theme_spinnerStyle;
-			global::com.refractored.Resource.Styleable.Theme_switchStyle = global::Sample.Resource.Styleable.Theme_switchStyle;
-			global::com.refractored.Resource.Styleable.Theme_textAppearanceLargePopupMenu = global::Sample.Resource.Styleable.Theme_textAppearanceLargePopupMenu;
-			global::com.refractored.Resource.Styleable.Theme_textAppearanceListItem = global::Sample.Resource.Styleable.Theme_textAppearanceListItem;
-			global::com.refractored.Resource.Styleable.Theme_textAppearanceListItemSmall = global::Sample.Resource.Styleable.Theme_textAppearanceListItemSmall;
-			global::com.refractored.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle = global::Sample.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle;
-			global::com.refractored.Resource.Styleable.Theme_textAppearanceSearchResultTitle = global::Sample.Resource.Styleable.Theme_textAppearanceSearchResultTitle;
-			global::com.refractored.Resource.Styleable.Theme_textAppearanceSmallPopupMenu = global::Sample.Resource.Styleable.Theme_textAppearanceSmallPopupMenu;
-			global::com.refractored.Resource.Styleable.Theme_textColorSearchUrl = global::Sample.Resource.Styleable.Theme_textColorSearchUrl;
-			global::com.refractored.Resource.Styleable.Theme_toolbarNavigationButtonStyle = global::Sample.Resource.Styleable.Theme_toolbarNavigationButtonStyle;
-			global::com.refractored.Resource.Styleable.Theme_toolbarStyle = global::Sample.Resource.Styleable.Theme_toolbarStyle;
-			global::com.refractored.Resource.Styleable.Theme_windowActionBar = global::Sample.Resource.Styleable.Theme_windowActionBar;
-			global::com.refractored.Resource.Styleable.Theme_windowActionBarOverlay = global::Sample.Resource.Styleable.Theme_windowActionBarOverlay;
-			global::com.refractored.Resource.Styleable.Theme_windowActionModeOverlay = global::Sample.Resource.Styleable.Theme_windowActionModeOverlay;
-			global::com.refractored.Resource.Styleable.Theme_windowFixedHeightMajor = global::Sample.Resource.Styleable.Theme_windowFixedHeightMajor;
-			global::com.refractored.Resource.Styleable.Theme_windowFixedHeightMinor = global::Sample.Resource.Styleable.Theme_windowFixedHeightMinor;
-			global::com.refractored.Resource.Styleable.Theme_windowFixedWidthMajor = global::Sample.Resource.Styleable.Theme_windowFixedWidthMajor;
-			global::com.refractored.Resource.Styleable.Theme_windowFixedWidthMinor = global::Sample.Resource.Styleable.Theme_windowFixedWidthMinor;
-			global::com.refractored.Resource.Styleable.Toolbar = global::Sample.Resource.Styleable.Toolbar;
-			global::com.refractored.Resource.Styleable.Toolbar_android_gravity = global::Sample.Resource.Styleable.Toolbar_android_gravity;
-			global::com.refractored.Resource.Styleable.Toolbar_android_minHeight = global::Sample.Resource.Styleable.Toolbar_android_minHeight;
-			global::com.refractored.Resource.Styleable.Toolbar_collapseContentDescription = global::Sample.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::com.refractored.Resource.Styleable.Toolbar_collapseIcon = global::Sample.Resource.Styleable.Toolbar_collapseIcon;
-			global::com.refractored.Resource.Styleable.Toolbar_contentInsetEnd = global::Sample.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::com.refractored.Resource.Styleable.Toolbar_contentInsetLeft = global::Sample.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::com.refractored.Resource.Styleable.Toolbar_contentInsetRight = global::Sample.Resource.Styleable.Toolbar_contentInsetRight;
-			global::com.refractored.Resource.Styleable.Toolbar_contentInsetStart = global::Sample.Resource.Styleable.Toolbar_contentInsetStart;
-			global::com.refractored.Resource.Styleable.Toolbar_maxButtonHeight = global::Sample.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::com.refractored.Resource.Styleable.Toolbar_navigationContentDescription = global::Sample.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::com.refractored.Resource.Styleable.Toolbar_navigationIcon = global::Sample.Resource.Styleable.Toolbar_navigationIcon;
-			global::com.refractored.Resource.Styleable.Toolbar_popupTheme = global::Sample.Resource.Styleable.Toolbar_popupTheme;
-			global::com.refractored.Resource.Styleable.Toolbar_subtitle = global::Sample.Resource.Styleable.Toolbar_subtitle;
-			global::com.refractored.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Sample.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::com.refractored.Resource.Styleable.Toolbar_theme = global::Sample.Resource.Styleable.Toolbar_theme;
-			global::com.refractored.Resource.Styleable.Toolbar_title = global::Sample.Resource.Styleable.Toolbar_title;
-			global::com.refractored.Resource.Styleable.Toolbar_titleMarginBottom = global::Sample.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::com.refractored.Resource.Styleable.Toolbar_titleMarginEnd = global::Sample.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::com.refractored.Resource.Styleable.Toolbar_titleMarginStart = global::Sample.Resource.Styleable.Toolbar_titleMarginStart;
-			global::com.refractored.Resource.Styleable.Toolbar_titleMarginTop = global::Sample.Resource.Styleable.Toolbar_titleMarginTop;
-			global::com.refractored.Resource.Styleable.Toolbar_titleMargins = global::Sample.Resource.Styleable.Toolbar_titleMargins;
-			global::com.refractored.Resource.Styleable.Toolbar_titleTextAppearance = global::Sample.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::com.refractored.Resource.Styleable.View = global::Sample.Resource.Styleable.View;
-			global::com.refractored.Resource.Styleable.View_android_focusable = global::Sample.Resource.Styleable.View_android_focusable;
-			global::com.refractored.Resource.Styleable.View_paddingEnd = global::Sample.Resource.Styleable.View_paddingEnd;
-			global::com.refractored.Resource.Styleable.View_paddingStart = global::Sample.Resource.Styleable.View_paddingStart;
-			global::com.refractored.Resource.Styleable.ViewStubCompat = global::Sample.Resource.Styleable.ViewStubCompat;
-			global::com.refractored.Resource.Styleable.ViewStubCompat_android_id = global::Sample.Resource.Styleable.ViewStubCompat_android_id;
-			global::com.refractored.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Sample.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::com.refractored.Resource.Styleable.ViewStubCompat_android_layout = global::Sample.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
@@ -1680,23 +714,23 @@ namespace Sample
 		public partial class Boolean
 		{
 			
-			// aapt resource value: 0x7f080000
-			public const int abc_action_bar_embed_tabs = 2131230720;
+			// aapt resource value: 0x7f090000
+			public const int abc_action_bar_embed_tabs = 2131296256;
 			
-			// aapt resource value: 0x7f080001
-			public const int abc_action_bar_embed_tabs_pre_jb = 2131230721;
+			// aapt resource value: 0x7f090001
+			public const int abc_action_bar_embed_tabs_pre_jb = 2131296257;
 			
-			// aapt resource value: 0x7f080002
-			public const int abc_action_bar_expanded_action_views_exclusive = 2131230722;
+			// aapt resource value: 0x7f090002
+			public const int abc_action_bar_expanded_action_views_exclusive = 2131296258;
 			
-			// aapt resource value: 0x7f080003
-			public const int abc_config_actionMenuItemAllCaps = 2131230723;
+			// aapt resource value: 0x7f090003
+			public const int abc_config_actionMenuItemAllCaps = 2131296259;
 			
-			// aapt resource value: 0x7f080004
-			public const int abc_config_allowActionMenuItemTextWithIcon = 2131230724;
+			// aapt resource value: 0x7f090004
+			public const int abc_config_allowActionMenuItemTextWithIcon = 2131296260;
 			
-			// aapt resource value: 0x7f080005
-			public const int abc_config_showMenuShortcutsWhenKeyboardPresent = 2131230725;
+			// aapt resource value: 0x7f090005
+			public const int abc_config_showMenuShortcutsWhenKeyboardPresent = 2131296261;
 			
 			static Boolean()
 			{
@@ -1717,8 +751,8 @@ namespace Sample
 			// aapt resource value: 0x7f05003b
 			public const int abc_background_cache_hint_selector_material_light = 2131034171;
 			
-			// aapt resource value: 0x7f050004
-			public const int abc_input_method_navigation_guard = 2131034116;
+			// aapt resource value: 0x7f050008
+			public const int abc_input_method_navigation_guard = 2131034120;
 			
 			// aapt resource value: 0x7f05003c
 			public const int abc_primary_text_disable_only_material_dark = 2131034172;
@@ -1735,14 +769,14 @@ namespace Sample
 			// aapt resource value: 0x7f050040
 			public const int abc_search_url_text = 2131034176;
 			
-			// aapt resource value: 0x7f050005
-			public const int abc_search_url_text_normal = 2131034117;
+			// aapt resource value: 0x7f050009
+			public const int abc_search_url_text_normal = 2131034121;
 			
-			// aapt resource value: 0x7f050006
-			public const int abc_search_url_text_pressed = 2131034118;
+			// aapt resource value: 0x7f05000a
+			public const int abc_search_url_text_pressed = 2131034122;
 			
-			// aapt resource value: 0x7f050007
-			public const int abc_search_url_text_selected = 2131034119;
+			// aapt resource value: 0x7f05000b
+			public const int abc_search_url_text_selected = 2131034123;
 			
 			// aapt resource value: 0x7f050041
 			public const int abc_secondary_text_material_dark = 2131034177;
@@ -1750,167 +784,167 @@ namespace Sample
 			// aapt resource value: 0x7f050042
 			public const int abc_secondary_text_material_light = 2131034178;
 			
-			// aapt resource value: 0x7f050008
-			public const int accent_material_dark = 2131034120;
-			
-			// aapt resource value: 0x7f050009
-			public const int accent_material_light = 2131034121;
-			
-			// aapt resource value: 0x7f05000a
-			public const int background_floating_material_dark = 2131034122;
-			
-			// aapt resource value: 0x7f05000b
-			public const int background_floating_material_light = 2131034123;
-			
 			// aapt resource value: 0x7f05000c
-			public const int background_material_dark = 2131034124;
+			public const int accent_material_dark = 2131034124;
 			
 			// aapt resource value: 0x7f05000d
-			public const int background_material_light = 2131034125;
-			
-			// aapt resource value: 0x7f050036
-			public const int background_window = 2131034166;
-			
-			// aapt resource value: 0x7f050039
-			public const int banana = 2131034169;
+			public const int accent_material_light = 2131034125;
 			
 			// aapt resource value: 0x7f05000e
-			public const int bright_foreground_disabled_material_dark = 2131034126;
+			public const int background_floating_material_dark = 2131034126;
 			
 			// aapt resource value: 0x7f05000f
-			public const int bright_foreground_disabled_material_light = 2131034127;
+			public const int background_floating_material_light = 2131034127;
 			
 			// aapt resource value: 0x7f050010
-			public const int bright_foreground_inverse_material_dark = 2131034128;
+			public const int background_material_dark = 2131034128;
 			
 			// aapt resource value: 0x7f050011
-			public const int bright_foreground_inverse_material_light = 2131034129;
-			
-			// aapt resource value: 0x7f050012
-			public const int bright_foreground_material_dark = 2131034130;
-			
-			// aapt resource value: 0x7f050013
-			public const int bright_foreground_material_light = 2131034131;
-			
-			// aapt resource value: 0x7f050014
-			public const int button_material_dark = 2131034132;
-			
-			// aapt resource value: 0x7f050015
-			public const int button_material_light = 2131034133;
+			public const int background_material_light = 2131034129;
 			
 			// aapt resource value: 0x7f050000
-			public const int cardview_dark_background = 2131034112;
-			
-			// aapt resource value: 0x7f050001
-			public const int cardview_light_background = 2131034113;
-			
-			// aapt resource value: 0x7f050002
-			public const int cardview_shadow_end_color = 2131034114;
+			public const int background_window = 2131034112;
 			
 			// aapt resource value: 0x7f050003
-			public const int cardview_shadow_start_color = 2131034115;
+			public const int banana = 2131034115;
+			
+			// aapt resource value: 0x7f050012
+			public const int bright_foreground_disabled_material_dark = 2131034130;
+			
+			// aapt resource value: 0x7f050013
+			public const int bright_foreground_disabled_material_light = 2131034131;
+			
+			// aapt resource value: 0x7f050014
+			public const int bright_foreground_inverse_material_dark = 2131034132;
+			
+			// aapt resource value: 0x7f050015
+			public const int bright_foreground_inverse_material_light = 2131034133;
 			
 			// aapt resource value: 0x7f050016
-			public const int dim_foreground_disabled_material_dark = 2131034134;
+			public const int bright_foreground_material_dark = 2131034134;
 			
 			// aapt resource value: 0x7f050017
-			public const int dim_foreground_disabled_material_light = 2131034135;
+			public const int bright_foreground_material_light = 2131034135;
 			
 			// aapt resource value: 0x7f050018
-			public const int dim_foreground_material_dark = 2131034136;
+			public const int button_material_dark = 2131034136;
 			
 			// aapt resource value: 0x7f050019
-			public const int dim_foreground_material_light = 2131034137;
+			public const int button_material_light = 2131034137;
 			
-			// aapt resource value: 0x7f050037
-			public const int green = 2131034167;
+			// aapt resource value: 0x7f050004
+			public const int cardview_dark_background = 2131034116;
 			
-			// aapt resource value: 0x7f050038
-			public const int greenDark = 2131034168;
+			// aapt resource value: 0x7f050005
+			public const int cardview_light_background = 2131034117;
+			
+			// aapt resource value: 0x7f050006
+			public const int cardview_shadow_end_color = 2131034118;
+			
+			// aapt resource value: 0x7f050007
+			public const int cardview_shadow_start_color = 2131034119;
 			
 			// aapt resource value: 0x7f05001a
-			public const int highlighted_text_material_dark = 2131034138;
+			public const int dim_foreground_disabled_material_dark = 2131034138;
 			
 			// aapt resource value: 0x7f05001b
-			public const int highlighted_text_material_light = 2131034139;
+			public const int dim_foreground_disabled_material_light = 2131034139;
 			
 			// aapt resource value: 0x7f05001c
-			public const int hint_foreground_material_dark = 2131034140;
+			public const int dim_foreground_material_dark = 2131034140;
 			
 			// aapt resource value: 0x7f05001d
-			public const int hint_foreground_material_light = 2131034141;
+			public const int dim_foreground_material_light = 2131034141;
+			
+			// aapt resource value: 0x7f050001
+			public const int green = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int greenDark = 2131034114;
 			
 			// aapt resource value: 0x7f05001e
-			public const int link_text_material_dark = 2131034142;
+			public const int highlighted_text_material_dark = 2131034142;
 			
 			// aapt resource value: 0x7f05001f
-			public const int link_text_material_light = 2131034143;
+			public const int highlighted_text_material_light = 2131034143;
 			
 			// aapt resource value: 0x7f050020
-			public const int material_blue_grey_800 = 2131034144;
+			public const int hint_foreground_material_dark = 2131034144;
 			
 			// aapt resource value: 0x7f050021
-			public const int material_blue_grey_900 = 2131034145;
+			public const int hint_foreground_material_light = 2131034145;
 			
 			// aapt resource value: 0x7f050022
-			public const int material_blue_grey_950 = 2131034146;
+			public const int link_text_material_dark = 2131034146;
 			
 			// aapt resource value: 0x7f050023
-			public const int material_deep_teal_200 = 2131034147;
+			public const int link_text_material_light = 2131034147;
 			
 			// aapt resource value: 0x7f050024
-			public const int material_deep_teal_500 = 2131034148;
+			public const int material_blue_grey_800 = 2131034148;
 			
 			// aapt resource value: 0x7f050025
-			public const int primary_dark_material_dark = 2131034149;
+			public const int material_blue_grey_900 = 2131034149;
 			
 			// aapt resource value: 0x7f050026
-			public const int primary_dark_material_light = 2131034150;
+			public const int material_blue_grey_950 = 2131034150;
 			
 			// aapt resource value: 0x7f050027
-			public const int primary_material_dark = 2131034151;
+			public const int material_deep_teal_200 = 2131034151;
 			
 			// aapt resource value: 0x7f050028
-			public const int primary_material_light = 2131034152;
+			public const int material_deep_teal_500 = 2131034152;
 			
 			// aapt resource value: 0x7f050029
-			public const int primary_text_default_material_dark = 2131034153;
+			public const int primary_dark_material_dark = 2131034153;
 			
 			// aapt resource value: 0x7f05002a
-			public const int primary_text_default_material_light = 2131034154;
+			public const int primary_dark_material_light = 2131034154;
 			
 			// aapt resource value: 0x7f05002b
-			public const int primary_text_disabled_material_dark = 2131034155;
+			public const int primary_material_dark = 2131034155;
 			
 			// aapt resource value: 0x7f05002c
-			public const int primary_text_disabled_material_light = 2131034156;
-			
-			// aapt resource value: 0x7f050035
-			public const int psts_background_tab_pressed = 2131034165;
+			public const int primary_material_light = 2131034156;
 			
 			// aapt resource value: 0x7f05002d
-			public const int ripple_material_dark = 2131034157;
+			public const int primary_text_default_material_dark = 2131034157;
 			
 			// aapt resource value: 0x7f05002e
-			public const int ripple_material_light = 2131034158;
+			public const int primary_text_default_material_light = 2131034158;
 			
 			// aapt resource value: 0x7f05002f
-			public const int secondary_text_default_material_dark = 2131034159;
+			public const int primary_text_disabled_material_dark = 2131034159;
 			
 			// aapt resource value: 0x7f050030
-			public const int secondary_text_default_material_light = 2131034160;
+			public const int primary_text_disabled_material_light = 2131034160;
+			
+			// aapt resource value: 0x7f050039
+			public const int psts_background_tab_pressed = 2131034169;
 			
 			// aapt resource value: 0x7f050031
-			public const int secondary_text_disabled_material_dark = 2131034161;
+			public const int ripple_material_dark = 2131034161;
 			
 			// aapt resource value: 0x7f050032
-			public const int secondary_text_disabled_material_light = 2131034162;
+			public const int ripple_material_light = 2131034162;
 			
 			// aapt resource value: 0x7f050033
-			public const int switch_thumb_normal_material_dark = 2131034163;
+			public const int secondary_text_default_material_dark = 2131034163;
 			
 			// aapt resource value: 0x7f050034
-			public const int switch_thumb_normal_material_light = 2131034164;
+			public const int secondary_text_default_material_light = 2131034164;
+			
+			// aapt resource value: 0x7f050035
+			public const int secondary_text_disabled_material_dark = 2131034165;
+			
+			// aapt resource value: 0x7f050036
+			public const int secondary_text_disabled_material_light = 2131034166;
+			
+			// aapt resource value: 0x7f050037
+			public const int switch_thumb_normal_material_dark = 2131034167;
+			
+			// aapt resource value: 0x7f050038
+			public const int switch_thumb_normal_material_light = 2131034168;
 			
 			static Color()
 			{
@@ -1925,164 +959,164 @@ namespace Sample
 		public partial class Dimension
 		{
 			
-			// aapt resource value: 0x7f060003
-			public const int abc_action_bar_default_height_material = 2131099651;
-			
-			// aapt resource value: 0x7f060004
-			public const int abc_action_bar_default_padding_material = 2131099652;
-			
 			// aapt resource value: 0x7f060005
-			public const int abc_action_bar_icon_vertical_padding_material = 2131099653;
+			public const int abc_action_bar_default_height_material = 2131099653;
 			
 			// aapt resource value: 0x7f060006
-			public const int abc_action_bar_progress_bar_size = 2131099654;
+			public const int abc_action_bar_default_padding_material = 2131099654;
 			
 			// aapt resource value: 0x7f060007
-			public const int abc_action_bar_stacked_max_height = 2131099655;
+			public const int abc_action_bar_icon_vertical_padding_material = 2131099655;
 			
 			// aapt resource value: 0x7f060008
-			public const int abc_action_bar_stacked_tab_max_width = 2131099656;
+			public const int abc_action_bar_progress_bar_size = 2131099656;
 			
 			// aapt resource value: 0x7f060009
-			public const int abc_action_bar_subtitle_bottom_margin_material = 2131099657;
+			public const int abc_action_bar_stacked_max_height = 2131099657;
 			
 			// aapt resource value: 0x7f06000a
-			public const int abc_action_bar_subtitle_top_margin_material = 2131099658;
+			public const int abc_action_bar_stacked_tab_max_width = 2131099658;
 			
 			// aapt resource value: 0x7f06000b
-			public const int abc_action_button_min_height_material = 2131099659;
+			public const int abc_action_bar_subtitle_bottom_margin_material = 2131099659;
 			
 			// aapt resource value: 0x7f06000c
-			public const int abc_action_button_min_width_material = 2131099660;
+			public const int abc_action_bar_subtitle_top_margin_material = 2131099660;
 			
 			// aapt resource value: 0x7f06000d
-			public const int abc_action_button_min_width_overflow_material = 2131099661;
+			public const int abc_action_button_min_height_material = 2131099661;
 			
 			// aapt resource value: 0x7f06000e
-			public const int abc_button_inset_horizontal_material = 2131099662;
+			public const int abc_action_button_min_width_material = 2131099662;
 			
 			// aapt resource value: 0x7f06000f
-			public const int abc_button_inset_vertical_material = 2131099663;
+			public const int abc_action_button_min_width_overflow_material = 2131099663;
 			
 			// aapt resource value: 0x7f060010
-			public const int abc_button_padding_horizontal_material = 2131099664;
+			public const int abc_button_inset_horizontal_material = 2131099664;
 			
 			// aapt resource value: 0x7f060011
-			public const int abc_button_padding_vertical_material = 2131099665;
+			public const int abc_button_inset_vertical_material = 2131099665;
 			
 			// aapt resource value: 0x7f060012
-			public const int abc_config_prefDialogWidth = 2131099666;
+			public const int abc_button_padding_horizontal_material = 2131099666;
 			
 			// aapt resource value: 0x7f060013
-			public const int abc_control_corner_material = 2131099667;
+			public const int abc_button_padding_vertical_material = 2131099667;
 			
 			// aapt resource value: 0x7f060014
-			public const int abc_control_inset_material = 2131099668;
+			public const int abc_config_prefDialogWidth = 2131099668;
 			
 			// aapt resource value: 0x7f060015
-			public const int abc_control_padding_material = 2131099669;
+			public const int abc_control_corner_material = 2131099669;
 			
 			// aapt resource value: 0x7f060016
-			public const int abc_dropdownitem_icon_width = 2131099670;
+			public const int abc_control_inset_material = 2131099670;
 			
 			// aapt resource value: 0x7f060017
-			public const int abc_dropdownitem_text_padding_left = 2131099671;
+			public const int abc_control_padding_material = 2131099671;
 			
 			// aapt resource value: 0x7f060018
-			public const int abc_dropdownitem_text_padding_right = 2131099672;
+			public const int abc_dropdownitem_icon_width = 2131099672;
 			
 			// aapt resource value: 0x7f060019
-			public const int abc_panel_menu_list_width = 2131099673;
+			public const int abc_dropdownitem_text_padding_left = 2131099673;
 			
 			// aapt resource value: 0x7f06001a
-			public const int abc_search_view_preferred_width = 2131099674;
+			public const int abc_dropdownitem_text_padding_right = 2131099674;
 			
 			// aapt resource value: 0x7f06001b
-			public const int abc_search_view_text_min_width = 2131099675;
+			public const int abc_panel_menu_list_width = 2131099675;
 			
 			// aapt resource value: 0x7f06001c
-			public const int abc_text_size_body_1_material = 2131099676;
+			public const int abc_search_view_preferred_width = 2131099676;
 			
 			// aapt resource value: 0x7f06001d
-			public const int abc_text_size_body_2_material = 2131099677;
+			public const int abc_search_view_text_min_width = 2131099677;
 			
 			// aapt resource value: 0x7f06001e
-			public const int abc_text_size_button_material = 2131099678;
+			public const int abc_text_size_body_1_material = 2131099678;
 			
 			// aapt resource value: 0x7f06001f
-			public const int abc_text_size_caption_material = 2131099679;
+			public const int abc_text_size_body_2_material = 2131099679;
 			
 			// aapt resource value: 0x7f060020
-			public const int abc_text_size_display_1_material = 2131099680;
+			public const int abc_text_size_button_material = 2131099680;
 			
 			// aapt resource value: 0x7f060021
-			public const int abc_text_size_display_2_material = 2131099681;
+			public const int abc_text_size_caption_material = 2131099681;
 			
 			// aapt resource value: 0x7f060022
-			public const int abc_text_size_display_3_material = 2131099682;
+			public const int abc_text_size_display_1_material = 2131099682;
 			
 			// aapt resource value: 0x7f060023
-			public const int abc_text_size_display_4_material = 2131099683;
+			public const int abc_text_size_display_2_material = 2131099683;
 			
 			// aapt resource value: 0x7f060024
-			public const int abc_text_size_headline_material = 2131099684;
+			public const int abc_text_size_display_3_material = 2131099684;
 			
 			// aapt resource value: 0x7f060025
-			public const int abc_text_size_large_material = 2131099685;
+			public const int abc_text_size_display_4_material = 2131099685;
 			
 			// aapt resource value: 0x7f060026
-			public const int abc_text_size_medium_material = 2131099686;
+			public const int abc_text_size_headline_material = 2131099686;
 			
 			// aapt resource value: 0x7f060027
-			public const int abc_text_size_menu_material = 2131099687;
+			public const int abc_text_size_large_material = 2131099687;
 			
 			// aapt resource value: 0x7f060028
-			public const int abc_text_size_small_material = 2131099688;
+			public const int abc_text_size_medium_material = 2131099688;
 			
 			// aapt resource value: 0x7f060029
-			public const int abc_text_size_subhead_material = 2131099689;
+			public const int abc_text_size_menu_material = 2131099689;
 			
 			// aapt resource value: 0x7f06002a
-			public const int abc_text_size_subtitle_material_toolbar = 2131099690;
+			public const int abc_text_size_small_material = 2131099690;
 			
 			// aapt resource value: 0x7f06002b
-			public const int abc_text_size_title_material = 2131099691;
+			public const int abc_text_size_subhead_material = 2131099691;
 			
 			// aapt resource value: 0x7f06002c
-			public const int abc_text_size_title_material_toolbar = 2131099692;
-			
-			// aapt resource value: 0x7f060033
-			public const int activity_horizontal_margin = 2131099699;
-			
-			// aapt resource value: 0x7f060034
-			public const int activity_vertical_margin = 2131099700;
-			
-			// aapt resource value: 0x7f060000
-			public const int cardview_compat_inset_shadow = 2131099648;
-			
-			// aapt resource value: 0x7f060001
-			public const int cardview_default_elevation = 2131099649;
-			
-			// aapt resource value: 0x7f060002
-			public const int cardview_default_radius = 2131099650;
+			public const int abc_text_size_subtitle_material_toolbar = 2131099692;
 			
 			// aapt resource value: 0x7f06002d
-			public const int dialog_fixed_height_major = 2131099693;
+			public const int abc_text_size_title_material = 2131099693;
 			
 			// aapt resource value: 0x7f06002e
-			public const int dialog_fixed_height_minor = 2131099694;
+			public const int abc_text_size_title_material_toolbar = 2131099694;
+			
+			// aapt resource value: 0x7f060000
+			public const int activity_horizontal_margin = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int activity_vertical_margin = 2131099649;
+			
+			// aapt resource value: 0x7f060002
+			public const int cardview_compat_inset_shadow = 2131099650;
+			
+			// aapt resource value: 0x7f060003
+			public const int cardview_default_elevation = 2131099651;
+			
+			// aapt resource value: 0x7f060004
+			public const int cardview_default_radius = 2131099652;
 			
 			// aapt resource value: 0x7f06002f
-			public const int dialog_fixed_width_major = 2131099695;
+			public const int dialog_fixed_height_major = 2131099695;
 			
 			// aapt resource value: 0x7f060030
-			public const int dialog_fixed_width_minor = 2131099696;
+			public const int dialog_fixed_height_minor = 2131099696;
 			
 			// aapt resource value: 0x7f060031
-			public const int disabled_alpha_material_dark = 2131099697;
+			public const int dialog_fixed_width_major = 2131099697;
 			
 			// aapt resource value: 0x7f060032
-			public const int disabled_alpha_material_light = 2131099698;
+			public const int dialog_fixed_width_minor = 2131099698;
+			
+			// aapt resource value: 0x7f060033
+			public const int disabled_alpha_material_dark = 2131099699;
+			
+			// aapt resource value: 0x7f060034
+			public const int disabled_alpha_material_light = 2131099700;
 			
 			static Dimension()
 			{
@@ -2323,227 +1357,227 @@ namespace Sample
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f090033
-			public const int action_bar = 2131296307;
+			// aapt resource value: 0x7f0a0033
+			public const int action_bar = 2131361843;
 			
-			// aapt resource value: 0x7f090000
-			public const int action_bar_activity_content = 2131296256;
+			// aapt resource value: 0x7f0a0000
+			public const int action_bar_activity_content = 2131361792;
 			
-			// aapt resource value: 0x7f090032
-			public const int action_bar_container = 2131296306;
+			// aapt resource value: 0x7f0a0032
+			public const int action_bar_container = 2131361842;
 			
-			// aapt resource value: 0x7f09002e
-			public const int action_bar_root = 2131296302;
+			// aapt resource value: 0x7f0a002e
+			public const int action_bar_root = 2131361838;
 			
-			// aapt resource value: 0x7f090001
-			public const int action_bar_spinner = 2131296257;
+			// aapt resource value: 0x7f0a0001
+			public const int action_bar_spinner = 2131361793;
 			
-			// aapt resource value: 0x7f090021
-			public const int action_bar_subtitle = 2131296289;
+			// aapt resource value: 0x7f0a0021
+			public const int action_bar_subtitle = 2131361825;
 			
-			// aapt resource value: 0x7f090020
-			public const int action_bar_title = 2131296288;
+			// aapt resource value: 0x7f0a0020
+			public const int action_bar_title = 2131361824;
 			
-			// aapt resource value: 0x7f090049
-			public const int action_contact = 2131296329;
+			// aapt resource value: 0x7f0a0049
+			public const int action_contact = 2131361865;
 			
-			// aapt resource value: 0x7f090034
-			public const int action_context_bar = 2131296308;
+			// aapt resource value: 0x7f0a0034
+			public const int action_context_bar = 2131361844;
 			
-			// aapt resource value: 0x7f090002
-			public const int action_menu_divider = 2131296258;
+			// aapt resource value: 0x7f0a0002
+			public const int action_menu_divider = 2131361794;
 			
-			// aapt resource value: 0x7f090003
-			public const int action_menu_presenter = 2131296259;
+			// aapt resource value: 0x7f0a0003
+			public const int action_menu_presenter = 2131361795;
 			
-			// aapt resource value: 0x7f090030
-			public const int action_mode_bar = 2131296304;
+			// aapt resource value: 0x7f0a0030
+			public const int action_mode_bar = 2131361840;
 			
-			// aapt resource value: 0x7f09002f
-			public const int action_mode_bar_stub = 2131296303;
+			// aapt resource value: 0x7f0a002f
+			public const int action_mode_bar_stub = 2131361839;
 			
-			// aapt resource value: 0x7f090022
-			public const int action_mode_close_button = 2131296290;
+			// aapt resource value: 0x7f0a0022
+			public const int action_mode_close_button = 2131361826;
 			
-			// aapt resource value: 0x7f090023
-			public const int activity_chooser_view_content = 2131296291;
+			// aapt resource value: 0x7f0a0023
+			public const int activity_chooser_view_content = 2131361827;
 			
-			// aapt resource value: 0x7f090016
-			public const int always = 2131296278;
+			// aapt resource value: 0x7f0a0016
+			public const int always = 2131361814;
 			
-			// aapt resource value: 0x7f090013
-			public const int beginning = 2131296275;
+			// aapt resource value: 0x7f0a0013
+			public const int beginning = 2131361811;
 			
-			// aapt resource value: 0x7f09001e
-			public const int bold = 2131296286;
+			// aapt resource value: 0x7f0a001e
+			public const int bold = 2131361822;
 			
-			// aapt resource value: 0x7f090044
-			public const int cardview = 2131296324;
+			// aapt resource value: 0x7f0a0044
+			public const int cardview = 2131361860;
 			
-			// aapt resource value: 0x7f090046
-			public const int center = 2131296326;
+			// aapt resource value: 0x7f0a0046
+			public const int center = 2131361862;
 			
-			// aapt resource value: 0x7f09002b
-			public const int checkbox = 2131296299;
+			// aapt resource value: 0x7f0a002b
+			public const int checkbox = 2131361835;
 			
-			// aapt resource value: 0x7f090017
-			public const int collapseActionView = 2131296279;
+			// aapt resource value: 0x7f0a0017
+			public const int collapseActionView = 2131361815;
 			
-			// aapt resource value: 0x7f090043
-			public const int colors = 2131296323;
+			// aapt resource value: 0x7f0a0043
+			public const int colors = 2131361859;
 			
-			// aapt resource value: 0x7f090031
-			public const int decor_content_parent = 2131296305;
+			// aapt resource value: 0x7f0a0031
+			public const int decor_content_parent = 2131361841;
 			
-			// aapt resource value: 0x7f090026
-			public const int default_activity_button = 2131296294;
+			// aapt resource value: 0x7f0a0026
+			public const int default_activity_button = 2131361830;
 			
-			// aapt resource value: 0x7f09001b
-			public const int dialog = 2131296283;
+			// aapt resource value: 0x7f0a001b
+			public const int dialog = 2131361819;
 			
-			// aapt resource value: 0x7f09000c
-			public const int disableHome = 2131296268;
+			// aapt resource value: 0x7f0a000c
+			public const int disableHome = 2131361804;
 			
-			// aapt resource value: 0x7f09001c
-			public const int dropdown = 2131296284;
+			// aapt resource value: 0x7f0a001c
+			public const int dropdown = 2131361820;
 			
-			// aapt resource value: 0x7f090035
-			public const int edit_query = 2131296309;
+			// aapt resource value: 0x7f0a0035
+			public const int edit_query = 2131361845;
 			
-			// aapt resource value: 0x7f090014
-			public const int end = 2131296276;
+			// aapt resource value: 0x7f0a0014
+			public const int end = 2131361812;
 			
-			// aapt resource value: 0x7f090024
-			public const int expand_activities_button = 2131296292;
+			// aapt resource value: 0x7f0a0024
+			public const int expand_activities_button = 2131361828;
 			
-			// aapt resource value: 0x7f09002a
-			public const int expanded_menu = 2131296298;
+			// aapt resource value: 0x7f0a002a
+			public const int expanded_menu = 2131361834;
 			
-			// aapt resource value: 0x7f090004
-			public const int home = 2131296260;
+			// aapt resource value: 0x7f0a0004
+			public const int home = 2131361796;
 			
-			// aapt resource value: 0x7f09000d
-			public const int homeAsUp = 2131296269;
+			// aapt resource value: 0x7f0a000d
+			public const int homeAsUp = 2131361805;
 			
-			// aapt resource value: 0x7f090028
-			public const int icon = 2131296296;
+			// aapt resource value: 0x7f0a0028
+			public const int icon = 2131361832;
 			
-			// aapt resource value: 0x7f090018
-			public const int ifRoom = 2131296280;
+			// aapt resource value: 0x7f0a0018
+			public const int ifRoom = 2131361816;
 			
-			// aapt resource value: 0x7f090025
-			public const int image = 2131296293;
+			// aapt resource value: 0x7f0a0025
+			public const int image = 2131361829;
 			
-			// aapt resource value: 0x7f09001f
-			public const int italic = 2131296287;
+			// aapt resource value: 0x7f0a001f
+			public const int italic = 2131361823;
 			
-			// aapt resource value: 0x7f090009
-			public const int listMode = 2131296265;
+			// aapt resource value: 0x7f0a0009
+			public const int listMode = 2131361801;
 			
-			// aapt resource value: 0x7f090027
-			public const int list_item = 2131296295;
+			// aapt resource value: 0x7f0a0027
+			public const int list_item = 2131361831;
 			
-			// aapt resource value: 0x7f090015
-			public const int middle = 2131296277;
+			// aapt resource value: 0x7f0a0015
+			public const int middle = 2131361813;
 			
-			// aapt resource value: 0x7f090019
-			public const int never = 2131296281;
+			// aapt resource value: 0x7f0a0019
+			public const int never = 2131361817;
 			
-			// aapt resource value: 0x7f09000e
-			public const int none = 2131296270;
+			// aapt resource value: 0x7f0a000e
+			public const int none = 2131361806;
 			
-			// aapt resource value: 0x7f09000a
-			public const int normal = 2131296266;
+			// aapt resource value: 0x7f0a000a
+			public const int normal = 2131361802;
 			
-			// aapt resource value: 0x7f090042
-			public const int pager = 2131296322;
+			// aapt resource value: 0x7f0a0042
+			public const int pager = 2131361858;
 			
-			// aapt resource value: 0x7f090005
-			public const int progress_circular = 2131296261;
+			// aapt resource value: 0x7f0a0005
+			public const int progress_circular = 2131361797;
 			
-			// aapt resource value: 0x7f090006
-			public const int progress_horizontal = 2131296262;
+			// aapt resource value: 0x7f0a0006
+			public const int progress_horizontal = 2131361798;
 			
-			// aapt resource value: 0x7f090047
-			public const int psts_tab_title = 2131296327;
+			// aapt resource value: 0x7f0a0047
+			public const int psts_tab_title = 2131361863;
 			
-			// aapt resource value: 0x7f09002d
-			public const int radio = 2131296301;
+			// aapt resource value: 0x7f0a002d
+			public const int radio = 2131361837;
 			
-			// aapt resource value: 0x7f090037
-			public const int search_badge = 2131296311;
+			// aapt resource value: 0x7f0a0037
+			public const int search_badge = 2131361847;
 			
-			// aapt resource value: 0x7f090036
-			public const int search_bar = 2131296310;
+			// aapt resource value: 0x7f0a0036
+			public const int search_bar = 2131361846;
 			
-			// aapt resource value: 0x7f090038
-			public const int search_button = 2131296312;
+			// aapt resource value: 0x7f0a0038
+			public const int search_button = 2131361848;
 			
-			// aapt resource value: 0x7f09003d
-			public const int search_close_btn = 2131296317;
+			// aapt resource value: 0x7f0a003d
+			public const int search_close_btn = 2131361853;
 			
-			// aapt resource value: 0x7f090039
-			public const int search_edit_frame = 2131296313;
+			// aapt resource value: 0x7f0a0039
+			public const int search_edit_frame = 2131361849;
 			
-			// aapt resource value: 0x7f09003f
-			public const int search_go_btn = 2131296319;
+			// aapt resource value: 0x7f0a003f
+			public const int search_go_btn = 2131361855;
 			
-			// aapt resource value: 0x7f09003a
-			public const int search_mag_icon = 2131296314;
+			// aapt resource value: 0x7f0a003a
+			public const int search_mag_icon = 2131361850;
 			
-			// aapt resource value: 0x7f09003b
-			public const int search_plate = 2131296315;
+			// aapt resource value: 0x7f0a003b
+			public const int search_plate = 2131361851;
 			
-			// aapt resource value: 0x7f09003c
-			public const int search_src_text = 2131296316;
+			// aapt resource value: 0x7f0a003c
+			public const int search_src_text = 2131361852;
 			
-			// aapt resource value: 0x7f090040
-			public const int search_voice_btn = 2131296320;
+			// aapt resource value: 0x7f0a0040
+			public const int search_voice_btn = 2131361856;
 			
-			// aapt resource value: 0x7f09002c
-			public const int shortcut = 2131296300;
+			// aapt resource value: 0x7f0a002c
+			public const int shortcut = 2131361836;
 			
-			// aapt resource value: 0x7f09000f
-			public const int showCustom = 2131296271;
+			// aapt resource value: 0x7f0a000f
+			public const int showCustom = 2131361807;
 			
-			// aapt resource value: 0x7f090010
-			public const int showHome = 2131296272;
+			// aapt resource value: 0x7f0a0010
+			public const int showHome = 2131361808;
 			
-			// aapt resource value: 0x7f090011
-			public const int showTitle = 2131296273;
+			// aapt resource value: 0x7f0a0011
+			public const int showTitle = 2131361809;
 			
-			// aapt resource value: 0x7f090007
-			public const int split_action_bar = 2131296263;
+			// aapt resource value: 0x7f0a0007
+			public const int split_action_bar = 2131361799;
 			
-			// aapt resource value: 0x7f09003e
-			public const int submit_area = 2131296318;
+			// aapt resource value: 0x7f0a003e
+			public const int submit_area = 2131361854;
 			
-			// aapt resource value: 0x7f09000b
-			public const int tabMode = 2131296267;
+			// aapt resource value: 0x7f0a000b
+			public const int tabMode = 2131361803;
 			
-			// aapt resource value: 0x7f090041
-			public const int tabs = 2131296321;
+			// aapt resource value: 0x7f0a0041
+			public const int tabs = 2131361857;
 			
-			// aapt resource value: 0x7f090045
-			public const int textView = 2131296325;
+			// aapt resource value: 0x7f0a0045
+			public const int textView = 2131361861;
 			
-			// aapt resource value: 0x7f090029
-			public const int title = 2131296297;
+			// aapt resource value: 0x7f0a0029
+			public const int title = 2131361833;
 			
-			// aapt resource value: 0x7f090048
-			public const int toolbar = 2131296328;
+			// aapt resource value: 0x7f0a0048
+			public const int toolbar = 2131361864;
 			
-			// aapt resource value: 0x7f090008
-			public const int up = 2131296264;
+			// aapt resource value: 0x7f0a0008
+			public const int up = 2131361800;
 			
-			// aapt resource value: 0x7f090012
-			public const int useLogo = 2131296274;
+			// aapt resource value: 0x7f0a0012
+			public const int useLogo = 2131361810;
 			
-			// aapt resource value: 0x7f09001a
-			public const int withText = 2131296282;
+			// aapt resource value: 0x7f0a001a
+			public const int withText = 2131361818;
 			
-			// aapt resource value: 0x7f09001d
-			public const int wrap_content = 2131296285;
+			// aapt resource value: 0x7f0a001d
+			public const int wrap_content = 2131361821;
 			
 			static Id()
 			{
@@ -2558,14 +1592,14 @@ namespace Sample
 		public partial class Integer
 		{
 			
-			// aapt resource value: 0x7f0a0000
-			public const int abc_config_activityDefaultDur = 2131361792;
+			// aapt resource value: 0x7f0b0000
+			public const int abc_config_activityDefaultDur = 2131427328;
 			
-			// aapt resource value: 0x7f0a0001
-			public const int abc_config_activityShortDur = 2131361793;
+			// aapt resource value: 0x7f0b0001
+			public const int abc_config_activityShortDur = 2131427329;
 			
-			// aapt resource value: 0x7f0a0002
-			public const int abc_max_action_buttons = 2131361794;
+			// aapt resource value: 0x7f0b0002
+			public const int abc_max_action_buttons = 2131427330;
 			
 			static Integer()
 			{
@@ -2696,62 +1730,62 @@ namespace Sample
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f0b0000
-			public const int abc_action_bar_home_description = 2131427328;
+			// aapt resource value: 0x7f070003
+			public const int abc_action_bar_home_description = 2131165187;
 			
-			// aapt resource value: 0x7f0b0001
-			public const int abc_action_bar_home_description_format = 2131427329;
+			// aapt resource value: 0x7f070004
+			public const int abc_action_bar_home_description_format = 2131165188;
 			
-			// aapt resource value: 0x7f0b0002
-			public const int abc_action_bar_home_subtitle_description_format = 2131427330;
+			// aapt resource value: 0x7f070005
+			public const int abc_action_bar_home_subtitle_description_format = 2131165189;
 			
-			// aapt resource value: 0x7f0b0003
-			public const int abc_action_bar_up_description = 2131427331;
+			// aapt resource value: 0x7f070006
+			public const int abc_action_bar_up_description = 2131165190;
 			
-			// aapt resource value: 0x7f0b0004
-			public const int abc_action_menu_overflow_description = 2131427332;
+			// aapt resource value: 0x7f070007
+			public const int abc_action_menu_overflow_description = 2131165191;
 			
-			// aapt resource value: 0x7f0b0005
-			public const int abc_action_mode_done = 2131427333;
+			// aapt resource value: 0x7f070008
+			public const int abc_action_mode_done = 2131165192;
 			
-			// aapt resource value: 0x7f0b0006
-			public const int abc_activity_chooser_view_see_all = 2131427334;
+			// aapt resource value: 0x7f070009
+			public const int abc_activity_chooser_view_see_all = 2131165193;
 			
-			// aapt resource value: 0x7f0b0007
-			public const int abc_activitychooserview_choose_application = 2131427335;
+			// aapt resource value: 0x7f07000a
+			public const int abc_activitychooserview_choose_application = 2131165194;
 			
-			// aapt resource value: 0x7f0b0008
-			public const int abc_searchview_description_clear = 2131427336;
+			// aapt resource value: 0x7f07000b
+			public const int abc_searchview_description_clear = 2131165195;
 			
-			// aapt resource value: 0x7f0b0009
-			public const int abc_searchview_description_query = 2131427337;
+			// aapt resource value: 0x7f07000c
+			public const int abc_searchview_description_query = 2131165196;
 			
-			// aapt resource value: 0x7f0b000a
-			public const int abc_searchview_description_search = 2131427338;
+			// aapt resource value: 0x7f07000d
+			public const int abc_searchview_description_search = 2131165197;
 			
-			// aapt resource value: 0x7f0b000b
-			public const int abc_searchview_description_submit = 2131427339;
+			// aapt resource value: 0x7f07000e
+			public const int abc_searchview_description_submit = 2131165198;
 			
-			// aapt resource value: 0x7f0b000c
-			public const int abc_searchview_description_voice = 2131427340;
+			// aapt resource value: 0x7f07000f
+			public const int abc_searchview_description_voice = 2131165199;
 			
-			// aapt resource value: 0x7f0b000d
-			public const int abc_shareactionprovider_share_with = 2131427341;
+			// aapt resource value: 0x7f070010
+			public const int abc_shareactionprovider_share_with = 2131165200;
 			
-			// aapt resource value: 0x7f0b000e
-			public const int abc_shareactionprovider_share_with_application = 2131427342;
+			// aapt resource value: 0x7f070011
+			public const int abc_shareactionprovider_share_with_application = 2131165201;
 			
-			// aapt resource value: 0x7f0b000f
-			public const int abc_toolbar_collapse_description = 2131427343;
+			// aapt resource value: 0x7f070012
+			public const int abc_toolbar_collapse_description = 2131165202;
 			
-			// aapt resource value: 0x7f0b0012
-			public const int action_contact = 2131427346;
+			// aapt resource value: 0x7f070002
+			public const int action_contact = 2131165186;
 			
-			// aapt resource value: 0x7f0b0011
-			public const int app_name = 2131427345;
+			// aapt resource value: 0x7f070001
+			public const int app_name = 2131165185;
 			
-			// aapt resource value: 0x7f0b0010
-			public const int hello = 2131427344;
+			// aapt resource value: 0x7f070000
+			public const int hello = 2131165184;
 			
 			static String()
 			{
@@ -2766,764 +1800,764 @@ namespace Sample
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f070003
-			public const int Animation_AppCompat_DropDownUp = 2131165187;
+			// aapt resource value: 0x7f080005
+			public const int Animation_AppCompat_DropDownUp = 2131230725;
 			
-			// aapt resource value: 0x7f0700fb
-			public const int AppBaseTheme = 2131165435;
+			// aapt resource value: 0x7f080000
+			public const int AppBaseTheme = 2131230720;
 			
-			// aapt resource value: 0x7f0700fc
-			public const int AppTheme = 2131165436;
+			// aapt resource value: 0x7f080001
+			public const int AppTheme = 2131230721;
 			
-			// aapt resource value: 0x7f070004
-			public const int Base_Animation_AppCompat_DropDownUp = 2131165188;
+			// aapt resource value: 0x7f080006
+			public const int Base_Animation_AppCompat_DropDownUp = 2131230726;
 			
-			// aapt resource value: 0x7f070005
-			public const int Base_TextAppearance_AppCompat = 2131165189;
+			// aapt resource value: 0x7f080007
+			public const int Base_TextAppearance_AppCompat = 2131230727;
 			
-			// aapt resource value: 0x7f070006
-			public const int Base_TextAppearance_AppCompat_Body1 = 2131165190;
+			// aapt resource value: 0x7f080008
+			public const int Base_TextAppearance_AppCompat_Body1 = 2131230728;
 			
-			// aapt resource value: 0x7f070007
-			public const int Base_TextAppearance_AppCompat_Body2 = 2131165191;
+			// aapt resource value: 0x7f080009
+			public const int Base_TextAppearance_AppCompat_Body2 = 2131230729;
 			
-			// aapt resource value: 0x7f070008
-			public const int Base_TextAppearance_AppCompat_Button = 2131165192;
+			// aapt resource value: 0x7f08000a
+			public const int Base_TextAppearance_AppCompat_Button = 2131230730;
 			
-			// aapt resource value: 0x7f070009
-			public const int Base_TextAppearance_AppCompat_Caption = 2131165193;
+			// aapt resource value: 0x7f08000b
+			public const int Base_TextAppearance_AppCompat_Caption = 2131230731;
 			
-			// aapt resource value: 0x7f07000a
-			public const int Base_TextAppearance_AppCompat_Display1 = 2131165194;
+			// aapt resource value: 0x7f08000c
+			public const int Base_TextAppearance_AppCompat_Display1 = 2131230732;
 			
-			// aapt resource value: 0x7f07000b
-			public const int Base_TextAppearance_AppCompat_Display2 = 2131165195;
+			// aapt resource value: 0x7f08000d
+			public const int Base_TextAppearance_AppCompat_Display2 = 2131230733;
 			
-			// aapt resource value: 0x7f07000c
-			public const int Base_TextAppearance_AppCompat_Display3 = 2131165196;
+			// aapt resource value: 0x7f08000e
+			public const int Base_TextAppearance_AppCompat_Display3 = 2131230734;
 			
-			// aapt resource value: 0x7f07000d
-			public const int Base_TextAppearance_AppCompat_Display4 = 2131165197;
+			// aapt resource value: 0x7f08000f
+			public const int Base_TextAppearance_AppCompat_Display4 = 2131230735;
 			
-			// aapt resource value: 0x7f07000e
-			public const int Base_TextAppearance_AppCompat_Headline = 2131165198;
+			// aapt resource value: 0x7f080010
+			public const int Base_TextAppearance_AppCompat_Headline = 2131230736;
 			
-			// aapt resource value: 0x7f07000f
-			public const int Base_TextAppearance_AppCompat_Inverse = 2131165199;
+			// aapt resource value: 0x7f080011
+			public const int Base_TextAppearance_AppCompat_Inverse = 2131230737;
 			
-			// aapt resource value: 0x7f070010
-			public const int Base_TextAppearance_AppCompat_Large = 2131165200;
+			// aapt resource value: 0x7f080012
+			public const int Base_TextAppearance_AppCompat_Large = 2131230738;
 			
-			// aapt resource value: 0x7f070011
-			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131165201;
+			// aapt resource value: 0x7f080013
+			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131230739;
 			
-			// aapt resource value: 0x7f070012
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131165202;
+			// aapt resource value: 0x7f080014
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131230740;
 			
-			// aapt resource value: 0x7f070013
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131165203;
+			// aapt resource value: 0x7f080015
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131230741;
 			
-			// aapt resource value: 0x7f070014
-			public const int Base_TextAppearance_AppCompat_Medium = 2131165204;
+			// aapt resource value: 0x7f080016
+			public const int Base_TextAppearance_AppCompat_Medium = 2131230742;
 			
-			// aapt resource value: 0x7f070015
-			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131165205;
+			// aapt resource value: 0x7f080017
+			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131230743;
 			
-			// aapt resource value: 0x7f070016
-			public const int Base_TextAppearance_AppCompat_Menu = 2131165206;
+			// aapt resource value: 0x7f080018
+			public const int Base_TextAppearance_AppCompat_Menu = 2131230744;
 			
-			// aapt resource value: 0x7f070017
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131165207;
+			// aapt resource value: 0x7f080019
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131230745;
 			
-			// aapt resource value: 0x7f070018
-			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131165208;
+			// aapt resource value: 0x7f08001a
+			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131230746;
 			
-			// aapt resource value: 0x7f070019
-			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131165209;
+			// aapt resource value: 0x7f08001b
+			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131230747;
 			
-			// aapt resource value: 0x7f07001a
-			public const int Base_TextAppearance_AppCompat_Small = 2131165210;
+			// aapt resource value: 0x7f08001c
+			public const int Base_TextAppearance_AppCompat_Small = 2131230748;
 			
-			// aapt resource value: 0x7f07001b
-			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131165211;
+			// aapt resource value: 0x7f08001d
+			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131230749;
 			
-			// aapt resource value: 0x7f07001c
-			public const int Base_TextAppearance_AppCompat_Subhead = 2131165212;
+			// aapt resource value: 0x7f08001e
+			public const int Base_TextAppearance_AppCompat_Subhead = 2131230750;
 			
-			// aapt resource value: 0x7f07001d
-			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131165213;
+			// aapt resource value: 0x7f08001f
+			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131230751;
 			
-			// aapt resource value: 0x7f07001e
-			public const int Base_TextAppearance_AppCompat_Title = 2131165214;
+			// aapt resource value: 0x7f080020
+			public const int Base_TextAppearance_AppCompat_Title = 2131230752;
 			
-			// aapt resource value: 0x7f07001f
-			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131165215;
+			// aapt resource value: 0x7f080021
+			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131230753;
 			
-			// aapt resource value: 0x7f070020
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131165216;
+			// aapt resource value: 0x7f080022
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131230754;
 			
-			// aapt resource value: 0x7f070021
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131165217;
+			// aapt resource value: 0x7f080023
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131230755;
 			
-			// aapt resource value: 0x7f070022
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131165218;
+			// aapt resource value: 0x7f080024
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131230756;
 			
-			// aapt resource value: 0x7f070023
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131165219;
+			// aapt resource value: 0x7f080025
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131230757;
 			
-			// aapt resource value: 0x7f070024
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131165220;
+			// aapt resource value: 0x7f080026
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131230758;
 			
-			// aapt resource value: 0x7f070025
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131165221;
+			// aapt resource value: 0x7f080027
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131230759;
 			
-			// aapt resource value: 0x7f070026
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131165222;
+			// aapt resource value: 0x7f080028
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131230760;
 			
-			// aapt resource value: 0x7f070027
-			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131165223;
+			// aapt resource value: 0x7f080029
+			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131230761;
 			
-			// aapt resource value: 0x7f070028
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131165224;
+			// aapt resource value: 0x7f08002a
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131230762;
 			
-			// aapt resource value: 0x7f070029
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131165225;
+			// aapt resource value: 0x7f08002b
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131230763;
 			
-			// aapt resource value: 0x7f07002a
-			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131165226;
+			// aapt resource value: 0x7f08002c
+			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131230764;
 			
-			// aapt resource value: 0x7f07002b
-			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131165227;
+			// aapt resource value: 0x7f08002d
+			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131230765;
 			
-			// aapt resource value: 0x7f07002c
-			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131165228;
+			// aapt resource value: 0x7f08002e
+			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131230766;
 			
-			// aapt resource value: 0x7f07002d
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131165229;
+			// aapt resource value: 0x7f08002f
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131230767;
 			
-			// aapt resource value: 0x7f07002e
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131165230;
+			// aapt resource value: 0x7f080030
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131230768;
 			
-			// aapt resource value: 0x7f07002f
-			public const int Base_Theme_AppCompat = 2131165231;
+			// aapt resource value: 0x7f080031
+			public const int Base_Theme_AppCompat = 2131230769;
 			
-			// aapt resource value: 0x7f070030
-			public const int Base_Theme_AppCompat_CompactMenu = 2131165232;
+			// aapt resource value: 0x7f080032
+			public const int Base_Theme_AppCompat_CompactMenu = 2131230770;
 			
-			// aapt resource value: 0x7f070031
-			public const int Base_Theme_AppCompat_Dialog = 2131165233;
+			// aapt resource value: 0x7f080033
+			public const int Base_Theme_AppCompat_Dialog = 2131230771;
 			
-			// aapt resource value: 0x7f070032
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131165234;
+			// aapt resource value: 0x7f080034
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131230772;
 			
-			// aapt resource value: 0x7f070033
-			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131165235;
+			// aapt resource value: 0x7f080035
+			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131230773;
 			
-			// aapt resource value: 0x7f070034
-			public const int Base_Theme_AppCompat_Light = 2131165236;
+			// aapt resource value: 0x7f080036
+			public const int Base_Theme_AppCompat_Light = 2131230774;
 			
-			// aapt resource value: 0x7f070035
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131165237;
+			// aapt resource value: 0x7f080037
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131230775;
 			
-			// aapt resource value: 0x7f070036
-			public const int Base_Theme_AppCompat_Light_Dialog = 2131165238;
+			// aapt resource value: 0x7f080038
+			public const int Base_Theme_AppCompat_Light_Dialog = 2131230776;
 			
-			// aapt resource value: 0x7f070037
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131165239;
+			// aapt resource value: 0x7f080039
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131230777;
 			
-			// aapt resource value: 0x7f070038
-			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131165240;
+			// aapt resource value: 0x7f08003a
+			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131230778;
 			
-			// aapt resource value: 0x7f070039
-			public const int Base_ThemeOverlay_AppCompat = 2131165241;
+			// aapt resource value: 0x7f08003b
+			public const int Base_ThemeOverlay_AppCompat = 2131230779;
 			
-			// aapt resource value: 0x7f07003a
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131165242;
+			// aapt resource value: 0x7f08003c
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131230780;
 			
-			// aapt resource value: 0x7f07003b
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131165243;
+			// aapt resource value: 0x7f08003d
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131230781;
 			
-			// aapt resource value: 0x7f07003c
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131165244;
+			// aapt resource value: 0x7f08003e
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131230782;
 			
-			// aapt resource value: 0x7f07003d
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131165245;
+			// aapt resource value: 0x7f08003f
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131230783;
 			
-			// aapt resource value: 0x7f0700ef
-			public const int Base_V11_Theme_AppCompat = 2131165423;
+			// aapt resource value: 0x7f0800f1
+			public const int Base_V11_Theme_AppCompat = 2131230961;
 			
-			// aapt resource value: 0x7f0700f0
-			public const int Base_V11_Theme_AppCompat_Dialog = 2131165424;
+			// aapt resource value: 0x7f0800f2
+			public const int Base_V11_Theme_AppCompat_Dialog = 2131230962;
 			
-			// aapt resource value: 0x7f0700f1
-			public const int Base_V11_Theme_AppCompat_Light = 2131165425;
+			// aapt resource value: 0x7f0800f3
+			public const int Base_V11_Theme_AppCompat_Light = 2131230963;
 			
-			// aapt resource value: 0x7f0700f2
-			public const int Base_V11_Theme_AppCompat_Light_Dialog = 2131165426;
+			// aapt resource value: 0x7f0800f4
+			public const int Base_V11_Theme_AppCompat_Light_Dialog = 2131230964;
 			
-			// aapt resource value: 0x7f0700f3
-			public const int Base_V14_Theme_AppCompat = 2131165427;
+			// aapt resource value: 0x7f0800f5
+			public const int Base_V14_Theme_AppCompat = 2131230965;
 			
-			// aapt resource value: 0x7f0700f4
-			public const int Base_V14_Theme_AppCompat_Dialog = 2131165428;
+			// aapt resource value: 0x7f0800f6
+			public const int Base_V14_Theme_AppCompat_Dialog = 2131230966;
 			
-			// aapt resource value: 0x7f0700f5
-			public const int Base_V14_Theme_AppCompat_Light = 2131165429;
+			// aapt resource value: 0x7f0800f7
+			public const int Base_V14_Theme_AppCompat_Light = 2131230967;
 			
-			// aapt resource value: 0x7f0700f6
-			public const int Base_V14_Theme_AppCompat_Light_Dialog = 2131165430;
+			// aapt resource value: 0x7f0800f8
+			public const int Base_V14_Theme_AppCompat_Light_Dialog = 2131230968;
 			
-			// aapt resource value: 0x7f0700f7
-			public const int Base_V21_Theme_AppCompat = 2131165431;
+			// aapt resource value: 0x7f0800f9
+			public const int Base_V21_Theme_AppCompat = 2131230969;
 			
-			// aapt resource value: 0x7f0700f8
-			public const int Base_V21_Theme_AppCompat_Dialog = 2131165432;
+			// aapt resource value: 0x7f0800fa
+			public const int Base_V21_Theme_AppCompat_Dialog = 2131230970;
 			
-			// aapt resource value: 0x7f0700f9
-			public const int Base_V21_Theme_AppCompat_Light = 2131165433;
+			// aapt resource value: 0x7f0800fb
+			public const int Base_V21_Theme_AppCompat_Light = 2131230971;
 			
-			// aapt resource value: 0x7f0700fa
-			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131165434;
+			// aapt resource value: 0x7f0800fc
+			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131230972;
 			
-			// aapt resource value: 0x7f07003e
-			public const int Base_V7_Theme_AppCompat = 2131165246;
+			// aapt resource value: 0x7f080040
+			public const int Base_V7_Theme_AppCompat = 2131230784;
 			
-			// aapt resource value: 0x7f07003f
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131165247;
+			// aapt resource value: 0x7f080041
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131230785;
 			
-			// aapt resource value: 0x7f070040
-			public const int Base_V7_Theme_AppCompat_Light = 2131165248;
+			// aapt resource value: 0x7f080042
+			public const int Base_V7_Theme_AppCompat_Light = 2131230786;
 			
-			// aapt resource value: 0x7f070041
-			public const int Base_Widget_AppCompat_ActionBar = 2131165249;
+			// aapt resource value: 0x7f080043
+			public const int Base_Widget_AppCompat_ActionBar = 2131230787;
 			
-			// aapt resource value: 0x7f070042
-			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131165250;
+			// aapt resource value: 0x7f080044
+			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131230788;
 			
-			// aapt resource value: 0x7f070043
-			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131165251;
+			// aapt resource value: 0x7f080045
+			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131230789;
 			
-			// aapt resource value: 0x7f070044
-			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131165252;
+			// aapt resource value: 0x7f080046
+			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131230790;
 			
-			// aapt resource value: 0x7f070045
-			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131165253;
+			// aapt resource value: 0x7f080047
+			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131230791;
 			
-			// aapt resource value: 0x7f070046
-			public const int Base_Widget_AppCompat_ActionButton = 2131165254;
+			// aapt resource value: 0x7f080048
+			public const int Base_Widget_AppCompat_ActionButton = 2131230792;
 			
-			// aapt resource value: 0x7f070047
-			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131165255;
+			// aapt resource value: 0x7f080049
+			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131230793;
 			
-			// aapt resource value: 0x7f070048
-			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131165256;
+			// aapt resource value: 0x7f08004a
+			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131230794;
 			
-			// aapt resource value: 0x7f070049
-			public const int Base_Widget_AppCompat_ActionMode = 2131165257;
+			// aapt resource value: 0x7f08004b
+			public const int Base_Widget_AppCompat_ActionMode = 2131230795;
 			
-			// aapt resource value: 0x7f07004a
-			public const int Base_Widget_AppCompat_ActivityChooserView = 2131165258;
+			// aapt resource value: 0x7f08004c
+			public const int Base_Widget_AppCompat_ActivityChooserView = 2131230796;
 			
-			// aapt resource value: 0x7f07004b
-			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131165259;
+			// aapt resource value: 0x7f08004d
+			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131230797;
 			
-			// aapt resource value: 0x7f07004c
-			public const int Base_Widget_AppCompat_Button = 2131165260;
+			// aapt resource value: 0x7f08004e
+			public const int Base_Widget_AppCompat_Button = 2131230798;
 			
-			// aapt resource value: 0x7f07004d
-			public const int Base_Widget_AppCompat_Button_Small = 2131165261;
+			// aapt resource value: 0x7f08004f
+			public const int Base_Widget_AppCompat_Button_Small = 2131230799;
 			
-			// aapt resource value: 0x7f07004e
-			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131165262;
+			// aapt resource value: 0x7f080050
+			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131230800;
 			
-			// aapt resource value: 0x7f07004f
-			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131165263;
+			// aapt resource value: 0x7f080051
+			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131230801;
 			
-			// aapt resource value: 0x7f070050
-			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131165264;
+			// aapt resource value: 0x7f080052
+			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131230802;
 			
-			// aapt resource value: 0x7f070051
-			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131165265;
+			// aapt resource value: 0x7f080053
+			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131230803;
 			
-			// aapt resource value: 0x7f070052
-			public const int Base_Widget_AppCompat_EditText = 2131165266;
+			// aapt resource value: 0x7f080054
+			public const int Base_Widget_AppCompat_EditText = 2131230804;
 			
-			// aapt resource value: 0x7f070053
-			public const int Base_Widget_AppCompat_Light_ActionBar = 2131165267;
+			// aapt resource value: 0x7f080055
+			public const int Base_Widget_AppCompat_Light_ActionBar = 2131230805;
 			
-			// aapt resource value: 0x7f070054
-			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131165268;
+			// aapt resource value: 0x7f080056
+			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131230806;
 			
-			// aapt resource value: 0x7f070055
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131165269;
+			// aapt resource value: 0x7f080057
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131230807;
 			
-			// aapt resource value: 0x7f070056
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131165270;
+			// aapt resource value: 0x7f080058
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131230808;
 			
-			// aapt resource value: 0x7f070057
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131165271;
+			// aapt resource value: 0x7f080059
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131230809;
 			
-			// aapt resource value: 0x7f070058
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131165272;
+			// aapt resource value: 0x7f08005a
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131230810;
 			
-			// aapt resource value: 0x7f070059
-			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131165273;
+			// aapt resource value: 0x7f08005b
+			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131230811;
 			
-			// aapt resource value: 0x7f07005a
-			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131165274;
+			// aapt resource value: 0x7f08005c
+			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131230812;
 			
-			// aapt resource value: 0x7f07005b
-			public const int Base_Widget_AppCompat_ListPopupWindow = 2131165275;
+			// aapt resource value: 0x7f08005d
+			public const int Base_Widget_AppCompat_ListPopupWindow = 2131230813;
 			
-			// aapt resource value: 0x7f07005c
-			public const int Base_Widget_AppCompat_ListView_DropDown = 2131165276;
+			// aapt resource value: 0x7f08005e
+			public const int Base_Widget_AppCompat_ListView_DropDown = 2131230814;
 			
-			// aapt resource value: 0x7f07005d
-			public const int Base_Widget_AppCompat_ListView_Menu = 2131165277;
+			// aapt resource value: 0x7f08005f
+			public const int Base_Widget_AppCompat_ListView_Menu = 2131230815;
 			
-			// aapt resource value: 0x7f07005e
-			public const int Base_Widget_AppCompat_PopupMenu = 2131165278;
+			// aapt resource value: 0x7f080060
+			public const int Base_Widget_AppCompat_PopupMenu = 2131230816;
 			
-			// aapt resource value: 0x7f07005f
-			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131165279;
+			// aapt resource value: 0x7f080061
+			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131230817;
 			
-			// aapt resource value: 0x7f070060
-			public const int Base_Widget_AppCompat_PopupWindow = 2131165280;
+			// aapt resource value: 0x7f080062
+			public const int Base_Widget_AppCompat_PopupWindow = 2131230818;
 			
-			// aapt resource value: 0x7f070061
-			public const int Base_Widget_AppCompat_ProgressBar = 2131165281;
+			// aapt resource value: 0x7f080063
+			public const int Base_Widget_AppCompat_ProgressBar = 2131230819;
 			
-			// aapt resource value: 0x7f070062
-			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131165282;
+			// aapt resource value: 0x7f080064
+			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131230820;
 			
-			// aapt resource value: 0x7f070063
-			public const int Base_Widget_AppCompat_RatingBar = 2131165283;
+			// aapt resource value: 0x7f080065
+			public const int Base_Widget_AppCompat_RatingBar = 2131230821;
 			
-			// aapt resource value: 0x7f070064
-			public const int Base_Widget_AppCompat_SearchView = 2131165284;
+			// aapt resource value: 0x7f080066
+			public const int Base_Widget_AppCompat_SearchView = 2131230822;
 			
-			// aapt resource value: 0x7f070065
-			public const int Base_Widget_AppCompat_Spinner = 2131165285;
+			// aapt resource value: 0x7f080067
+			public const int Base_Widget_AppCompat_Spinner = 2131230823;
 			
-			// aapt resource value: 0x7f070066
-			public const int Base_Widget_AppCompat_Spinner_DropDown_ActionBar = 2131165286;
+			// aapt resource value: 0x7f080068
+			public const int Base_Widget_AppCompat_Spinner_DropDown_ActionBar = 2131230824;
 			
-			// aapt resource value: 0x7f070067
-			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131165287;
+			// aapt resource value: 0x7f080069
+			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131230825;
 			
-			// aapt resource value: 0x7f070068
-			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131165288;
+			// aapt resource value: 0x7f08006a
+			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131230826;
 			
-			// aapt resource value: 0x7f070069
-			public const int Base_Widget_AppCompat_Toolbar = 2131165289;
+			// aapt resource value: 0x7f08006b
+			public const int Base_Widget_AppCompat_Toolbar = 2131230827;
 			
-			// aapt resource value: 0x7f07006a
-			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131165290;
+			// aapt resource value: 0x7f08006c
+			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131230828;
 			
-			// aapt resource value: 0x7f070000
-			public const int CardView = 2131165184;
+			// aapt resource value: 0x7f080002
+			public const int CardView = 2131230722;
 			
-			// aapt resource value: 0x7f070001
-			public const int CardView_Dark = 2131165185;
+			// aapt resource value: 0x7f080003
+			public const int CardView_Dark = 2131230723;
 			
-			// aapt resource value: 0x7f070002
-			public const int CardView_Light = 2131165186;
+			// aapt resource value: 0x7f080004
+			public const int CardView_Light = 2131230724;
 			
-			// aapt resource value: 0x7f07006b
-			public const int Platform_AppCompat = 2131165291;
+			// aapt resource value: 0x7f08006d
+			public const int Platform_AppCompat = 2131230829;
 			
-			// aapt resource value: 0x7f07006c
-			public const int Platform_AppCompat_Dialog = 2131165292;
+			// aapt resource value: 0x7f08006e
+			public const int Platform_AppCompat_Dialog = 2131230830;
 			
-			// aapt resource value: 0x7f07006d
-			public const int Platform_AppCompat_Light = 2131165293;
+			// aapt resource value: 0x7f08006f
+			public const int Platform_AppCompat_Light = 2131230831;
 			
-			// aapt resource value: 0x7f07006e
-			public const int Platform_AppCompat_Light_Dialog = 2131165294;
+			// aapt resource value: 0x7f080070
+			public const int Platform_AppCompat_Light_Dialog = 2131230832;
 			
-			// aapt resource value: 0x7f07006f
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131165295;
+			// aapt resource value: 0x7f080071
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131230833;
 			
-			// aapt resource value: 0x7f070070
-			public const int RtlOverlay_Widget_AppCompat_ActionButton_CloseMode = 2131165296;
+			// aapt resource value: 0x7f080072
+			public const int RtlOverlay_Widget_AppCompat_ActionButton_CloseMode = 2131230834;
 			
-			// aapt resource value: 0x7f070071
-			public const int RtlOverlay_Widget_AppCompat_ActionButton_Overflow = 2131165297;
+			// aapt resource value: 0x7f080073
+			public const int RtlOverlay_Widget_AppCompat_ActionButton_Overflow = 2131230835;
 			
-			// aapt resource value: 0x7f070072
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131165298;
+			// aapt resource value: 0x7f080074
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131230836;
 			
-			// aapt resource value: 0x7f070073
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131165299;
+			// aapt resource value: 0x7f080075
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131230837;
 			
-			// aapt resource value: 0x7f070074
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131165300;
+			// aapt resource value: 0x7f080076
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131230838;
 			
-			// aapt resource value: 0x7f070075
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131165301;
+			// aapt resource value: 0x7f080077
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131230839;
 			
-			// aapt resource value: 0x7f070076
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131165302;
+			// aapt resource value: 0x7f080078
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131230840;
 			
-			// aapt resource value: 0x7f070077
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131165303;
+			// aapt resource value: 0x7f080079
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131230841;
 			
-			// aapt resource value: 0x7f070078
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131165304;
+			// aapt resource value: 0x7f08007a
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131230842;
 			
-			// aapt resource value: 0x7f070079
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131165305;
+			// aapt resource value: 0x7f08007b
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131230843;
 			
-			// aapt resource value: 0x7f07007a
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131165306;
+			// aapt resource value: 0x7f08007c
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131230844;
 			
-			// aapt resource value: 0x7f07007b
-			public const int TextAppearance_AppCompat = 2131165307;
+			// aapt resource value: 0x7f08007d
+			public const int TextAppearance_AppCompat = 2131230845;
 			
-			// aapt resource value: 0x7f07007c
-			public const int TextAppearance_AppCompat_Body1 = 2131165308;
+			// aapt resource value: 0x7f08007e
+			public const int TextAppearance_AppCompat_Body1 = 2131230846;
 			
-			// aapt resource value: 0x7f07007d
-			public const int TextAppearance_AppCompat_Body2 = 2131165309;
+			// aapt resource value: 0x7f08007f
+			public const int TextAppearance_AppCompat_Body2 = 2131230847;
 			
-			// aapt resource value: 0x7f07007e
-			public const int TextAppearance_AppCompat_Button = 2131165310;
+			// aapt resource value: 0x7f080080
+			public const int TextAppearance_AppCompat_Button = 2131230848;
 			
-			// aapt resource value: 0x7f07007f
-			public const int TextAppearance_AppCompat_Caption = 2131165311;
+			// aapt resource value: 0x7f080081
+			public const int TextAppearance_AppCompat_Caption = 2131230849;
 			
-			// aapt resource value: 0x7f070080
-			public const int TextAppearance_AppCompat_Display1 = 2131165312;
+			// aapt resource value: 0x7f080082
+			public const int TextAppearance_AppCompat_Display1 = 2131230850;
 			
-			// aapt resource value: 0x7f070081
-			public const int TextAppearance_AppCompat_Display2 = 2131165313;
+			// aapt resource value: 0x7f080083
+			public const int TextAppearance_AppCompat_Display2 = 2131230851;
 			
-			// aapt resource value: 0x7f070082
-			public const int TextAppearance_AppCompat_Display3 = 2131165314;
+			// aapt resource value: 0x7f080084
+			public const int TextAppearance_AppCompat_Display3 = 2131230852;
 			
-			// aapt resource value: 0x7f070083
-			public const int TextAppearance_AppCompat_Display4 = 2131165315;
+			// aapt resource value: 0x7f080085
+			public const int TextAppearance_AppCompat_Display4 = 2131230853;
 			
-			// aapt resource value: 0x7f070084
-			public const int TextAppearance_AppCompat_Headline = 2131165316;
+			// aapt resource value: 0x7f080086
+			public const int TextAppearance_AppCompat_Headline = 2131230854;
 			
-			// aapt resource value: 0x7f070085
-			public const int TextAppearance_AppCompat_Inverse = 2131165317;
+			// aapt resource value: 0x7f080087
+			public const int TextAppearance_AppCompat_Inverse = 2131230855;
 			
-			// aapt resource value: 0x7f070086
-			public const int TextAppearance_AppCompat_Large = 2131165318;
+			// aapt resource value: 0x7f080088
+			public const int TextAppearance_AppCompat_Large = 2131230856;
 			
-			// aapt resource value: 0x7f070087
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131165319;
+			// aapt resource value: 0x7f080089
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131230857;
 			
-			// aapt resource value: 0x7f070088
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131165320;
+			// aapt resource value: 0x7f08008a
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131230858;
 			
-			// aapt resource value: 0x7f070089
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131165321;
+			// aapt resource value: 0x7f08008b
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131230859;
 			
-			// aapt resource value: 0x7f07008a
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131165322;
+			// aapt resource value: 0x7f08008c
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131230860;
 			
-			// aapt resource value: 0x7f07008b
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131165323;
+			// aapt resource value: 0x7f08008d
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131230861;
 			
-			// aapt resource value: 0x7f07008c
-			public const int TextAppearance_AppCompat_Medium = 2131165324;
+			// aapt resource value: 0x7f08008e
+			public const int TextAppearance_AppCompat_Medium = 2131230862;
 			
-			// aapt resource value: 0x7f07008d
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131165325;
+			// aapt resource value: 0x7f08008f
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131230863;
 			
-			// aapt resource value: 0x7f07008e
-			public const int TextAppearance_AppCompat_Menu = 2131165326;
+			// aapt resource value: 0x7f080090
+			public const int TextAppearance_AppCompat_Menu = 2131230864;
 			
-			// aapt resource value: 0x7f07008f
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131165327;
+			// aapt resource value: 0x7f080091
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131230865;
 			
-			// aapt resource value: 0x7f070090
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131165328;
+			// aapt resource value: 0x7f080092
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131230866;
 			
-			// aapt resource value: 0x7f070091
-			public const int TextAppearance_AppCompat_Small = 2131165329;
+			// aapt resource value: 0x7f080093
+			public const int TextAppearance_AppCompat_Small = 2131230867;
 			
-			// aapt resource value: 0x7f070092
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131165330;
+			// aapt resource value: 0x7f080094
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131230868;
 			
-			// aapt resource value: 0x7f070093
-			public const int TextAppearance_AppCompat_Subhead = 2131165331;
+			// aapt resource value: 0x7f080095
+			public const int TextAppearance_AppCompat_Subhead = 2131230869;
 			
-			// aapt resource value: 0x7f070094
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131165332;
+			// aapt resource value: 0x7f080096
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131230870;
 			
-			// aapt resource value: 0x7f070095
-			public const int TextAppearance_AppCompat_Title = 2131165333;
+			// aapt resource value: 0x7f080097
+			public const int TextAppearance_AppCompat_Title = 2131230871;
 			
-			// aapt resource value: 0x7f070096
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131165334;
+			// aapt resource value: 0x7f080098
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131230872;
 			
-			// aapt resource value: 0x7f070097
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131165335;
+			// aapt resource value: 0x7f080099
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131230873;
 			
-			// aapt resource value: 0x7f070098
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131165336;
+			// aapt resource value: 0x7f08009a
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131230874;
 			
-			// aapt resource value: 0x7f070099
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131165337;
+			// aapt resource value: 0x7f08009b
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131230875;
 			
-			// aapt resource value: 0x7f07009a
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131165338;
+			// aapt resource value: 0x7f08009c
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131230876;
 			
-			// aapt resource value: 0x7f07009b
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131165339;
+			// aapt resource value: 0x7f08009d
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131230877;
 			
-			// aapt resource value: 0x7f07009c
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131165340;
+			// aapt resource value: 0x7f08009e
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131230878;
 			
-			// aapt resource value: 0x7f07009d
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131165341;
+			// aapt resource value: 0x7f08009f
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131230879;
 			
-			// aapt resource value: 0x7f07009e
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131165342;
+			// aapt resource value: 0x7f0800a0
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131230880;
 			
-			// aapt resource value: 0x7f07009f
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131165343;
+			// aapt resource value: 0x7f0800a1
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131230881;
 			
-			// aapt resource value: 0x7f0700a0
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131165344;
+			// aapt resource value: 0x7f0800a2
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131230882;
 			
-			// aapt resource value: 0x7f0700a1
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131165345;
+			// aapt resource value: 0x7f0800a3
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131230883;
 			
-			// aapt resource value: 0x7f0700a2
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131165346;
+			// aapt resource value: 0x7f0800a4
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131230884;
 			
-			// aapt resource value: 0x7f0700a3
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131165347;
+			// aapt resource value: 0x7f0800a5
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131230885;
 			
-			// aapt resource value: 0x7f0700a4
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131165348;
+			// aapt resource value: 0x7f0800a6
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131230886;
 			
-			// aapt resource value: 0x7f0700a5
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131165349;
+			// aapt resource value: 0x7f0800a7
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131230887;
 			
-			// aapt resource value: 0x7f0700a6
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131165350;
+			// aapt resource value: 0x7f0800a8
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131230888;
 			
-			// aapt resource value: 0x7f0700a7
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131165351;
+			// aapt resource value: 0x7f0800a9
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131230889;
 			
-			// aapt resource value: 0x7f0700a8
-			public const int Theme_AppCompat = 2131165352;
+			// aapt resource value: 0x7f0800aa
+			public const int Theme_AppCompat = 2131230890;
 			
-			// aapt resource value: 0x7f0700a9
-			public const int Theme_AppCompat_CompactMenu = 2131165353;
+			// aapt resource value: 0x7f0800ab
+			public const int Theme_AppCompat_CompactMenu = 2131230891;
 			
-			// aapt resource value: 0x7f0700aa
-			public const int Theme_AppCompat_Dialog = 2131165354;
+			// aapt resource value: 0x7f0800ac
+			public const int Theme_AppCompat_Dialog = 2131230892;
 			
-			// aapt resource value: 0x7f0700ab
-			public const int Theme_AppCompat_DialogWhenLarge = 2131165355;
+			// aapt resource value: 0x7f0800ad
+			public const int Theme_AppCompat_DialogWhenLarge = 2131230893;
 			
-			// aapt resource value: 0x7f0700ac
-			public const int Theme_AppCompat_Light = 2131165356;
+			// aapt resource value: 0x7f0800ae
+			public const int Theme_AppCompat_Light = 2131230894;
 			
-			// aapt resource value: 0x7f0700ad
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131165357;
+			// aapt resource value: 0x7f0800af
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131230895;
 			
-			// aapt resource value: 0x7f0700ae
-			public const int Theme_AppCompat_Light_Dialog = 2131165358;
+			// aapt resource value: 0x7f0800b0
+			public const int Theme_AppCompat_Light_Dialog = 2131230896;
 			
-			// aapt resource value: 0x7f0700af
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131165359;
+			// aapt resource value: 0x7f0800b1
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131230897;
 			
-			// aapt resource value: 0x7f0700b0
-			public const int Theme_AppCompat_Light_NoActionBar = 2131165360;
+			// aapt resource value: 0x7f0800b2
+			public const int Theme_AppCompat_Light_NoActionBar = 2131230898;
 			
-			// aapt resource value: 0x7f0700b1
-			public const int Theme_AppCompat_NoActionBar = 2131165361;
+			// aapt resource value: 0x7f0800b3
+			public const int Theme_AppCompat_NoActionBar = 2131230899;
 			
-			// aapt resource value: 0x7f0700b2
-			public const int ThemeOverlay_AppCompat = 2131165362;
+			// aapt resource value: 0x7f0800b4
+			public const int ThemeOverlay_AppCompat = 2131230900;
 			
-			// aapt resource value: 0x7f0700b3
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131165363;
+			// aapt resource value: 0x7f0800b5
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131230901;
 			
-			// aapt resource value: 0x7f0700b4
-			public const int ThemeOverlay_AppCompat_Dark = 2131165364;
+			// aapt resource value: 0x7f0800b6
+			public const int ThemeOverlay_AppCompat_Dark = 2131230902;
 			
-			// aapt resource value: 0x7f0700b5
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131165365;
+			// aapt resource value: 0x7f0800b7
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131230903;
 			
-			// aapt resource value: 0x7f0700b6
-			public const int ThemeOverlay_AppCompat_Light = 2131165366;
+			// aapt resource value: 0x7f0800b8
+			public const int ThemeOverlay_AppCompat_Light = 2131230904;
 			
-			// aapt resource value: 0x7f0700b7
-			public const int Widget_AppCompat_ActionBar = 2131165367;
+			// aapt resource value: 0x7f0800b9
+			public const int Widget_AppCompat_ActionBar = 2131230905;
 			
-			// aapt resource value: 0x7f0700b8
-			public const int Widget_AppCompat_ActionBar_Solid = 2131165368;
+			// aapt resource value: 0x7f0800ba
+			public const int Widget_AppCompat_ActionBar_Solid = 2131230906;
 			
-			// aapt resource value: 0x7f0700b9
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131165369;
+			// aapt resource value: 0x7f0800bb
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131230907;
 			
-			// aapt resource value: 0x7f0700ba
-			public const int Widget_AppCompat_ActionBar_TabText = 2131165370;
+			// aapt resource value: 0x7f0800bc
+			public const int Widget_AppCompat_ActionBar_TabText = 2131230908;
 			
-			// aapt resource value: 0x7f0700bb
-			public const int Widget_AppCompat_ActionBar_TabView = 2131165371;
+			// aapt resource value: 0x7f0800bd
+			public const int Widget_AppCompat_ActionBar_TabView = 2131230909;
 			
-			// aapt resource value: 0x7f0700bc
-			public const int Widget_AppCompat_ActionButton = 2131165372;
+			// aapt resource value: 0x7f0800be
+			public const int Widget_AppCompat_ActionButton = 2131230910;
 			
-			// aapt resource value: 0x7f0700bd
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131165373;
+			// aapt resource value: 0x7f0800bf
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131230911;
 			
-			// aapt resource value: 0x7f0700be
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131165374;
+			// aapt resource value: 0x7f0800c0
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131230912;
 			
-			// aapt resource value: 0x7f0700bf
-			public const int Widget_AppCompat_ActionMode = 2131165375;
+			// aapt resource value: 0x7f0800c1
+			public const int Widget_AppCompat_ActionMode = 2131230913;
 			
-			// aapt resource value: 0x7f0700c0
-			public const int Widget_AppCompat_ActivityChooserView = 2131165376;
+			// aapt resource value: 0x7f0800c2
+			public const int Widget_AppCompat_ActivityChooserView = 2131230914;
 			
-			// aapt resource value: 0x7f0700c1
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131165377;
+			// aapt resource value: 0x7f0800c3
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131230915;
 			
-			// aapt resource value: 0x7f0700c2
-			public const int Widget_AppCompat_Button = 2131165378;
+			// aapt resource value: 0x7f0800c4
+			public const int Widget_AppCompat_Button = 2131230916;
 			
-			// aapt resource value: 0x7f0700c3
-			public const int Widget_AppCompat_Button_Small = 2131165379;
+			// aapt resource value: 0x7f0800c5
+			public const int Widget_AppCompat_Button_Small = 2131230917;
 			
-			// aapt resource value: 0x7f0700c4
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131165380;
+			// aapt resource value: 0x7f0800c6
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131230918;
 			
-			// aapt resource value: 0x7f0700c5
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131165381;
+			// aapt resource value: 0x7f0800c7
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131230919;
 			
-			// aapt resource value: 0x7f0700c6
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131165382;
+			// aapt resource value: 0x7f0800c8
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131230920;
 			
-			// aapt resource value: 0x7f0700c7
-			public const int Widget_AppCompat_EditText = 2131165383;
+			// aapt resource value: 0x7f0800c9
+			public const int Widget_AppCompat_EditText = 2131230921;
 			
-			// aapt resource value: 0x7f0700c8
-			public const int Widget_AppCompat_Light_ActionBar = 2131165384;
+			// aapt resource value: 0x7f0800ca
+			public const int Widget_AppCompat_Light_ActionBar = 2131230922;
 			
-			// aapt resource value: 0x7f0700c9
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131165385;
+			// aapt resource value: 0x7f0800cb
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131230923;
 			
-			// aapt resource value: 0x7f0700ca
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131165386;
+			// aapt resource value: 0x7f0800cc
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131230924;
 			
-			// aapt resource value: 0x7f0700cb
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131165387;
+			// aapt resource value: 0x7f0800cd
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131230925;
 			
-			// aapt resource value: 0x7f0700cc
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131165388;
+			// aapt resource value: 0x7f0800ce
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131230926;
 			
-			// aapt resource value: 0x7f0700cd
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131165389;
+			// aapt resource value: 0x7f0800cf
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131230927;
 			
-			// aapt resource value: 0x7f0700ce
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131165390;
+			// aapt resource value: 0x7f0800d0
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131230928;
 			
-			// aapt resource value: 0x7f0700cf
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131165391;
+			// aapt resource value: 0x7f0800d1
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131230929;
 			
-			// aapt resource value: 0x7f0700d0
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131165392;
+			// aapt resource value: 0x7f0800d2
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131230930;
 			
-			// aapt resource value: 0x7f0700d1
-			public const int Widget_AppCompat_Light_ActionButton = 2131165393;
+			// aapt resource value: 0x7f0800d3
+			public const int Widget_AppCompat_Light_ActionButton = 2131230931;
 			
-			// aapt resource value: 0x7f0700d2
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131165394;
+			// aapt resource value: 0x7f0800d4
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131230932;
 			
-			// aapt resource value: 0x7f0700d3
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131165395;
+			// aapt resource value: 0x7f0800d5
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131230933;
 			
-			// aapt resource value: 0x7f0700d4
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131165396;
+			// aapt resource value: 0x7f0800d6
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131230934;
 			
-			// aapt resource value: 0x7f0700d5
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131165397;
+			// aapt resource value: 0x7f0800d7
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131230935;
 			
-			// aapt resource value: 0x7f0700d6
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131165398;
+			// aapt resource value: 0x7f0800d8
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131230936;
 			
-			// aapt resource value: 0x7f0700d7
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131165399;
+			// aapt resource value: 0x7f0800d9
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131230937;
 			
-			// aapt resource value: 0x7f0700d8
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131165400;
+			// aapt resource value: 0x7f0800da
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131230938;
 			
-			// aapt resource value: 0x7f0700d9
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131165401;
+			// aapt resource value: 0x7f0800db
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131230939;
 			
-			// aapt resource value: 0x7f0700da
-			public const int Widget_AppCompat_Light_PopupMenu = 2131165402;
+			// aapt resource value: 0x7f0800dc
+			public const int Widget_AppCompat_Light_PopupMenu = 2131230940;
 			
-			// aapt resource value: 0x7f0700db
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131165403;
+			// aapt resource value: 0x7f0800dd
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131230941;
 			
-			// aapt resource value: 0x7f0700dc
-			public const int Widget_AppCompat_Light_SearchView = 2131165404;
+			// aapt resource value: 0x7f0800de
+			public const int Widget_AppCompat_Light_SearchView = 2131230942;
 			
-			// aapt resource value: 0x7f0700dd
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131165405;
+			// aapt resource value: 0x7f0800df
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131230943;
 			
-			// aapt resource value: 0x7f0700de
-			public const int Widget_AppCompat_ListPopupWindow = 2131165406;
+			// aapt resource value: 0x7f0800e0
+			public const int Widget_AppCompat_ListPopupWindow = 2131230944;
 			
-			// aapt resource value: 0x7f0700df
-			public const int Widget_AppCompat_ListView_DropDown = 2131165407;
+			// aapt resource value: 0x7f0800e1
+			public const int Widget_AppCompat_ListView_DropDown = 2131230945;
 			
-			// aapt resource value: 0x7f0700e0
-			public const int Widget_AppCompat_ListView_Menu = 2131165408;
+			// aapt resource value: 0x7f0800e2
+			public const int Widget_AppCompat_ListView_Menu = 2131230946;
 			
-			// aapt resource value: 0x7f0700e1
-			public const int Widget_AppCompat_PopupMenu = 2131165409;
+			// aapt resource value: 0x7f0800e3
+			public const int Widget_AppCompat_PopupMenu = 2131230947;
 			
-			// aapt resource value: 0x7f0700e2
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131165410;
+			// aapt resource value: 0x7f0800e4
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131230948;
 			
-			// aapt resource value: 0x7f0700e3
-			public const int Widget_AppCompat_PopupWindow = 2131165411;
+			// aapt resource value: 0x7f0800e5
+			public const int Widget_AppCompat_PopupWindow = 2131230949;
 			
-			// aapt resource value: 0x7f0700e4
-			public const int Widget_AppCompat_ProgressBar = 2131165412;
+			// aapt resource value: 0x7f0800e6
+			public const int Widget_AppCompat_ProgressBar = 2131230950;
 			
-			// aapt resource value: 0x7f0700e5
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131165413;
+			// aapt resource value: 0x7f0800e7
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131230951;
 			
-			// aapt resource value: 0x7f0700e6
-			public const int Widget_AppCompat_RatingBar = 2131165414;
+			// aapt resource value: 0x7f0800e8
+			public const int Widget_AppCompat_RatingBar = 2131230952;
 			
-			// aapt resource value: 0x7f0700e7
-			public const int Widget_AppCompat_SearchView = 2131165415;
+			// aapt resource value: 0x7f0800e9
+			public const int Widget_AppCompat_SearchView = 2131230953;
 			
-			// aapt resource value: 0x7f0700e8
-			public const int Widget_AppCompat_Spinner = 2131165416;
+			// aapt resource value: 0x7f0800ea
+			public const int Widget_AppCompat_Spinner = 2131230954;
 			
-			// aapt resource value: 0x7f0700e9
-			public const int Widget_AppCompat_Spinner_DropDown = 2131165417;
+			// aapt resource value: 0x7f0800eb
+			public const int Widget_AppCompat_Spinner_DropDown = 2131230955;
 			
-			// aapt resource value: 0x7f0700ea
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131165418;
+			// aapt resource value: 0x7f0800ec
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131230956;
 			
-			// aapt resource value: 0x7f0700eb
-			public const int Widget_AppCompat_Spinner_Underlined = 2131165419;
+			// aapt resource value: 0x7f0800ed
+			public const int Widget_AppCompat_Spinner_Underlined = 2131230957;
 			
-			// aapt resource value: 0x7f0700ec
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131165420;
+			// aapt resource value: 0x7f0800ee
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131230958;
 			
-			// aapt resource value: 0x7f0700ed
-			public const int Widget_AppCompat_Toolbar = 2131165421;
+			// aapt resource value: 0x7f0800ef
+			public const int Widget_AppCompat_Toolbar = 2131230959;
 			
-			// aapt resource value: 0x7f0700ee
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131165422;
+			// aapt resource value: 0x7f0800f0
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131230960;
 			
 			static Style()
 			{
