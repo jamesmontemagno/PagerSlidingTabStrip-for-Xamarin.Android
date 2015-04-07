@@ -9,6 +9,7 @@ using Android.Content;
 using Android.Views;
 using Android.Runtime;
 using Android.OS;
+using Java.Interop;
 
 //version 1.0.9
 
@@ -788,46 +789,102 @@ namespace com.refractored
 			adapterObserver.IsAttached = false;
 		}
 
-		protected override void OnRestoreInstanceState (IParcelable state)
-		{
-			var savedState = (SavedState)state;
-			base.OnRestoreInstanceState (savedState.SuperState);
-			currentPosition = savedState.CurrentPosition;
-			if (currentPosition != 0 && tabsContainer.ChildCount > 0) {
-				NotSelected (tabsContainer.GetChildAt (0));
-				Selected(tabsContainer.GetChildAt(currentPosition));
-			}
-			RequestLayout ();
-		}
+    protected override void OnRestoreInstanceState(IParcelable state)
+    {
+      var bundle = state as Bundle;
+      if(bundle != null)
+      {
+        var superState = bundle.GetParcelable("base") as IParcelable;
+        if (superState != null)
+          base.OnRestoreInstanceState(superState);
 
-		protected override IParcelable OnSaveInstanceState ()
-		{
-			var superState = base.OnSaveInstanceState ();
-			var savedState = new SavedState (superState);
-			savedState.CurrentPosition = currentPosition;
-			return savedState;
-		}
+        currentPosition = bundle.GetInt("currentPosition", 0);
+        if (currentPosition != 0 && tabsContainer.ChildCount > 0)
+        {
+          NotSelected(tabsContainer.GetChildAt(0));
+          Selected(tabsContainer.GetChildAt(currentPosition));
+        }
+      }
 
-		private class SavedState : BaseSavedState
-		{
-			public int CurrentPosition {get;set;}
-			public SavedState(IParcelable superState) :
-				base(superState)
-			{
-			}
+      RequestLayout();
+    }
 
-			public SavedState(Parcel parcel)
-				: base(parcel)
-			{
-				CurrentPosition = parcel.ReadInt();
-			}
-			public override void WriteToParcel (Parcel dest, ParcelableWriteFlags flags)
-			{
-				base.WriteToParcel (dest, flags);
-				dest.WriteInt (CurrentPosition);
-			}
-			//CREATOR??
-		}
+    protected override IParcelable OnSaveInstanceState()
+    {
+      var superState = base.OnSaveInstanceState();
+      var state = new Bundle();
+      state.PutParcelable("base", superState);
+      state.PutInt("currentPosition", currentPosition);
+      return state;
+    }
+
+    /// <summary>
+    /// The state saved by an instance of PagerSlidingTabStrip during orientation changes etc.
+    /// </summary>
+    public class PagerSlidingTabStripState : BaseSavedState
+    {
+      /// <summary>
+      /// Gets or sets the current position.
+      /// </summary>
+      /// <value>
+      /// The current position.
+      /// </value>
+      public int CurrentPosition { get; set; }
+
+      /// <summary>
+      /// Initializes a new instance of the <see cref="PagerSlidingTabStripState"/> class.
+      /// </summary>
+      /// <param name="superState">State of the super.</param>
+      public PagerSlidingTabStripState(IParcelable superState)
+        : base(superState)
+      {
+
+      }
+
+      public PagerSlidingTabStripState(Parcel source)
+        : base(source)
+      {
+        CurrentPosition = source.ReadInt();
+      }
+
+      /// <summary>
+      /// Implementation of AbsSavedState.WriteToParcel
+      /// 
+      /// This is overriden to 
+      /// </summary>
+      /// <param name="dest">The Parcel in which the object should be written.</param>
+      /// <param name="flags">Additional flags about how the object should be written.
+      /// May be 0 or <c><see cref="F:Android.OS.Parcelable.ParcelableWriteReturnValue" /></c>.</param>
+      public override void WriteToParcel(Parcel dest, ParcelableWriteFlags flags)
+      {
+        base.WriteToParcel(dest, flags);
+        dest.WriteInt(CurrentPosition);
+      }
+
+      [ExportField("CREATOR")]
+      static SavedStateCreator InitializeCreator()
+      {
+        return new SavedStateCreator();
+      }
+
+      class SavedStateCreator : Java.Lang.Object, IParcelableCreator
+      {
+
+        #region IParcelableCreator Members
+
+        public Java.Lang.Object CreateFromParcel(Parcel source)
+        {
+          return new PagerSlidingTabStripState(source);
+        }
+
+        public Java.Lang.Object[] NewArray(int size)
+        {
+          return new PagerSlidingTabStripState[size];
+        }
+
+        #endregion
+      }
+    }
 	}
 }
 
