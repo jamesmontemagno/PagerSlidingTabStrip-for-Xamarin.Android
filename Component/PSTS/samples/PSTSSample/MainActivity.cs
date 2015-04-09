@@ -47,6 +47,10 @@ namespace Sample
 			tabs.OnTabReselectedListener = this;
 
 			ChangeColor (Resources.GetColor (Resource.Color.green));
+
+
+      SupportActionBar.SetDisplayHomeAsUpEnabled(false);
+      SupportActionBar.SetHomeButtonEnabled(false);
 		}
 	
 
