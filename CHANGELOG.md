@@ -1,5 +1,8 @@
 Change Log
 ==========
+Version 1.0.9 (08-04-2015)
+-------------
+* Finalize 1.0.9 and build against final v22 Support Libraries
 
 Version 1.0.9-beta3 (06-04-2015)
 -------------
