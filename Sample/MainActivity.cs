@@ -44,6 +44,7 @@ namespace Sample
 
 			var pageMargin = (int)TypedValue.ApplyDimension (ComplexUnitType.Dip, 4, Resources.DisplayMetrics);
 			pager.PageMargin = pageMargin;
+      pager.CurrentItem = 1;
 			tabs.OnTabReselectedListener = this;
       tabs.OnPageChangeListener = this;
 

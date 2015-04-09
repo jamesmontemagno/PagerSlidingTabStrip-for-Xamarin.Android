@@ -15,6 +15,6 @@ samples:
 publisher-url: https://github.com/jamesmontemagno/PagerSlidingTabStrip-for-Xamarin.Android
 is_shell: true
 packages:
-  android: Refractored.PagerSlidingTabStrip, Version=1.0.1
-version: 1.0.1
+  android: Refractored.PagerSlidingTabStrip, Version=1.0.9
+version: 1.0.9
 ...

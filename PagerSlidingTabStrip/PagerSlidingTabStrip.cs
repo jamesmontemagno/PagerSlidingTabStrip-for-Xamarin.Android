@@ -9,6 +9,9 @@ using Android.Content;
 using Android.Views;
 using Android.Runtime;
 using Android.OS;
+using Java.Interop;
+
+//version 1.0.9
 
 namespace com.refractored
 {
@@ -25,14 +28,13 @@ namespace com.refractored
     public IOnTabReselectedListener OnTabReselectedListener { get; set; }
 
 
-		private const float Opaque = 1.0f;
-		private const float HalfTransparent = 0.5f;
 
 		private static int[] Attrs = new int[]
 		{
 			Android.Resource.Attribute.TextColorPrimary,
 			Android.Resource.Attribute.TextSize, 
 			Android.Resource.Attribute.TextColor,
+      Android.Resource.Attribute.Padding,
 			Android.Resource.Attribute.PaddingLeft,
 			Android.Resource.Attribute.PaddingRight
 		};
@@ -41,8 +43,9 @@ namespace com.refractored
 		private const int TextColorPrimaryIndex = 0;
 		private const int TextSizeIndex = 1;
 		private const int TextColorIndex = 2;
-		private const int PaddingLeftIndex = 3;
-		private const int PaddingRightIndex = 4;
+    private const int PaddingIndex = 3;
+		private const int PaddingLeftIndex = 4;
+		private const int PaddingRightIndex = 5;
 
 		private LinearLayout.LayoutParams defaultTabLayoutParams;
 		private LinearLayout.LayoutParams expandedTabLayoutParams;
@@ -71,6 +74,7 @@ namespace com.refractored
 				Invalidate ();
 			}
 		}
+
 
 		private int indicatorHeight = 2;
     /// <summary>
@@ -172,6 +176,35 @@ namespace com.refractored
 				UpdateTabStyles ();
 			}
 		}
+
+    private int textAlpha = 150;
+    /// <summary>
+    /// Gets or sets the text alpha
+    /// </summary>
+    public int TextAlpha
+    {
+      get { return textAlpha; }
+      set 
+      { 
+        textAlpha = value;
+        Invalidate();
+      }
+    }
+
+    private ColorStateList tabTextColorSelected;
+    /// <summary>
+    /// Gets or sets the inactive text color
+    /// </summary>
+    public ColorStateList TabTextColorSelected
+    {
+      get { return tabTextColorSelected; }
+      set
+      {
+        tabTextColorSelected = value;
+        Invalidate();
+      }
+    }
+
 		private ColorStateList tabTextColor = null;
     /// <summary>
     /// Gets or sets tab text color
@@ -206,11 +239,8 @@ namespace com.refractored
 			return new ColorStateList (new int[][]{ new int[]{ } }, new int[]{ textColor });
 		}
 
-
-		private float tabTextAlpha = HalfTransparent;
-		private float tabTextSelectedAlpha = Opaque;
-
-		private int padding = 0;
+		private int paddingLeft = 0;
+    private int paddingRight = 0;
 
 		private bool shouldExpand = false;
     /// <summary>
@@ -276,7 +306,7 @@ namespace com.refractored
 		}
 		private int lastScrollX = 0;
 
-		private int tabBackgroundResId = Resource.Drawable.background_tab;
+		private int tabBackgroundResId = Resource.Drawable.psts_background_tab;
     /// <summary>
     /// Sets tab background
     /// </summary>
@@ -329,26 +359,23 @@ namespace com.refractored
 			tabTextSize = a.GetDimensionPixelSize(TextSizeIndex, tabTextSize);
 			var colorStateList = a.GetColorStateList(TextColorIndex);
 			var textPrimaryColor = a.GetColor(TextColorPrimaryIndex, Android.Resource.Color.White);
-			if(colorStateList != null)
-				tabTextColor = colorStateList;
-			else
-				tabTextColor = GetColorStateList(textPrimaryColor);
 
-			underlineColor = textPrimaryColor;
+
+      underlineColor = textPrimaryColor;
 			dividerColor = textPrimaryColor;
 			indicatorColor = textPrimaryColor;
 
-			var paddingLeft = a.GetDimensionPixelSize(PaddingLeftIndex, padding);
-			var paddingRight = a.GetDimensionPixelSize(PaddingRightIndex, padding);
+      int padding = a.GetDimensionPixelSize(PaddingIndex, 0);
+			paddingLeft = padding > 0 ? padding : a.GetDimensionPixelSize(PaddingLeftIndex, 0);
+			paddingRight = padding > 0 ? padding : a.GetDimensionPixelSize(PaddingRightIndex, 0);
 			
-			//In case we have the padding they must be equal so we take the biggest
-			padding = Math.Max(paddingLeft, paddingRight);
+
 
 			a = context.ObtainStyledAttributes(attrs, Resource.Styleable.PagerSlidingTabStrip);
 			indicatorColor = a.GetColor(Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorColor, indicatorColor);
 			underlineColor = a.GetColor(Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineColor, underlineColor);
-			dividerColor = a.GetColor(Resource.Styleable.PagerSlidingTabStrip_pstsDividerColor, dividerColor);
-			dividerWidth = a.GetDimensionPixelSize(Resource.Styleable.PagerSlidingTabStrip_pstsDividerWidth, dividerWidth);
+      dividerColor = a.GetColor(Resource.Styleable.PagerSlidingTabStrip_pstsDividerColor, dividerColor);
+      dividerWidth = a.GetDimensionPixelSize(Resource.Styleable.PagerSlidingTabStrip_pstsDividerWidth, dividerWidth);
 			indicatorHeight = a.GetDimensionPixelSize(Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorHeight, indicatorHeight);
 			underlineHeight = a.GetDimensionPixelSize(Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineHeight, underlineHeight);
 			dividerPadding = a.GetDimensionPixelSize(Resource.Styleable.PagerSlidingTabStrip_pstsDividerPadding, dividerPadding);
@@ -360,9 +387,17 @@ namespace com.refractored
 			isPaddingMiddle = a.GetBoolean(Resource.Styleable.PagerSlidingTabStrip_pstsPaddingMiddle, isPaddingMiddle);
 			tabTypefaceStyle = (TypefaceStyle)a.GetInt(Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle, (int)TypefaceStyle.Bold);
 			tabTypefaceSelectedStyle = (TypefaceStyle)a.GetInt(Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedStyle, (int)TypefaceStyle.Bold);
-			tabTextAlpha = a.GetFloat(Resource.Styleable.PagerSlidingTabStrip_pstsTextAlpha, HalfTransparent);
-			tabTextSelectedAlpha = a.GetFloat(Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedAlpha, Opaque);
-			a.Recycle();
+      tabTextColorSelected = a.GetColorStateList(Resource.Styleable.PagerSlidingTabStrip_pstsTextColorSelected);
+      textAlpha = a.GetInt(Resource.Styleable.PagerSlidingTabStrip_pstsTextAlpha, textAlpha);
+      a.Recycle();
+
+      tabTextColor = colorStateList == null ? GetColorStateList(Color.Argb(textAlpha,
+        Color.GetRedComponent(textPrimaryColor),
+        Color.GetGreenComponent(textPrimaryColor),
+        Color.GetBlueComponent(textPrimaryColor))) : colorStateList;
+
+      tabTextColorSelected = tabTextColorSelected == null ? GetColorStateList(textPrimaryColor) : tabTextColorSelected;
+
 
 			SetMarginBottomTabContainer();
 
@@ -410,7 +445,7 @@ namespace com.refractored
 				if (pager.Adapter is ICustomTabProvider) {
 					tabView = ((ICustomTabProvider) pager.Adapter).GetCustomTabView(this, i);
 				} else {
-					tabView = LayoutInflater.From(Context).Inflate(Resource.Layout.tab, this, false);
+					tabView = LayoutInflater.From(Context).Inflate(Resource.Layout.psts_tab, this, false);
 				}
 
 				var title = pager.Adapter.GetPageTitle(i);
@@ -438,10 +473,6 @@ namespace com.refractored
 			{
 
 				strip.RemoveGlobals ();
-				strip.currentPosition = strip.pager.CurrentItem;
-				strip.currentPositionOffset = 0f;
-				strip.ScrollToChild (strip.currentPosition, 0);
-				strip.UpdateSelection (strip.currentPosition);
 			}
 			#endregion
 
@@ -458,14 +489,11 @@ namespace com.refractored
 
 		private void AddTab(int position, string title, View tabView)
 		{
-			var textView = tabView.FindViewById<TextView> (Resource.Id.tab_title);
+			var textView = tabView.FindViewById<TextView> (Resource.Id.psts_tab_title);
 			if (textView != null) {
 				if (title != null) {
 					textView.Text = title;
 				}
-
-				var alpha = pager.CurrentItem == position ? tabTextSelectedAlpha : tabTextAlpha;
-				ViewCompat.SetAlpha (textView, alpha);
 			}
 
 			tabView.Focusable = true;
@@ -495,14 +523,11 @@ namespace com.refractored
 					continue;
 				v.SetBackgroundResource(tabBackgroundResId);
 				v.SetPadding(tabPadding, v.PaddingTop, tabPadding, v.PaddingBottom);
-				var tab_title = v.FindViewById<TextView>(Resource.Id.tab_title);
+				var tab_title = v.FindViewById<TextView>(Resource.Id.psts_tab_title);
 
 				if (tab_title != null) {
 					tab_title.SetTextSize(ComplexUnitType.Px, tabTextSize);
-					tab_title.SetTypeface(tabTypeface, pager.CurrentItem == i ? tabTypefaceSelectedStyle : tabTypefaceStyle);
-					if (tabTextColor != null) {
-						tab_title.SetTextColor(tabTextColor);
-					}
+					
 					// setAllCaps() is only available from API 14, so the upper case is made manually if we are on a
 					// pre-ICS-build
 					if (textAllCaps) {
@@ -566,7 +591,7 @@ namespace com.refractored
 
 		protected override void OnLayout (bool changed, int left, int top, int right, int bottom)
 		{
-			if (isPaddingMiddle || padding > 0) {
+			if (isPaddingMiddle || paddingLeft > 0 || paddingRight > 0) {
 				tabsContainer.SetMinimumWidth(Width);
 				SetClipToPadding (false);
 			}
@@ -589,12 +614,18 @@ namespace com.refractored
 
 			if (isPaddingMiddle) {
 				int halfWidthFirstTab = view.Width / 2;
-				padding = Width / 2 - halfWidthFirstTab;
+				paddingLeft = paddingRight = Width / 2 - halfWidthFirstTab;
 			}
 
-			SetPadding (padding, PaddingTop, padding, PaddingBottom);
+			SetPadding (paddingLeft, PaddingTop, paddingRight, PaddingBottom);
 			if (scrollOffset == 0)
-				scrollOffset = Width / 2 - padding;
+				scrollOffset = Width / 2 - paddingLeft;
+
+
+      currentPosition = pager.CurrentItem;
+      currentPositionOffset = 0f;
+      ScrollToChild(currentPosition, 0);
+      UpdateSelection(currentPosition);
 		}
 
 
@@ -610,22 +641,29 @@ namespace com.refractored
 			rectPaint.Color = new Color(indicatorColor);
 			float first, second = 0f;
 			GetIndicatorCoordinates(out first, out second);
-			canvas.DrawRect (first + padding, height - indicatorHeight, second + padding, height, rectPaint);
+			canvas.DrawRect (first + paddingLeft, height - indicatorHeight, second + paddingLeft, height, rectPaint);
 
 			//draw underline
 			rectPaint.Color = new Color(underlineColor);
-			canvas.DrawRect (padding, height - underlineHeight, tabsContainer.Width + padding, height, rectPaint);
+			canvas.DrawRect (paddingLeft, height - underlineHeight, tabsContainer.Width + paddingRight, height, rectPaint);
 
-					//draw divider
-			if (dividerWidth == 0)
+			//draw divider
+			if (dividerWidth <= 0)
 				return;
 
 			dividerPaint.StrokeWidth = dividerWidth;
 			dividerPaint.Color = new Color(dividerColor);
+
+      var offset = IsPaddingMiddle ? paddingLeft : 0F;
+
 			for (int i = 0; i < tabCount - 1; i++) {
-				View tab = tabsContainer.GetChildAt(i);
-				//canvas.DrawLine(tab.Right, dividerPadding, tab.Right, height - dividerPadding, dividerPaint);
-			}
+				var tab = tabsContainer.GetChildAt(i);
+        if (tab != null)
+        {
+          canvas.DrawLine(offset + tab.Right, dividerPadding, offset + tab.Right, height - dividerPadding, dividerPaint);
+
+        }
+      }
 
 		}
 
@@ -651,7 +689,7 @@ namespace com.refractored
 			if (state == ViewPager.ScrollStateIdle) {
 				ScrollToChild(pager.CurrentItem, 0);
 			}
-			//Full alpha for current item
+			//Full textAlpha for current item
 			var currentTab = tabsContainer.GetChildAt(pager.CurrentItem);
 			Selected(currentTab);
 			//Half transparent for prev item
@@ -703,12 +741,12 @@ namespace com.refractored
 			if (tab == null)
 				return;
 
-			var title = tab.FindViewById<TextView> (Resource.Id.tab_title);
+			var title = tab.FindViewById<TextView> (Resource.Id.psts_tab_title);
 			if (title == null)
 				return;
 
 			title.SetTypeface(tabTypeface, tabTypefaceStyle);
-			ViewCompat.SetAlpha (title, tabTextAlpha);
+      title.SetTextColor(tabTextColor);
 		}
 
 		void Selected(View tab)
@@ -716,12 +754,12 @@ namespace com.refractored
 			if (tab == null)
 				return;
 
-			var title = tab.FindViewById<TextView> (Resource.Id.tab_title);
+			var title = tab.FindViewById<TextView> (Resource.Id.psts_tab_title);
 			if (title == null)
 				return;
 
 			title.SetTypeface(tabTypeface, tabTypefaceSelectedStyle);
-			ViewCompat.SetAlpha (title, tabTextSelectedAlpha);
+      title.SetTextColor(tabTextColorSelected);
 		}
 
 
@@ -751,46 +789,102 @@ namespace com.refractored
 			adapterObserver.IsAttached = false;
 		}
 
-		protected override void OnRestoreInstanceState (IParcelable state)
-		{
-			var savedState = (SavedState)state;
-			base.OnRestoreInstanceState (savedState.SuperState);
-			currentPosition = savedState.CurrentPosition;
-			if (currentPosition != 0 && tabsContainer.ChildCount > 0) {
-				NotSelected (tabsContainer.GetChildAt (0));
-				Selected(tabsContainer.GetChildAt(currentPosition));
-			}
-			RequestLayout ();
-		}
+    protected override void OnRestoreInstanceState(IParcelable state)
+    {
+      var bundle = state as Bundle;
+      if(bundle != null)
+      {
+        var superState = bundle.GetParcelable("base") as IParcelable;
+        if (superState != null)
+          base.OnRestoreInstanceState(superState);
 
-		protected override IParcelable OnSaveInstanceState ()
-		{
-			var superState = base.OnSaveInstanceState ();
-			var savedState = new SavedState (superState);
-			savedState.CurrentPosition = currentPosition;
-			return savedState;
-		}
+        currentPosition = bundle.GetInt("currentPosition", 0);
+        if (currentPosition != 0 && tabsContainer.ChildCount > 0)
+        {
+          NotSelected(tabsContainer.GetChildAt(0));
+          Selected(tabsContainer.GetChildAt(currentPosition));
+        }
+      }
 
-		private class SavedState : BaseSavedState
-		{
-			public int CurrentPosition {get;set;}
-			public SavedState(IParcelable superState) :
-				base(superState)
-			{
-			}
+      RequestLayout();
+    }
 
-			public SavedState(Parcel parcel)
-				: base(parcel)
-			{
-				CurrentPosition = parcel.ReadInt();
-			}
-			public override void WriteToParcel (Parcel dest, ParcelableWriteFlags flags)
-			{
-				base.WriteToParcel (dest, flags);
-				dest.WriteInt (CurrentPosition);
-			}
-			//CREATOR??
-		}
+    protected override IParcelable OnSaveInstanceState()
+    {
+      var superState = base.OnSaveInstanceState();
+      var state = new Bundle();
+      state.PutParcelable("base", superState);
+      state.PutInt("currentPosition", currentPosition);
+      return state;
+    }
+
+    /// <summary>
+    /// The state saved by an instance of PagerSlidingTabStrip during orientation changes etc.
+    /// </summary>
+    public class PagerSlidingTabStripState : BaseSavedState
+    {
+      /// <summary>
+      /// Gets or sets the current position.
+      /// </summary>
+      /// <value>
+      /// The current position.
+      /// </value>
+      public int CurrentPosition { get; set; }
+
+      /// <summary>
+      /// Initializes a new instance of the <see cref="PagerSlidingTabStripState"/> class.
+      /// </summary>
+      /// <param name="superState">State of the super.</param>
+      public PagerSlidingTabStripState(IParcelable superState)
+        : base(superState)
+      {
+
+      }
+
+      public PagerSlidingTabStripState(Parcel source)
+        : base(source)
+      {
+        CurrentPosition = source.ReadInt();
+      }
+
+      /// <summary>
+      /// Implementation of AbsSavedState.WriteToParcel
+      /// 
+      /// This is overriden to 
+      /// </summary>
+      /// <param name="dest">The Parcel in which the object should be written.</param>
+      /// <param name="flags">Additional flags about how the object should be written.
+      /// May be 0 or <c><see cref="F:Android.OS.Parcelable.ParcelableWriteReturnValue" /></c>.</param>
+      public override void WriteToParcel(Parcel dest, ParcelableWriteFlags flags)
+      {
+        base.WriteToParcel(dest, flags);
+        dest.WriteInt(CurrentPosition);
+      }
+
+      [ExportField("CREATOR")]
+      static SavedStateCreator InitializeCreator()
+      {
+        return new SavedStateCreator();
+      }
+
+      class SavedStateCreator : Java.Lang.Object, IParcelableCreator
+      {
+
+        #region IParcelableCreator Members
+
+        public Java.Lang.Object CreateFromParcel(Parcel source)
+        {
+          return new PagerSlidingTabStripState(source);
+        }
+
+        public Java.Lang.Object[] NewArray(int size)
+        {
+          return new PagerSlidingTabStripState[size];
+        }
+
+        #endregion
+      }
+    }
 	}
 }
 
