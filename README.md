@@ -3,7 +3,8 @@
 Interactive paging indicator widget, compatible with the `ViewPager` from the
 Android Support Library.
 
-**This library requires AppCompat v21+**
+**This library requires Support v7 AppCompat Version 22**
+**Must set Compile with API 21 in VS or XS**
 
 ![PagerSlidingTabStrip Sample Material](https://raw.githubusercontent.com/jamesmontemagno/PagerSlidingTabStrip-for-Xamarin.Android/master/art/material_tabs.gif)
 
@@ -110,5 +111,5 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-This is a derivative of Javier Pardo de Santayana Gómez:  https://github.com/jpardogo/PagerSlidingTabStrip
-Which is a derivative of  Andreas Stütz: https://github.com/astuetz/PagerSlidingTabStrip
+This is a derivative of Javier Pardo de Santayana GÃ³mez:  https://github.com/jpardogo/PagerSlidingTabStrip
+Which is a derivative of  Andreas StÃ¼tz: https://github.com/astuetz/PagerSlidingTabStrip
