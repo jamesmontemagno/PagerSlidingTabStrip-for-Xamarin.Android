@@ -15,6 +15,7 @@ using Java.Interop;
 
 namespace com.refractored
 {
+    [Register("com.refractored.PagerSlidingTabStrip")]
 	public class PagerSlidingTabStrip : HorizontalScrollView, Android.Support.V4.View.ViewPager.IOnPageChangeListener, ViewTreeObserver.IOnGlobalLayoutListener
 	{
 
