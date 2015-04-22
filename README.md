@@ -4,7 +4,10 @@ Interactive paging indicator widget, compatible with the `ViewPager` from the
 Android Support Library.
 
 **This library requires Support v7 AppCompat Version 22**
+
 **Must set Compile with API 21 in VS or XS**
+
+**You must add Mono.Android.Export.dll to your References**
 
 ![PagerSlidingTabStrip Sample Material](https://raw.githubusercontent.com/jamesmontemagno/PagerSlidingTabStrip-for-Xamarin.Android/master/art/material_tabs.gif)
 
