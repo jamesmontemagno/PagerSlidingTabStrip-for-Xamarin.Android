@@ -11,7 +11,7 @@ using Android.OS;
 
 namespace Sample
 {
-	public abstract class BaseActivity : ActionBarActivity
+	public abstract class BaseActivity : AppCompatActivity
 	{
 		public Toolbar Toolbar {
 			get;
@@ -24,8 +24,9 @@ namespace Sample
 			Toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
 			if (Toolbar != null) {
 				SetSupportActionBar(Toolbar);
+        
 				SupportActionBar.SetDisplayHomeAsUpEnabled(true);
-				SupportActionBar.SetHomeButtonEnabled (true);
+        SupportActionBar.SetHomeButtonEnabled(true);
 
 			}
 		}
