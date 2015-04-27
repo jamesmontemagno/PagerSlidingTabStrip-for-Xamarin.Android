@@ -1,5 +1,10 @@
 Change Log
 ==========
+
+Version 1.0.9.1 (27-04-2015)
+-------------
+* Update to 22.1.1 NuGets
+
 Version 1.0.9 (08-04-2015)
 -------------
 * Finalize 1.0.9 and build against final v22 Support Libraries
