@@ -38,19 +38,15 @@
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
     <ConsolePause>false</ConsolePause>
-    <AndroidLinkSkip />
-    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <AndroidLinkSkip>
+    </AndroidLinkSkip>
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
-    <BundleAssemblies>False</BundleAssemblies>
-    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
     <AndroidSupportedAbis>armeabi-v7a,x86</AndroidSupportedAbis>
-    <AndroidStoreUncompressedFileExtensions />
-    <MandroidI18n />
+    <AndroidStoreUncompressedFileExtensions>
+    </AndroidStoreUncompressedFileExtensions>
+    <MandroidI18n>
+    </MandroidI18n>
     <Debugger>Xamarin</Debugger>
-    <AotAssemblies>False</AotAssemblies>
-    <EnableLLVM>False</EnableLLVM>
-    <AndroidEnableMultiDex>False</AndroidEnableMultiDex>
-    <EnableProguard>False</EnableProguard>
     <DevInstrumentationEnabled>False</DevInstrumentationEnabled>
   </PropertyGroup>
   <ItemGroup>
@@ -59,17 +55,14 @@
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
     <Reference Include="Mono.Android.Export" />
-    <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\packages\Xamarin.Android.Support.v4.22.1.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
-      <Private>True</Private>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.v7.AppCompat, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.22.1.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
-      <Private>True</Private>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.v7.CardView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Xamarin.Android.Support.v7.CardView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\packages\Xamarin.Android.Support.v7.CardView.22.1.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.CardView.dll</HintPath>
-      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -78,6 +71,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BaseActivity.cs" />
     <Compile Include="SuperAwesomeCardFragment.cs" />
+    <Compile Include="SecondActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -124,6 +118,23 @@
     <AndroidResource Include="Resources\drawable-xhdpi\tabs_pattern.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_launcher_actionbar.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\layout\activity_second.axml" />
+    <AndroidResource Include="Resources\layout\tab_layout.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_attach_money_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_home_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_people_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_attach_money_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_home_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_people_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_attach_money_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_home_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_people_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_attach_money_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_home_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_people_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_attach_money_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_home_white_48dp.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_people_white_48dp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup />
