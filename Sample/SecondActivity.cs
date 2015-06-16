@@ -1,6 +1,5 @@
 ﻿using System;
 using Android.App;
-using Android.Content;
 using Android.Graphics;
 using Android.Graphics.Drawables;
 using Android.OS;
@@ -11,17 +10,16 @@ using Android.Views;
 using Android.Widget;
 using com.refractored;
 using Java.Interop;
-using Java.Lang;
 using Fragment = Android.Support.V4.App.Fragment;
 using FragmentManager = Android.Support.V4.App.FragmentManager;
-using String = Java.Lang.String;
 
 namespace Sample
 {
-    [Activity(Label = "Sample", MainLauncher = true, Icon = "@drawable/icon")]
-    public class MainActivity : BaseActivity, IOnTabReselectedListener, ViewPager.IOnPageChangeListener
+    [Activity(Label = "Icon Tab Sample", Icon = "@drawable/icon", ParentActivity = typeof(MainActivity))]
+    [MetaData("android.support.PARENT_ACTIVITY", Value = "MainActivity")]
+    public class SecondActivity : BaseActivity, IOnTabReselectedListener, ViewPager.IOnPageChangeListener
     {
-        private MyPagerAdapter adapter;
+        private MyIconPagerAdapter adapter;
         private int count = 1;
         private int currentColor;
         private Drawable oldBackground;
@@ -52,7 +50,7 @@ namespace Sample
         {
             base.OnCreate(bundle);
 
-            adapter = new MyPagerAdapter(SupportFragmentManager);
+            adapter = new MyIconPagerAdapter(SupportFragmentManager);
             pager = FindViewById<ViewPager>(Resource.Id.pager);
             tabs = FindViewById<PagerSlidingTabStrip>(Resource.Id.tabs);
             pager.Adapter = adapter;
@@ -64,8 +62,8 @@ namespace Sample
             tabs.OnTabReselectedListener = this;
             tabs.OnPageChangeListener = this;
 
-            SupportActionBar.SetDisplayHomeAsUpEnabled(false);
-            SupportActionBar.SetHomeButtonEnabled(false);
+            SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            SupportActionBar.SetHomeButtonEnabled(true);
 
             ChangeColor(Resources.GetColor(Resource.Color.green));
         }
@@ -121,58 +119,26 @@ namespace Sample
         }
 
         #endregion
-
-        #region menu
-
-        public override bool OnCreateOptionsMenu(IMenu menu)
-        {
-            var inflater = MenuInflater;
-            inflater.Inflate(Resource.Menu.main, menu);
-            return base.OnCreateOptionsMenu(menu);
-        }
-
-        public override bool OnOptionsItemSelected(IMenuItem item)
-        {
-            // Handle presses on the action bar items
-            switch (item.ItemId)
-            {
-
-                case Resource.Id.action_icons:
-
-                    var intent = new Intent(this, typeof(SecondActivity));
-                    StartActivity(intent);
-                    return true;
-
-                default:
-                    return base.OnOptionsItemSelected(item);
-            }
-        }
-
-        #endregion
     }
 
-    public class MyPagerAdapter : FragmentPagerAdapter
+    public class MyIconPagerAdapter : FragmentStatePagerAdapter, ICustomTabProvider
     {
-        private readonly string[] Titles =
+        private readonly int[] _icons =
         {
-            "Categories", "Home", "Top Paid", "Top Free", "Top Grossing", "Top New Paid",
-            "Top New Free", "Trending"
+            Resource.Drawable.ic_home_white_48dp,
+            Resource.Drawable.ic_people_white_48dp, Resource.Drawable.ic_attach_money_white_48dp
         };
 
-        public MyPagerAdapter(FragmentManager fm) : base(fm)
+        public MyIconPagerAdapter(FragmentManager fm)
+            : base(fm)
         {
-        }
-
-        public override ICharSequence GetPageTitleFormatted(int position)
-        {
-            return new String(Titles[position]);
         }
 
         #region implemented abstract members of PagerAdapter
 
         public override int Count
         {
-            get { return Titles.Length; }
+            get { return _icons.Length; }
         }
 
         #endregion
@@ -182,6 +148,23 @@ namespace Sample
         public override Fragment GetItem(int position)
         {
             return SuperAwesomeCardFragment.NewInstance(position);
+        }
+
+        #endregion
+
+        #region CustomTabProvider
+
+        public View GetCustomTabView(ViewGroup parent, int position)
+        {
+            var tablayout =
+                (LinearLayout)
+                    LayoutInflater.From(Application.Context).Inflate(Resource.Layout.tab_layout, parent, false);
+
+            var tabImage = tablayout.FindViewById<ImageView>(Resource.Id.tabImage);
+
+            tabImage.SetImageResource(_icons[position]);
+
+            return tablayout;
         }
 
         #endregion

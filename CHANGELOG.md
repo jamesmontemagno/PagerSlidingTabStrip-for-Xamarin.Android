@@ -1,5 +1,8 @@
 Change Log
 ==========
+Version 1.0.9.2 (02-05-2015)
+-------------
+* Update to 22.1.1.1 NuGets
 
 Version 1.0.9.1 (27-04-2015)
 -------------
@@ -21,8 +24,6 @@ Version 1.0.9-beta3 (06-04-2015)
 * Added Ripple Effect to v21+
 * Added back in divider logic if set in axml
 * Bug fixes including potential crash for save state.
-
-
 
 Version 1.0.1
 -------------

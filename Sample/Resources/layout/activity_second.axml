@@ -16,18 +16,14 @@
         app:pstsPaddingMiddle="true"
         app:pstsDividerWidth="1dp"
         app:pstsDividerPadding="12dp"
-        app:pstsDividerColor="#50FFFFFF"
-        android:textColor="#50FFFFFF"
-        app:pstsTextColorSelected="@android:color/white"
-        app:pstsIndicatorColor="@android:color/white"
-        app:pstsUnderlineColor="@android:color/white" />
+        app:pstsDividerColor="#50FFFFFF" />
 <!--Change this to true if you want to center items-->
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        tools:context=".MainActivity" />
+        tools:context=".SecondActivity" />
     <LinearLayout
         android:id="@+id/colors"
         android:layout_width="match_parent"

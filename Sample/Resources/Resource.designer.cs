@@ -2667,37 +2667,46 @@ namespace Sample
 			public const int ic_action_user = 2130837568;
 			
 			// aapt resource value: 0x7f020041
-			public const int ic_launcher = 2130837569;
+			public const int ic_attach_money_white_48dp = 2130837569;
 			
 			// aapt resource value: 0x7f020042
-			public const int ic_launcher_actionbar = 2130837570;
+			public const int ic_home_white_48dp = 2130837570;
 			
 			// aapt resource value: 0x7f020043
-			public const int ic_launcher_chrome = 2130837571;
+			public const int ic_launcher = 2130837571;
 			
 			// aapt resource value: 0x7f020044
-			public const int ic_launcher_gmail = 2130837572;
+			public const int ic_launcher_actionbar = 2130837572;
 			
 			// aapt resource value: 0x7f020045
-			public const int ic_launcher_gmaps = 2130837573;
+			public const int ic_launcher_chrome = 2130837573;
 			
 			// aapt resource value: 0x7f020046
-			public const int ic_launcher_gplus = 2130837574;
+			public const int ic_launcher_gmail = 2130837574;
 			
 			// aapt resource value: 0x7f020047
-			public const int Icon = 2130837575;
-			
-			// aapt resource value: 0x7f02004b
-			public const int notification_template_icon_bg = 2130837579;
+			public const int ic_launcher_gmaps = 2130837575;
 			
 			// aapt resource value: 0x7f020048
-			public const int psts_background_tab = 2130837576;
+			public const int ic_launcher_gplus = 2130837576;
 			
 			// aapt resource value: 0x7f020049
-			public const int tabs_pattern = 2130837577;
+			public const int ic_people_white_48dp = 2130837577;
 			
 			// aapt resource value: 0x7f02004a
-			public const int tabs_pattern_diagonal = 2130837578;
+			public const int Icon = 2130837578;
+			
+			// aapt resource value: 0x7f02004e
+			public const int notification_template_icon_bg = 2130837582;
+			
+			// aapt resource value: 0x7f02004b
+			public const int psts_background_tab = 2130837579;
+			
+			// aapt resource value: 0x7f02004c
+			public const int tabs_pattern = 2130837580;
+			
+			// aapt resource value: 0x7f02004d
+			public const int tabs_pattern_diagonal = 2130837581;
 			
 			static Drawable()
 			{
@@ -2736,14 +2745,17 @@ namespace Sample
 			// aapt resource value: 0x7f0b0025
 			public const int action_bar_title = 2131427365;
 			
-			// aapt resource value: 0x7f0b0066
-			public const int action_contact = 2131427430;
+			// aapt resource value: 0x7f0b0068
+			public const int action_contact = 2131427432;
 			
 			// aapt resource value: 0x7f0b0043
 			public const int action_context_bar = 2131427395;
 			
 			// aapt resource value: 0x7f0b005b
 			public const int action_divider = 2131427419;
+			
+			// aapt resource value: 0x7f0b0067
+			public const int action_icons = 2131427431;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_menu_divider = 2131427330;
@@ -2976,6 +2988,9 @@ namespace Sample
 			// aapt resource value: 0x7f0b004d
 			public const int submit_area = 2131427405;
 			
+			// aapt resource value: 0x7f0b0065
+			public const int tabImage = 2131427429;
+			
 			// aapt resource value: 0x7f0b000b
 			public const int tabMode = 2131427339;
 			
@@ -3003,8 +3018,8 @@ namespace Sample
 			// aapt resource value: 0x7f0b0031
 			public const int title_template = 2131427377;
 			
-			// aapt resource value: 0x7f0b0065
-			public const int toolbar = 2131427429;
+			// aapt resource value: 0x7f0b0066
+			public const int toolbar = 2131427430;
 			
 			// aapt resource value: 0x7f0b0030
 			public const int topPanel = 2131427376;
@@ -3141,55 +3156,61 @@ namespace Sample
 			public const int activity_main = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int fragment_card = 2130903066;
+			public const int activity_second = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int fragment_quick_contact = 2130903067;
+			public const int fragment_card = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int fragment_quickcontact = 2130903068;
+			public const int fragment_quick_contact = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int notification_media_action = 2130903069;
+			public const int fragment_quickcontact = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int notification_media_cancel_action = 2130903070;
+			public const int notification_media_action = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int notification_template_big_media = 2130903071;
+			public const int notification_media_cancel_action = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int notification_template_big_media_narrow = 2130903072;
+			public const int notification_template_big_media = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int notification_template_lines = 2130903073;
+			public const int notification_template_big_media_narrow = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int notification_template_media = 2130903074;
+			public const int notification_template_lines = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int notification_template_part_chronometer = 2130903075;
+			public const int notification_template_media = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int notification_template_part_time = 2130903076;
+			public const int notification_template_part_chronometer = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int psts_tab = 2130903077;
+			public const int notification_template_part_time = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int select_dialog_item_material = 2130903078;
+			public const int psts_tab = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int select_dialog_multichoice_material = 2130903079;
+			public const int select_dialog_item_material = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int select_dialog_singlechoice_material = 2130903080;
+			public const int select_dialog_multichoice_material = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int support_simple_spinner_dropdown_item = 2130903081;
+			public const int select_dialog_singlechoice_material = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int toolbar = 2130903082;
+			public const int support_simple_spinner_dropdown_item = 2130903082;
+			
+			// aapt resource value: 0x7f03002b
+			public const int tab_layout = 2130903083;
+			
+			// aapt resource value: 0x7f03002c
+			public const int toolbar = 2130903084;
 			
 			static Layout()
 			{
