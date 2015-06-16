@@ -4,9 +4,9 @@
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">@color/background_window</item>
         <!-- ...and here we setting appcompat’s color theming attrs -->
-        <item name="colorPrimary">@color/green</item>
-        <item name="colorPrimaryDark">@color/greenDark</item>
-        <item name="colorAccent">@color/banana</item>
+        <item name="colorPrimary">#689F38</item>
+      <item name="colorPrimaryDark">#689F38</item>
+        <item name="colorAccent">#689F38</item>
         <item name="android:textColorPrimary">@android:color/white</item>
     </style>
 
