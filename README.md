@@ -1,5 +1,7 @@
 # Material Pager Sliding Tab Strip for Xamarin.Android
 
+** This library has now been deprecated by the new Android Support Design Library. Please see the full component for a sample: https://components.xamarin.com/view/xamandroidsupportdesign**
+
 Interactive paging indicator widget, compatible with the `ViewPager` from the
 Android Support Library.
 
