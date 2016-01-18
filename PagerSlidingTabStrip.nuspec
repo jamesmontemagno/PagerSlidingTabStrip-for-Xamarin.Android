@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
    <metadata minClientVersion="2.8.1">
        <id>Refractored.PagerSlidingTabStrip</id>
-       <version>1.0.9.4</version>
+       <version>$version$</version>
        <title>Pager Sliding Tab Strip for Xamarin.Android</title>
        <authors>James Montemagno</authors>
        <owners>James Montemagno</owners>
@@ -22,7 +22,7 @@
        </summary>
        <tags>xamarin, xamarin.android, android, view pager, viewpager, view page indicator, sliding tab, pager sliding, tabs</tags>
        <dependencies>
-         <dependency id="Xamarin.Android.Support.v7.AppCompat" version="22.2.0.0" />
+         <dependency id="Xamarin.Android.Support.v7.AppCompat" version="23.1.1.0" />
        </dependencies>
    </metadata>
    <files>
@@ -31,7 +31,6 @@
      <file src="PagerSlidingTabStrip\bin\Release\Refractored.PagerSlidingTabStrip.dll" target="lib\MonoAndroid10\Refractored.PagerSlidingTabStrip.dll" />
      <file src="PagerSlidingTabStrip\bin\Release\Refractored.PagerSlidingTabStrip.xml" target="lib\MonoAndroid10\Refractored.PagerSlidingTabStrip.xml" />
      <file src="PagerSlidingTabStrip\bin\Release\Refractored.PagerSlidingTabStrip.pdb" target="lib\MonoAndroid10\Refractored.PagerSlidingTabStrip.pdb" />
-  
 
    </files>
 </package>
