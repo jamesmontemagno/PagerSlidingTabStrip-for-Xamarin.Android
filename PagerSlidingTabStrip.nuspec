@@ -22,7 +22,7 @@
        </summary>
        <tags>xamarin, xamarin.android, android, view pager, viewpager, view page indicator, sliding tab, pager sliding, tabs</tags>
        <dependencies>
-         <dependency id="Xamarin.Android.Support.v7.AppCompat" version="23.1.1.0" />
+         <dependency id="Xamarin.Android.Support.v7.AppCompat" version="23.3.0" />
        </dependencies>
    </metadata>
    <files>
