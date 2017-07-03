@@ -4,7 +4,7 @@ var TARGET = Argument ("target", Argument ("t", "Default"));
 var version = EnvironmentVariable ("APPVEYOR_BUILD_VERSION") ?? Argument("version", "0.0.9999");
 
 var libraries = new Dictionary<string, string> {
- 	{ "./library/FloatingActionButton.sln", "Any" },
+ 	{ "./PagerSlidingTabStrip.sln", "Any" },
 };
 
 
@@ -64,14 +64,7 @@ Task ("NuGet")
     if(!DirectoryExists("./Build/nuget/"))
         CreateDirectory("./Build/nuget");
         
-	NuGetPack ("./FloatingActionButton.nuspec", new NuGetPackSettings { 
-		Version = version,
-		Verbosity = NuGetVerbosity.Detailed,
-		OutputDirectory = "./Build/nuget/",
-		BasePath = "./",
-		ToolPath = "./tools/nuget3.exe"
-	});	
-	NuGetPack ("./FloatingActionButtonForms.nuspec", new NuGetPackSettings { 
+	NuGetPack ("./PagerSlidingTabStrip.nuspec", new NuGetPackSettings { 
 		Version = version,
 		Verbosity = NuGetVerbosity.Detailed,
 		OutputDirectory = "./Build/nuget/",
