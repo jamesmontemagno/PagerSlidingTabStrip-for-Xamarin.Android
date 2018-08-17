@@ -45,8 +45,8 @@ Ported from: https://github.com/jpardogo/PagerSlidingTabStrip
          var tabs = FindViewById<PagerSlidingTabStrip>(Resource.Id.tabs);
          tabs.SetViewPager(pager);
 
-  4. If your adapter implements the interface `CustomTabProvider` you can past you custom tab view/s.
-     In case the the view returned contains the id `Resource.Id.psts_tab_title`, this view should be a `TextView`  and will be used to placed the title. If you don't want the library to manage your TextView title for the tab, use a different id than `Resource.Id.psts_tab_title` in your tab layout.
+  4. If your adapter implements the interface `CustomTabProvider` you can pass your custom tab view/s.
+     In case the view returned contains the id `Resource.Id.psts_tab_title`, this view should be a `TextView`  and will be used to place the title. If you don't want the library to manage your TextView title for the tab, use a different id than `Resource.Id.psts_tab_title` in your tab layout.
 
      If your adapter doesn't impelement the interface `CustomTabProvider` the default tab will be used (That's a TextView with id `Resource.Id.psts_tab_title`).
 
@@ -73,7 +73,7 @@ Custom attr:
 * `pstsIndicatorColor` Color of the sliding indicator. `textPrimaryColor` will be it's default color value.
 * `pstsUnderlineColor` Color of the full-width line on the bottom of the view. `textPrimaryColor` will be it's default color value.
 * `pstsUnderlineHeight` Height of the full-width line on the bottom of the view.
-* `pstsTextAlpha` Set the text alpha transparency for non selected tabs. Range 0..255. 150 is it's default value. It **WON'T** be use if `textColor` is defined in the layout. If `textColor` is **NOT** defined, It will be apply to the non selected tabs.
+* `pstsTextAlpha` Set the text alpha transparency for non selected tabs. Range 0..255. 150 is it's default value. It **WON'T** be use if `textColor` is defined in the layout. If `textColor` is **NOT** defined, It will be applied to the non selected tabs.
 * `pstsTextColorSelected` Set selected tab text color. `textPrimaryColor` will be it's default color value.
 * `pstsTextStyle` Set the text style, default bold.
 * `pstsTextSelectedStyle` Set the text style of the selected tab, default bold.
